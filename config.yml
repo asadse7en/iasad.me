@@ -1,0 +1,134 @@
+baseURL: /
+languageCode: en-us
+title: AsAd
+theme: PaperMod
+
+menu:
+  main:
+    - identifier: home
+      name: Home
+      url: /
+      weight: 10
+    - identifier: about
+      name: about
+      url: /about
+      weight: 15
+    - identifier: blog
+      name: Blog
+      url: /blog
+      weight: 20
+    - identifier: write-ups
+      name: write-ups
+      url: /write-ups
+      weight: 30
+    - identifier: search
+      name: Search
+      url: /search
+      weight: 50
+    # - identifier: tags
+    #   name: Tags
+    #   url: /tags
+    #   weight: 60
+    # - identifier: notes
+
+params:
+  # theme
+  env: production
+  title: Asad Ullah
+  description: "iasad.me"
+  keywords: [Blog, Portfolio, PaperMod, iasad, iasad.me]
+  # author: Me
+  # images: [""]
+  DateFormat: "January 2, 2006 "
+  defaultTheme: dark #auto, light
+  disableThemeToggle: false
+  ShowReadingTime: true
+  ShowShareButtons: false
+  ShowPostNavLinks: false
+  ShowBreadCrumbs: true
+  ShowCodeCopyButtons: true
+  ShowWordCount: false
+  ShowRssButtonInSectionTermList: false
+  UseHugoToc: false
+  disableSpecial1stPost: false
+  disableScrollToTop: false
+  comments: false
+  hidemeta: false
+  hideSummary: false
+  showtoc: true
+  tocopen: false
+  hideFooter: false
+
+  label:
+    text: "AsAd"
+    icon: "home/icon1.png"
+    iconHeight: 30
+
+
+
+  # for enchanced SEO
+  env: production
+
+  # Home Page
+  profileMode:
+    enabled: true
+    title: "Asad Ullah"
+    subtitle: "Hello there!👋 I'm Asad, a final year undergraduate student majoring in computer science with a focus on security 🔒. This website serves as my personal portfolio for write-ups and projects✨, and I'll also be sharing blog posts on topics that pique my interest 🤔💻."
+#    imageUrl: "home/me1.jpg"
+    imageWidth: 220
+    imageHeight: 220
+    # buttons:
+    #   - name: Resume
+    #     url: ""
+
+  # List View
+  hideDescriptionInList: false
+
+  # cover image for posts
+  cover:
+    hiddenInList: false # hide on list pages and home
+    hiddenInSingle: false # hide on single page
+
+  socialIcons:
+    - name: "email"
+      url: "mailto:asadse7en@gmail.com"
+    - name: "linkedin"
+      url: "https://www.linkedin.com/in/asadse7en"
+    - name: "github"
+      url: "https://github.com/asadse7en"
+    - name: tryhackme
+      url: https://tryhackme.com/p/asadse7en
+    - name: ctftime
+      url: "https://www.instagram.com/iasadse7en"
+      url: "https://ctftime.org/user/149593"
+    - name: "instagram"
+    - name: "cv"
+      url: "https://drive.google.com/file/d/1HS2k1c1RvtG7S-j_T7MZcQO2y1aHg6uH/view?usp=sharing"
+
+  # text search
+  fuseOpts:
+    isCaseSensitive: false
+    shouldSort: true
+    location: 0
+    distance: 1000
+    threshold: 0.4
+    minMatchCharLength: 0
+    keys: ["title", "permalink", "summary", "content"]
+
+# for search using Fuse.js
+outputs:
+  home:
+    - HTML
+    - RSS
+    - JSON
+
+# allow HTML in MD
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+
+
+markup:
+  highlight:
+    style: monokai
