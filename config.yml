@@ -14,7 +14,7 @@ menu:
       url: /about
       weight: 15
     - identifier: blog
-      name: Blog
+      name: blog
       url: /blog
       weight: 20
     - identifier: write-ups
@@ -36,13 +36,13 @@ params:
   env: production
   title: Asad Ullah
   description: "iasad.me"
-  keywords: [Blog, Portfolio, PaperMod, iasad, iasad.me]
+  keywords: [Blog, Portfolio, PaperMod, iasad, iasad.me, asad ullah]
   # author: Me
   # images: [""]
   DateFormat: "January 2, 2006 "
   defaultTheme: dark #auto, light
   disableThemeToggle: false
-  ShowReadingTime: true
+  ShowReadingTime: false
   ShowShareButtons: false
   ShowPostNavLinks: false
   ShowBreadCrumbs: true
