@@ -57,7 +57,7 @@ params:
   hideSummary: false
   showtoc: true
   tocopen: false
-  hideFooter: false
+  hideFooter: true
 
   label:
     text: "AsAd"
@@ -73,7 +73,7 @@ params:
   profileMode:
     enabled: true
     title: "Asad Ullah"
-    subtitle: "Hello there!👋 I'm Asad, a final year undergraduate student majoring in computer science with a focus on security 🔒. This website serves as my personal portfolio for write-ups and projects✨, and I'll also be sharing blog posts on topics that pique my interest 🤔💻."
+    subtitle: "Hello there!👋 I'm **Asad**, a final year undergraduate student majoring in **computer science** with a focus on **security** 🔒. This website serves as my **personal portfolio** for **write-ups**✨, and I'll also be sharing **blogs** on topics that pique my interest 🤔💻."
 #    imageUrl: "home/me1.jpg"
     imageWidth: 220
     imageHeight: 220
@@ -99,9 +99,9 @@ params:
     - name: tryhackme
       url: https://tryhackme.com/p/asadse7en
     - name: ctftime
-      url: "https://www.instagram.com/iasadse7en"
       url: "https://ctftime.org/user/149593"
     - name: "instagram"
+      url: "https://www.instagram.com/iasadse7en"
     - name: "cv"
       url: "https://drive.google.com/file/d/1HS2k1c1RvtG7S-j_T7MZcQO2y1aHg6uH/view?usp=sharing"
 
