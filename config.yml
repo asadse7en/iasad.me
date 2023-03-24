@@ -22,7 +22,7 @@ menu:
       url: /about
       weight: 15
     - identifier: blog
-      name: blog
+      name: blogs
       url: /blog
       weight: 20
     - identifier: write-ups
