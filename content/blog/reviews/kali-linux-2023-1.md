@@ -1,12 +1,19 @@
 ---
+author: " · Asad Ullah"
 title: "Kali Linux 2023.1: The Ultimate Platform for Offensive and Defensive Security"
-description: "A comprehensive overview of the latest version of Kali, covering its features, enhancements, and upgrades, to provide you with all the necessary knowledge about this version."
-dateString: 24 March 2023
-draft: false
+description: A comprehensive overview of the latest version of Kali, covering its features, enhancements, and upgrades, to provide you with all the necessary knowledge about this version.
+
+dateString: March 13, 2023
 tags: ["Kali Purple", "kali linux 2023.1", "python 3.11", "Offensive Security", "Defensive Security"]
-weight: 100
+categories: ["Reviews"]
+
+draft: false
+
 cover:
     image: "/blog/kali-linux-2023-1/cover2.png"
+    alt: kali purple logo
+    relative: false
+    hidden: false
 ---
 
   
@@ -18,8 +25,8 @@ Kali Linux is a go-to choice for ethical hackers and security experts who want t
 - **[Kali Purple](#kali-purple-at-kali-linux-20231)** - The dawn of a new era. Kali is not only Offense, but starting to be defense
 - **[Python Changes](#python-updates--changes)** - Python 3.11 & PIP changes going forward
 - **[2023 Theme](#theme-refresh)** - Our once a year theme update! This time, what’s old is new again
-- **Desktop Updates** - Xfce 4.18 & KDE Plasma 5.27
-- **Default Kernel Settings** - What makes the Kali kernel different
+- **[Desktop Updates](#)** - Xfce 4.18 & KDE Plasma 5.27
+- **[Default Kernel Settings](#)** - What makes the Kali kernel different
 - **[New Tools](#new-tools-in-kali)** - As always, various new tools added
 
 ## Kali Purple at Kali Linux 2023.1

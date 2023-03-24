@@ -1,16 +1,15 @@
 ---
-author: Shivan Sivakumaran
+author: " Asad Ullah"
 title: {{ replace .Name "-" " " | title }}
-date: {{ .Date }}
+description: disc
 
-summary: summary
-categories: ["",]
+dateString: March 13, 2023
 tags: ["",]
+categories: ["",]
 draft: true
 cover:
     image: image.jpg
     alt: alt text
-    caption: caption
     relative: false
     hidden: false
 ---
