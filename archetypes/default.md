@@ -1,5 +1,5 @@
 ---
-author: " Asad Ullah"
+author: " · Asad Ullah"
 title: {{ replace .Name "-" " " | title }}
 description: disc
 
