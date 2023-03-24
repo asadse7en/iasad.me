@@ -3,6 +3,14 @@ languageCode: en-us
 title: AsAd
 theme: PaperMod
 
+enableRobotsTXT: true
+buildDrafts: false
+buildFuture: false
+buildExpired: false
+enableInlineShortcodes: true
+enableEmoji: true
+pygmentsUseClasses: false
+
 menu:
   main:
     - identifier: home
@@ -39,7 +47,7 @@ params:
   keywords: [Blog, Portfolio, PaperMod, iasad, iasad.me, asad ullah]
   # author: Me
   # images: [""]
-  DateFormat: "02 Jan 2006"
+  DateFormat: "January 2, 2006"
   defaultTheme: dark #auto, light
   disableThemeToggle: false
   ShowReadingTime: false

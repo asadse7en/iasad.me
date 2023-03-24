@@ -1,8 +1,7 @@
 ---
 author: Shivan Sivakumaran
-title: {{ replace .Name "-" " " | title }}
-date: {{ .Date }}
-
+title: New1
+dateString: 25 March 2023
 summary: summary
 categories: ["",]
 tags: ["",]
