@@ -2,6 +2,7 @@
 author: " · Asad Ullah"
 title: {{ replace .Name "-" " " | title }}
 description: disc
+summary: sum
 
 dateString: March 13, 2023
 tags: ["",]

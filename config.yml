@@ -18,15 +18,15 @@ menu:
       url: /
       weight: 10
     - identifier: about
-      name: about
+      name: About
       url: /about
       weight: 15
-    - identifier: blog
-      name: blogs
+    - identifier: Blog
+      name: Blog
       url: /blog
       weight: 20
-    - identifier: write-ups
-      name: write-ups
+    - identifier: Write-ups
+      name: Write-ups
       url: /write-ups
       weight: 30
     - identifier: search
@@ -153,6 +153,7 @@ markup:
   goldmark:
     renderer:
       unsafe: true
+
 
 
 markup:
