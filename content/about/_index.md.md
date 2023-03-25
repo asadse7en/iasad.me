@@ -23,7 +23,7 @@ I'm passionate about cybersecurity🔐 and enjoy participating in Capture the Fl
 I'm excited about the possibilities that lie ahead in the ever-evolving field of cybersecurity, and I look forward to contributing my knowledge and skills to make a positive impact.
 
 &nbsp;
+### Contact
 
-### Discord
+{{< contact >}}
 
-Add me, let’s chat! `asadse7en#0775`
