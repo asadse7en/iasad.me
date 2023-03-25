@@ -5,5 +5,5 @@ description: TryHackMe is a comprehensive online cyber security training platfor
 summary: Write-ups for TryHackMe Machines
 
 ---
-
+{{< thm >}}
 ***
