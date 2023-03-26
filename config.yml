@@ -23,11 +23,11 @@ menu:
       weight: 15
     - identifier: Blog
       name: Blog
-      url: /blog
+      url: /posts/blog
       weight: 20
     - identifier: Write-ups
       name: Write-ups
-      url: /write-ups
+      url: /posts/write-ups
       weight: 30
     - identifier: search
       name: Search
@@ -48,9 +48,9 @@ params:
   # author: Me
   # images: [""]
   dateFormat: "January 2, 2006"
-  defaultTheme: dark #auto, light
+  defaultTheme: auto #dark, light
   disableThemeToggle: false
-  ShowReadingTime: false
+  ShowReadingTime: true
   ShowShareButtons: true
   ShowPostNavLinks: true
   ShowBreadCrumbs: true

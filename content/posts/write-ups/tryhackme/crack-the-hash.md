@@ -90,7 +90,9 @@ This hash is difficult to crack using online tools, which is why we can use tool
 
 to install hashcat → **`sudo apt install hashcat`**. to crack hashes using hashcat we provide it the hash`hashed.txt` a wordlist i.e. `rockyou.txt` and **`-m`** switch for mode (*mode specify hash type*)for bcrypt mode is `-m 3200`
 
-**`Asad@Kali:~/tools/hashcat$ ./hashcat64.bin -m 3200 hash.txt ../rockyou.txt`**
+```
+Asad@Kali:~/tools/hashcat$ ./hashcat64.bin -m 3200 hash.txt ../rockyou.txt
+```
 
 &nbsp;
 ***
@@ -302,7 +304,9 @@ Hardware.Mon.#2..: Temp: 86c Util: 93% Core:1137MHz Mem:2505MHz Bus:4
 
 can be solved using hashcat using mode **`-m 110`**
 
-`sckull@tars:~/tools/hashcat$ ./hashcat64.bin -m 110 ../hash.sha1 ../rockyou.txt`
+```
+asad@kali:~/tools/hashcat$ ./hashcat64.bin -m 110 ../hash.sha1 ../rockyou.txt
+```
 
 &nbsp;
 ***
