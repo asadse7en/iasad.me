@@ -11,7 +11,7 @@ categories: ["Reviews"]
 draft: false
 
 cover:
-    image: "/blog/kali-linux-2023-1/cover2.png"
+    image: "/blogs/kali-linux-2023-1/cover2.png"
     alt: kali purple logo
     relative: false
     hidden: false
@@ -51,7 +51,7 @@ Kali Purple is a new addition to Kali Linux 2023.1, designed for defensive secur
     - **Recover**
 - Kali Purple [Discord](https://discord.kali.org/) channels for community collaboration and fun
 - It has a unique theme with installer, menu entries, and Xfce.
-![Kali Purple Desktop](/blog/kali-linux-2023-1/Kali-purple.png)
+![Kali Purple Desktop](/blogs/kali-linux-2023-1/Kali-purple.png)
    
     
      
@@ -81,16 +81,16 @@ Kali Linux 2023.1 has a brand new theme with updated wallpapers for the desktop,
 Check out the latest Kali screenshot alongside the reference images below.
 
 **Boot menu**:
-![Kali 2023.1 boot wallpaper](/blog/kali-linux-2023-1/boot-wallpaper.png)
+![Kali 2023.1 boot wallpaper](/blogs/kali-linux-2023-1/boot-wallpaper.png)
 
 **Login/Lock**:
 
-![Kali 2023.1 login wallpaper](/blog/kali-linux-2023-1/login-wallpaper.png)
+![Kali 2023.1 login wallpaper](/blogs/kali-linux-2023-1/login-wallpaper.png)
 **Desktop**:
 
-![Kali 2023.1 desktop wallpaper](/blog/kali-linux-2023-1/desktop-wallpaper.png)
+![Kali 2023.1 desktop wallpaper](/blogs/kali-linux-2023-1/desktop-wallpaper.png)
 **All new wallpapers**
-![Kali 2023.1 all new wallpapers](/blog/kali-linux-2023-1/all-wallpapers.png)
+![Kali 2023.1 all new wallpapers](/blogs/kali-linux-2023-1/all-wallpapers.png)
 
 ## New Tools in Kali
 
@@ -107,7 +107,7 @@ It would not be a Kali release if there were not any new tools added! A quick ru
 
 *There have also been numerous packages updates and new libraries as well. We also bump the Kali kernel to 6.1!*
 
-![Kali Purple Menu](/blog/kali-linux-2023-1/Kali-purple-menu.png)
+![Kali Purple Menu](/blogs/kali-linux-2023-1/Kali-purple-menu.png)
   
 
 ## Download Kali Linux 2023.1

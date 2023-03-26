@@ -21,9 +21,9 @@ menu:
       name: About
       url: /about
       weight: 15
-    - identifier: Blog
-      name: Blog
-      url: /blog
+    - identifier: Blogs
+      name: Blogs
+      url: /blogs
       weight: 20
     - identifier: Write-ups
       name: Write-ups

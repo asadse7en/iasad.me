@@ -33,11 +33,11 @@ Specifically, I will be providing a walkthrough on the [crack the hash](https://
 
 First we need to identify the hash type using tools like `hash-identifier` or online hash analyzer sites like **[hash-analyzer](https://www.tunnelsup.com/hash-analyzer/)** 
 
-![img1](1.png)
+![img1](/write-ups/tryhackme/crack-the-hash/1.png)
 
 so it is an **`MD5`** hash now to crack it we can use tools like hashcat or online platform like **[crackstation](https://crackstation.net/)**
 
-![img2](1.webp) 
+![img2](/write-ups/tryhackme/crack-the-hash/1.webp) 
 
 &nbsp;
 ***
@@ -51,7 +51,7 @@ so it is an **`MD5`** hash now to crack it we can use tools like hashcat or onli
 
 similarly we can find this one also on **[crackstation](https://crackstation.net/).** this time it is a **`sha1`** hash
 
-![img2](2.webp)
+![img2](/write-ups/tryhackme/crack-the-hash/2.webp)
 
 
 &nbsp;
@@ -67,7 +67,7 @@ similarly we can find this one also on **[crackstation](https://crackstation.net
 
 again we will use **[crackstation](https://crackstation.net/).** this time it is a **`sha256`** hash
 
-![img2](3.webp)
+![img2](/write-ups/tryhackme/crack-the-hash/3.webp)
 
 &nbsp;
 ***
@@ -81,7 +81,7 @@ again we will use **[crackstation](https://crackstation.net/).** this time it is
 
 Analyzing hash type using **[hash-analyzer](https://www.tunnelsup.com/hash-analyzer/)** we can see it is a **`bcrypt`** hash
 
-![](4.webp)
+![](/write-ups/tryhackme/crack-the-hash/4.webp)
 This hash is difficult to crack using online tools, which is why we can use tools such as hashcat
 
 ## Hashcat
@@ -110,7 +110,7 @@ again the same process identify the hash using **[hash-analyzer](https://www.tun
 
 this one was also present on **[crackstation](https://crackstation.net/)**
 
-![img2](5.webp)
+![img2](/write-ups/tryhackme/crack-the-hash/5.webp)
 
 &nbsp;
 ***
@@ -125,7 +125,7 @@ this one was also present on **[crackstation](https://crackstation.net/)**
 
 same drill - identify hash type → **[hash-analyzer](https://www.tunnelsup.com/hash-analyzer/)**
 
-![img2](7.png)
+![img2](/write-ups/tryhackme/crack-the-hash/7.png)
 
 ### Hashcat
 
@@ -197,7 +197,7 @@ Stopped: Thu Sep  5 16:44:46 2019
 
 ### Crackstation
 
-![img2](8.webp)
+![img2](/write-ups/tryhackme/crack-the-hash/8.webp)
 
 &nbsp;
 ***
@@ -211,7 +211,7 @@ Stopped: Thu Sep  5 16:44:46 2019
 
 this time it is a NTLM hash we can find it in crackstation
 
-![img2](9.webp)
+![img2](/write-ups/tryhackme/crack-the-hash/9.webp)
 &nbsp;
 ***
 **Answer: `n63umy8lkf4i`**
