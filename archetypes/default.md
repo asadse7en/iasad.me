@@ -1,10 +1,10 @@
 ---
-author: " · Asad Ullah"
+author: "Asad Ullah"
 title: {{ replace .Name "-" " " | title }}
+date: {{ .Date }}
 description: disc
 summary: sum
 
-dateString: March 13, 2023
 tags: ["",]
 categories: ["",]
 draft: true

@@ -1,10 +1,10 @@
 ---
-author: " · Asad Ullah"
+author: "Asad Ullah"
 title: "Kali Linux 2023.1: The Ultimate Platform for Offensive and Defensive Security"
 description: A comprehensive overview of the latest version of Kali, covering its features, enhancements, and upgrades, to provide you with all the necessary knowledge about this version.
 summary: A comprehensive overview of the latest version of Kali, covering its features, enhancements, and upgrades, to provide you with all the necessary knowledge about this version.
 
-dateString: March 23, 2023
+date: 2023-03-23T02:54:51+05:00
 tags: ["Kali Purple", "kali linux 2023.1", "python 3.11", "Offensive Security", "Defensive Security"]
 categories: ["Reviews"]
 

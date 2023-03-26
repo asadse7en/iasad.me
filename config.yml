@@ -47,12 +47,12 @@ params:
   keywords: [Blog, Portfolio, PaperMod, iasad, iasad.me, asad ullah]
   # author: Me
   # images: [""]
-  DateFormat: "January 2, 2006"
+  dateFormat: "January 2, 2006"
   defaultTheme: dark #auto, light
   disableThemeToggle: false
   ShowReadingTime: false
-  ShowShareButtons: false
-  ShowPostNavLinks: false
+  ShowShareButtons: true
+  ShowPostNavLinks: true
   ShowBreadCrumbs: true
   ShowCodeCopyButtons: true
   ShowWordCount: false
@@ -65,7 +65,7 @@ params:
   hideSummary: false
   showtoc: true
   tocopen: false
-  hideFooter: true
+  hideFooter: false
 
   label:
     text: "AsAd"
