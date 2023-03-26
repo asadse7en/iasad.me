@@ -13,8 +13,8 @@ pygmentsUseClasses: false
 
 menu:
   main:
-    - identifier: home
-      name: Home
+    - identifier: Root
+      name: Root
       url: /
       weight: 10
     - identifier: about
@@ -68,7 +68,7 @@ params:
   hideFooter: false
 
   label:
-    text: "AsAd"
+    text: "./asadse7en"
     icon: "home/logo.png"
     iconHeight: 30
 
