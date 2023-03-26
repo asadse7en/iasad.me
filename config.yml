@@ -23,11 +23,11 @@ menu:
       weight: 15
     - identifier: Blog
       name: Blog
-      url: /posts/blog
+      url: /blog
       weight: 20
     - identifier: Write-ups
       name: Write-ups
-      url: /posts/write-ups
+      url: /write-ups
       weight: 30
     - identifier: search
       name: Search
