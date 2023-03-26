@@ -10,10 +10,12 @@
 </header>
 
 {{- $pages := where site.Pages "Type" "in" site.Params.mainSections }}
+{{- $pages = union $pages (where site.Pages "Type" "in" "write-ups") }}
 
 {{- if site.Params.ShowAllPagesInArchive }}
 {{- $pages = site.Pages }}
 {{- end }}
+
 
 {{- range $pages.GroupByPublishDate "2006" }}
 {{- if ne .Key "0001" }}
@@ -33,8 +35,10 @@
           {{- if .Draft }}<sup><span class="entry-isdraft">&nbsp;&nbsp;[draft]</span></sup>{{- end }}
         </h3>
         <div class="archive-meta">
-          {{- partial "post_meta.html" . -}}
-        </div>
+          <span class="archive-date">{{ .Date.Format "January 02, 2006" }} ·</span>
+          <span class="archive-reading-time">{{ .ReadingTime  }} min ·</span>
+          <span class="archive-author">{{ .Params.author }}</span>
+        </div>        
         <a class="entry-link" aria-label="post link to {{ .Title | plainify }}" href="{{ .Permalink }}"></a>
       </div>
       {{- end }}
