@@ -1,0 +1,44 @@
+:root {
+  --primary-color: #4b5e06;
+  --secondary-color: #C6FF00;
+  --alternative-color: #b1d167;
+}
+
+h1,
+h2,
+h3 {
+  color: var(--primary-color);
+}
+
+.dark h1,
+.dark h2,
+.dark h3 {
+  color: var(--secondary-color);
+}
+
+.dark .pagination a {
+  color: var(--primary-color);
+}
+
+a:hover {
+    color: var(--alternative-color);
+  }
+.dark a:hover {
+    color: var(--alternative-color);
+  }
+
+/* Light mode */
+header nav a {
+    color: var(--primary-color); /* Change this to your desired color */
+  }
+  
+  /* Dark mode */
+  .dark header nav a {
+    color: var(--secondary-color);    /* Change this to your desired color */
+  }
+  
+  
+  
+  
+  
+  
