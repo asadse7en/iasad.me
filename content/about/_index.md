@@ -16,10 +16,14 @@ ShowBreadCrumbs: false
 &nbsp;
 
 {{< intro >}}  
-  
-I'm passionate about cybersecurity🔐 and enjoy participating in Capture the Flag (CTF) events. My ultimate career goal🎯 is to become a penetration tester, and I'm actively seeking cybersecurity **internships** to further enhance my skills. I enjoy sharpening my skills🤹‍♂️ by participating in challenges and competitions on platforms such as [**ctftime**](https://ctftime.org/user/149593/ "My CTF Profile") and [**tryhackme**](https://tryhackme.com/p/asadse7en/ "150 streak - April 2023") and plan to pursue my **OSCP certification**  in the near future, Insha'Allah.
 
-I'm excited about the possibilities that lie ahead in the ever-evolving field of cybersecurity, and I look forward to contributing my knowledge and skills to make a positive impact.
+- Passionate about cybersecurity 🔐
+- Seeking cybersecurity **internships** to enhance skills
+- Ultimate career goal 🎯 to become a penetration tester
+- Sharpening skills 🤹‍♂️ through challenges and competitions on [**ctftime**](https://ctftime.org/user/149593/ "My CTF Profile") and [**tryhackme**](https://tryhackme.com/p/asadse7en/ "150 streak - April 2023")
+- Planning to pursue **OSCP** certification in the near future, Insha’Allah
+- Excited about possibilities in the ever-evolving field of cybersecurity
+
 &nbsp;
 - **Few Interesting pages:**
    - [Write-ups](/write-ups) on various Capture the Flag (CTF) challenges.

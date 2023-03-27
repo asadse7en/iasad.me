@@ -1,7 +1,8 @@
 :root {
-  --primary-color: #4b5e06;
-  --secondary-color: #C6FF00;
-  --alternative-color: #b1d167;
+  --primary-color: #4b5e06; /* dark olive green */
+  --secondary-color: #b3ff00; /* lemon green */
+  --alternative-color: #FF00B3 /* magenta pink */
+  ;
 }
 
 h1,
@@ -38,7 +39,17 @@ header nav a {
   }
   
   
+  .social-icons a {
+    color: var(--primary-color);
+  }
   
+  .dark .social-icons a {
+    color: var(--secondary-color);
+  }
+  .social-icons a:hover {
+    color: var(--alternative-color);
+  }
   
-  
-  
+  .dark .social-icons a:hover {
+    color: var(--alternative-color);
+  }
