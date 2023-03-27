@@ -21,8 +21,8 @@ ShowBreadCrumbs: false
 - actively seeking **internships** to both apply my skills and enhance them further.
 - Ultimate career goal 🎯 to become a penetration tester
 - Sharpening my skills 🤹‍♂️ through challenges and competitions on [**ctftime**](https://ctftime.org/user/149593/ "timectf Profile") and [**THM**](https://tryhackme.com/p/asadse7en/ "tryhackme profile")🚩
-- Planning to pursue **OSCP** certification in the near future, Insha’Allah
-- Excited about possibilities in the ever-evolving field of cybersecurity
+- Planning to pursue **OSCP** certification 📜 in the near future, Insha’Allah🙏
+- Excited about possibilities in the ever-evolving field of cybersecurity 🌟
 
 &nbsp;
 - **Few Interesting pages:**

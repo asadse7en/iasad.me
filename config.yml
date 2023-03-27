@@ -43,7 +43,7 @@ params:
   # theme
   env: production
   title: Asad Ullah
-  description: "iasad.me"
+  description: "Tech enthusiast, blogger, and CTF player with a passion for cybersecurity. Sharing write-ups and insights on the latest tech trends and cybersecurity challenges. Follow along for engaging content"
   keywords: [Blog, Portfolio, PaperMod, iasad, iasad.me, asad ullah]
   # author: Me
   # images: [""]
