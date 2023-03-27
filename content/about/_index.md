@@ -17,10 +17,10 @@ ShowBreadCrumbs: false
 
 {{< intro >}}  
 
-- Passionate about cybersecurity 🔐
-- Seeking cybersecurity **internships** to enhance skills
+- Passionate about cybersecurity 🔐. 
+- actively seeking **internships** to both apply my skills and enhance them further.
 - Ultimate career goal 🎯 to become a penetration tester
-- Sharpening skills 🤹‍♂️ through challenges and competitions on [**ctftime**](https://ctftime.org/user/149593/ "My CTF Profile") and [**tryhackme**](https://tryhackme.com/p/asadse7en/ "150 streak - April 2023")
+- Sharpening my skills 🤹‍♂️ through challenges and competitions on [**ctftime**](https://ctftime.org/user/149593/ "timectf Profile") and [**THM**](https://tryhackme.com/p/asadse7en/ "tryhackme profile")🚩
 - Planning to pursue **OSCP** certification in the near future, Insha’Allah
 - Excited about possibilities in the ever-evolving field of cybersecurity
 

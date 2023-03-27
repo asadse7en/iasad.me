@@ -2,9 +2,11 @@
 
 {{- if (and site.Params.profileMode.enabled .IsHome) }}
 {{- partial "index_profile.html" . }}
+
 {{- else }} {{/* if not profileMode */}}
 
 {{- if not .IsHome | and .Title }}
+
 <header class="page-header">
   {{- partial "breadcrumbs.html" . }}
   <h1>
@@ -34,6 +36,7 @@
   {{- partial "anchored_headings.html" .Content -}}
   {{- else }}{{ .Content }}{{ end }}
 </div>
+
 {{- end }}
 
 {{- $pages := union .RegularPages .Sections }}
@@ -49,6 +52,7 @@
 {{- partial "home_info.html" . }}
 {{- end }}
 
+
 {{- $term := .Data.Term }}
 {{- range $index, $page := $paginator.Pages }}
 
@@ -56,15 +60,19 @@
 
 {{- $user_preferred := or site.Params.disableSpecial1stPost site.Params.homeInfoParams }}
 {{- if (and $.IsHome (eq $paginator.PageNumber 1) (eq $index 0) (not $user_preferred)) }}
+
 {{- $class = "first-entry" }}
 {{- else if $term }}
-{{- $class = "post-entry tag-entry" }}
+{{- $class = "post-entry" }}
+
 {{- end }}
 
 <article class="{{ $class }}">
+  {{- if not .IsHome }}
   {{- $isHidden := (site.Params.cover.hidden | default site.Params.cover.hiddenInList) }}
   {{- partial "cover.html" (dict "cxt" . "IsHome" true "isHidden" $isHidden) }}
-  <header class="entry-header">
+  {{- end }}
+   <header class="entry-header">
     <h2>
       {{- .Title }}
       {{- if .Draft }}<sup><span class="entry-isdraft">&nbsp;&nbsp;[draft]</span></sup>{{- end }}
@@ -75,7 +83,11 @@
     <p>{{ .Summary | plainify | htmlUnescape }}{{ if .Truncated }}...{{ end }}</p>
   </div>
   {{- end }}
-
+  {{- if not (.Param "hideMeta") }}
+  <footer class="entry-footer">
+    {{- partial "post_meta.html" . -}}
+  </footer>
+  {{- end }}
   <a class="entry-link" aria-label="post link to {{ .Title | plainify }}" href="{{ .Permalink }}"></a>
 </article>
 {{- end }}
