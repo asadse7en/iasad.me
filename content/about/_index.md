@@ -28,6 +28,7 @@ ShowBreadCrumbs: false
 - **Few Interesting pages:**
    - [Write-ups](/write-ups) on various Capture the Flag (CTF) challenges.
    - [Archives](/archives) page to get a list of posts in reverse chronological order.
+   - You can checkout [Categories](/categories) / [Tags](/tags) to find pages about specific keywords.
 
 &nbsp;
 ### Contact
