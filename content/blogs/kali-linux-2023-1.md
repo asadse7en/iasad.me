@@ -9,7 +9,7 @@ Section: blogs
 
 date: 2023-03-23T02:54:51+05:00
 tags: ["Kali Purple", "kali linux 2023.1", "python 3.11", "Offensive Security", "Defensive Security"]
-categories: ["Reviews"]
+categories: ["Reviews", "Linux"]
 
 draft: false
 
