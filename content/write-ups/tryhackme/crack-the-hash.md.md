@@ -1,18 +1,29 @@
 ---
 author: "Asad Ullah"
 title: Crack the Hash - TryHackMe
-description: analyzing and cracking hashes using hashcat and diff online tools such as crackstation
-summary: analyzing and cracking hashes using hashcat and diff online tools such as crackstation
+description: analyzing and cracking hashes using hashcat and different online tools such as crackstation
+summary: analyzing and cracking hashes using hashcat and different online tools such as crackstation
 
 Section: "write-ups"
 
 date: 2023-03-25T02:54:51+05:00
-tags: ["hash", "crackstation", "hashcat", "md5", "sha256", "NTLM", "ranbow tables"]
-categories: [""]
+tags: ["hash", "crackstation", "hashcat", "md5", "sha256", "NTLM", "ranbow tables", "hash cracking", "hashcat", "John the Ripper",]
+categories: ["writeup", "tryhackme","hash cracking"]
 draft: false
 
 ---
 
+{{< 
+boxinfo 
+name="Crack the Hash" 
+os="-" 
+difficulty="Easy"  
+points="320" 
+creator_name="TryHackMe" creator_link="https://tryhackme.com/room/crackthehash"
+description="analyzing and cracking hashes using hashcat and crackstation"
+>}}
+
+---
 
 ## Introduction
 
