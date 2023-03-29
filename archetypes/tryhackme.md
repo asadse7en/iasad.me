@@ -8,6 +8,7 @@ tags: ["tryhackme"]
 Section: "write-ups"
 categories: ["writeup", "tryhackme"]
 tags: ["", ]
+author: "Asad Ullah"
 
 draft: true
 
