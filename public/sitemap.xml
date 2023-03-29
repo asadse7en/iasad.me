@@ -2,75 +2,77 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>/</loc>
+    <loc>https://iasad.me/</loc>
     <lastmod>2023-03-25T02:54:51+05:00</lastmod>
   </url><url>
-    <loc>/write-ups/tryhackme/crack-the-hash.md/</loc>
+    <loc>https://iasad.me/write-ups/tryhackme/crack-the-hash.md/</loc>
     <lastmod>2023-03-25T02:54:51+05:00</lastmod>
   </url><url>
-    <loc>/tags/crackstation/</loc>
+    <loc>https://iasad.me/tags/crackstation/</loc>
     <lastmod>2023-03-25T02:54:51+05:00</lastmod>
   </url><url>
-    <loc>/tags/hash/</loc>
+    <loc>https://iasad.me/tags/hash/</loc>
     <lastmod>2023-03-25T02:54:51+05:00</lastmod>
   </url><url>
-    <loc>/tags/hashcat/</loc>
+    <loc>https://iasad.me/tags/hashcat/</loc>
     <lastmod>2023-03-25T02:54:51+05:00</lastmod>
   </url><url>
-    <loc>/tags/md5/</loc>
+    <loc>https://iasad.me/tags/md5/</loc>
     <lastmod>2023-03-25T02:54:51+05:00</lastmod>
   </url><url>
-    <loc>/tags/ntlm/</loc>
+    <loc>https://iasad.me/tags/ntlm/</loc>
     <lastmod>2023-03-25T02:54:51+05:00</lastmod>
   </url><url>
-    <loc>/tags/ranbow-tables/</loc>
+    <loc>https://iasad.me/tags/ranbow-tables/</loc>
     <lastmod>2023-03-25T02:54:51+05:00</lastmod>
   </url><url>
-    <loc>/tags/sha256/</loc>
+    <loc>https://iasad.me/tags/sha256/</loc>
     <lastmod>2023-03-25T02:54:51+05:00</lastmod>
   </url><url>
-    <loc>/tags/</loc>
+    <loc>https://iasad.me/tags/</loc>
     <lastmod>2023-03-25T02:54:51+05:00</lastmod>
   </url><url>
-    <loc>/write-ups/tryhackme/</loc>
+    <loc>https://iasad.me/write-ups/tryhackme/</loc>
     <lastmod>2023-03-25T02:54:51+05:00</lastmod>
   </url><url>
-    <loc>/write-ups/</loc>
+    <loc>https://iasad.me/write-ups/</loc>
     <lastmod>2023-03-25T02:54:51+05:00</lastmod>
   </url><url>
-    <loc>/blogs/</loc>
+    <loc>https://iasad.me/blogs/</loc>
     <lastmod>2023-03-23T02:54:51+05:00</lastmod>
   </url><url>
-    <loc>/categories/</loc>
+    <loc>https://iasad.me/categories/</loc>
     <lastmod>2023-03-23T02:54:51+05:00</lastmod>
   </url><url>
-    <loc>/tags/defensive-security/</loc>
+    <loc>https://iasad.me/tags/defensive-security/</loc>
     <lastmod>2023-03-23T02:54:51+05:00</lastmod>
   </url><url>
-    <loc>/tags/kali-linux-2023.1/</loc>
+    <loc>https://iasad.me/tags/kali-linux-2023.1/</loc>
     <lastmod>2023-03-23T02:54:51+05:00</lastmod>
   </url><url>
-    <loc>/blogs/kali-linux-2023-1/</loc>
+    <loc>https://iasad.me/blogs/kali-linux-2023-1/</loc>
     <lastmod>2023-03-23T02:54:51+05:00</lastmod>
   </url><url>
-    <loc>/tags/kali-purple/</loc>
+    <loc>https://iasad.me/tags/kali-purple/</loc>
     <lastmod>2023-03-23T02:54:51+05:00</lastmod>
   </url><url>
-    <loc>/tags/offensive-security/</loc>
+    <loc>https://iasad.me/tags/offensive-security/</loc>
     <lastmod>2023-03-23T02:54:51+05:00</lastmod>
   </url><url>
-    <loc>/tags/python-3.11/</loc>
+    <loc>https://iasad.me/tags/python-3.11/</loc>
     <lastmod>2023-03-23T02:54:51+05:00</lastmod>
   </url><url>
-    <loc>/categories/reviews/</loc>
+    <loc>https://iasad.me/categories/reviews/</loc>
     <lastmod>2023-03-23T02:54:51+05:00</lastmod>
   </url><url>
-    <loc>/about/</loc>
+    <loc>https://iasad.me/about/</loc>
   </url><url>
-    <loc>/archives/</loc>
+    <loc>https://iasad.me/favoritequotes/</loc>
   </url><url>
-    <loc>/search/</loc>
+    <loc>https://iasad.me/archives/</loc>
   </url><url>
-    <loc>/write-ups/vulnhub/</loc>
+    <loc>https://iasad.me/search/</loc>
+  </url><url>
+    <loc>https://iasad.me/write-ups/vulnhub/</loc>
   </url>
 </urlset>

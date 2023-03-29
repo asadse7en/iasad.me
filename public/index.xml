@@ -2,26 +2,26 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>AsAd</title>
-    <link>/</link>
+    <link>https://iasad.me/</link>
     <description>Recent content on AsAd</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 25 Mar 2023 02:54:51 +0500</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 25 Mar 2023 02:54:51 +0500</lastBuildDate><atom:link href="https://iasad.me/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Crack the Hash - TryHackMe</title>
-      <link>/write-ups/tryhackme/crack-the-hash.md/</link>
+      <link>https://iasad.me/write-ups/tryhackme/crack-the-hash.md/</link>
       <pubDate>Sat, 25 Mar 2023 02:54:51 +0500</pubDate>
       
-      <guid>/write-ups/tryhackme/crack-the-hash.md/</guid>
+      <guid>https://iasad.me/write-ups/tryhackme/crack-the-hash.md/</guid>
       <description>analyzing and cracking hashes using hashcat and diff online tools such as crackstation</description>
     </item>
     
     <item>
       <title>Kali Linux 2023.1: The Ultimate Platform for Offensive and Defensive Security</title>
-      <link>/blogs/kali-linux-2023-1/</link>
+      <link>https://iasad.me/blogs/kali-linux-2023-1/</link>
       <pubDate>Thu, 23 Mar 2023 02:54:51 +0500</pubDate>
       
-      <guid>/blogs/kali-linux-2023-1/</guid>
+      <guid>https://iasad.me/blogs/kali-linux-2023-1/</guid>
       <description>A comprehensive overview of the latest version of Kali, covering its features, enhancements, and upgrades, to provide you with all the necessary knowledge about this version.</description>
     </item>
     
