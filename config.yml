@@ -72,6 +72,14 @@ params:
     icon: "home/c.png"
     iconHeight: 35
 
+  
+  analytics:
+    google:
+      SiteVerificationTag: ""
+    bing:
+      SiteVerificationTag: ""
+    yandex:
+      SiteVerificationTag: ""
 
 
   # for enchanced SEO
