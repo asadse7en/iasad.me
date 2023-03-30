@@ -1,0 +1,10 @@
+<fieldset style="border-radius: 10px;">
+    <legend>Box Info</legend>
+    <ul>
+      <li>Name: <code>{{ .Get "name" }}</code></li>
+      <li>Difficulty: <code>{{ .Get "difficulty" }}</code></li>
+      <li>Points: <code>{{ .Get "points" }}</code></li>
+      <li>Link: <a href="{{ .Get "creator_link" }}" target="_blank" ><code>{{ .Get "creator_name" }}</code></a></li>
+      <li>category: <code>{{ .Get "category" }}</code></li>
+    </ul>
+  </fieldset>
