@@ -8,7 +8,7 @@ date: 2023-03-30T02:54:51+05:00
 Section: "write-ups"
 
 categories: ["writeup", "picoctf", "forensics"]
-tags: ["compression", "picoctf", "lzip", "lzop", "LZMA", "bzip2", "cpio", "ctf", "forensics"]
+tags: ["compression", "picoctf", "lzip", "lzop", "LZMA", "bzip2", "cpio", "forensics"]
 
 draft: false
 

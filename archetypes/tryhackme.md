@@ -1,27 +1,26 @@
 ---
+author: "Asad Ullah"
 title: "{{ replace .Name "-" " " | title }}"
 description: 
 summary: 
 
 date: {{ .Date }}
-tags: ["tryhackme"]
-Section: "write-ups"
+Section: write-ups
 categories: ["writeup", "tryhackme"]
-tags: ["", ]
-author: "Asad Ullah"
+tags: ["tryhackme"]
 
-draft: true
+draft: false
 
 ---
 
 {{< 
-boxinfo 
+thminfo 
 name="name" 
 os="-" 
 difficulty="Medium"  
-points="00" 
-creator_name="TryHackMe" creator_link="https://tryhackme.com/" 
-description="descr"
+points="600" 
+creator_name="TryHackMe" creator_link="https://tryhackme.com/room/" 
+description="Advan"
 >}}
 
 ---
