@@ -6,7 +6,61 @@
     <description>Recent content in categories on AsAd</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 23 Mar 2023 02:54:51 +0500</lastBuildDate><atom:link href="https://iasad.me/categories/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 30 Mar 2023 06:54:51 +0500</lastBuildDate><atom:link href="https://iasad.me/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>cryptography</title>
+      <link>https://iasad.me/categories/cryptography/</link>
+      <pubDate>Thu, 30 Mar 2023 06:54:51 +0500</pubDate>
+      
+      <guid>https://iasad.me/categories/cryptography/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>picoctf</title>
+      <link>https://iasad.me/categories/picoctf/</link>
+      <pubDate>Thu, 30 Mar 2023 06:54:51 +0500</pubDate>
+      
+      <guid>https://iasad.me/categories/picoctf/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>writeup</title>
+      <link>https://iasad.me/categories/writeup/</link>
+      <pubDate>Thu, 30 Mar 2023 06:54:51 +0500</pubDate>
+      
+      <guid>https://iasad.me/categories/writeup/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>forensics</title>
+      <link>https://iasad.me/categories/forensics/</link>
+      <pubDate>Thu, 30 Mar 2023 02:54:51 +0500</pubDate>
+      
+      <guid>https://iasad.me/categories/forensics/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>hash cracking</title>
+      <link>https://iasad.me/categories/hash-cracking/</link>
+      <pubDate>Tue, 28 Mar 2023 02:54:51 +0500</pubDate>
+      
+      <guid>https://iasad.me/categories/hash-cracking/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>tryhackme</title>
+      <link>https://iasad.me/categories/tryhackme/</link>
+      <pubDate>Tue, 28 Mar 2023 02:54:51 +0500</pubDate>
+      
+      <guid>https://iasad.me/categories/tryhackme/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>Reviews</title>
       <link>https://iasad.me/categories/reviews/</link>
