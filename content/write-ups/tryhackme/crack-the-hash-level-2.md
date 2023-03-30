@@ -18,7 +18,7 @@ draft: false
 
 
 {{< 
-boxinfo 
+thminfo 
 name="Crack the Hash Level 2" 
 os="-" 
 difficulty="Medium"  

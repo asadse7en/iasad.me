@@ -14,7 +14,7 @@ draft: false
 ---
 
 {{< 
-boxinfo 
+thminfo 
 name="Crack the Hash" 
 os="-" 
 difficulty="Easy"  
