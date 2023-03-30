@@ -97,16 +97,12 @@ params:
     - name: "linkedin"
       url: "https://www.linkedin.com/in/asadse7en"
     - name: "github"
-      url: "https://github.com/asadse7en"
-    - name: tryhackme
-      url: https://tryhackme.com/p/asadse7en
-    - name: ctftime
-      url: "https://ctftime.org/user/149593"
     - name: "instagram"
       url: "https://www.instagram.com/iasadse7en"
     - name: "cv"
       url: "https://drive.google.com/file/d/1HS2k1c1RvtG7S-j_T7MZcQO2y1aHg6uH/view?usp=sharing"
-
+    - name: "RSS"
+      url: "https://iasad.me/index.xml"
 
   profileMode:
     enabled: false

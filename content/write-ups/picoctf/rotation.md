@@ -8,7 +8,7 @@ date: 2023-03-30T04:54:51+05:00
 Section: "write-ups"
 
 categories: ["writeup", "picoctf", "cryptography"]
-tags: ["rotation", "picoctf", "picoctf 2023", "rot13", "rot18", "ctf", "cryptography"]
+tags: ["rotation", "picoctf", "picoctf 2023", "rot13", "rot18", "cryptography"]
 
 draft: false
 
