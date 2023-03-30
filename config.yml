@@ -66,6 +66,7 @@ params:
   showtoc: true
   tocopen: false
   hideFooter: false
+  comments: true
 
   label:
     text: "./asadse7en"
