@@ -1,6 +1,6 @@
 ---
 author: "Asad Ullah"
-title: "Kali Linux 2023.1: The Ultimate Platform for Offensive and Defensive Security"
+title: "Kali Linux 2023.1 - The Ultimate Platform for Offensive and Defensive Security"
 description: A comprehensive overview of the latest version of Kali, covering its features, enhancements, and upgrades, to provide you with all the necessary knowledge about this version.
 summary: A comprehensive overview of the latest version of Kali, covering its features, enhancements, and upgrades, to provide you with all the necessary knowledge about this version.
 

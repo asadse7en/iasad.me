@@ -1,6 +1,6 @@
 ---
 author: "Asad Ullah"
-title: File Types - PicoCTF
+title: File Types - PicoCTF (2022)
 summary: forensics challenge with nested compressions and file types
 
 date: 2023-03-30T02:54:51+05:00

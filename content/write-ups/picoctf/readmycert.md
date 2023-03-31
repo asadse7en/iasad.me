@@ -1,6 +1,6 @@
 ---
 author: "Asad Ullah"
-title: ReadMyCert - PicoCTF
+title: ReadMyCert - PicoCTF (2023)
 summary: certificate signing request with base64 encoding
 
 date: 2023-03-30T06:54:51+05:00
