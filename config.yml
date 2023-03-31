@@ -102,6 +102,7 @@ params:
     - name: "linkedin"
       url: "https://www.linkedin.com/in/asadse7en"
     - name: "github"
+      url: "https://github.com/asadse7en"
     - name: "instagram"
       url: "https://www.instagram.com/iasadse7en"
     - name: "cv"
