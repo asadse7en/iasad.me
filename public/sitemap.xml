@@ -28,9 +28,6 @@
     <loc>https://iasad.me/categories/cryptography/</loc>
     <lastmod>2023-03-30T06:54:51+05:00</lastmod>
   </url><url>
-    <loc>https://iasad.me/tags/ctf/</loc>
-    <lastmod>2023-03-30T06:54:51+05:00</lastmod>
-  </url><url>
     <loc>https://iasad.me/tags/cyberchef/</loc>
     <lastmod>2023-03-30T06:54:51+05:00</lastmod>
   </url><url>
@@ -85,15 +82,6 @@
     <loc>https://iasad.me/categories/forensics/</loc>
     <lastmod>2023-03-30T02:54:51+05:00</lastmod>
   </url><url>
-    <loc>https://iasad.me/tags/gzip/</loc>
-    <lastmod>2023-03-30T02:54:51+05:00</lastmod>
-  </url><url>
-    <loc>https://iasad.me/tags/hex/</loc>
-    <lastmod>2023-03-30T02:54:51+05:00</lastmod>
-  </url><url>
-    <loc>https://iasad.me/tags/lz4/</loc>
-    <lastmod>2023-03-30T02:54:51+05:00</lastmod>
-  </url><url>
     <loc>https://iasad.me/tags/lzip/</loc>
     <lastmod>2023-03-30T02:54:51+05:00</lastmod>
   </url><url>
@@ -101,9 +89,6 @@
     <lastmod>2023-03-30T02:54:51+05:00</lastmod>
   </url><url>
     <loc>https://iasad.me/tags/lzop/</loc>
-    <lastmod>2023-03-30T02:54:51+05:00</lastmod>
-  </url><url>
-    <loc>https://iasad.me/tags/xz/</loc>
     <lastmod>2023-03-30T02:54:51+05:00</lastmod>
   </url><url>
     <loc>https://iasad.me/tags/cewl/</loc>
