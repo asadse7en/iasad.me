@@ -1,7 +1,7 @@
 ---
 author: "Asad Ullah"
 title: The Sender Conundrum - VishwaCTF
-summary: A write-up on stegonograpy challenge The Sender Conundrum.
+summary: A write-up on forenics challenge The Sender Conundrum.
 
 date: 2023-04-02T18:33:37+05:00
 

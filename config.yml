@@ -29,10 +29,14 @@ menu:
       name: Write-ups
       url: /write-ups
       weight: 30
-    - identifier: search
-      name: Search
-      url: /search
+    - identifier: archives
+      name: Archives
+      url: /archives
       weight: 50
+    - identifier: search
+      name: 👀
+      url: /search
+      weight: 60
     # - identifier: tags
     #   name: Tags
     #   url: /tags
