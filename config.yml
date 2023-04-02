@@ -2,6 +2,7 @@ baseURL: https://iasad.me/
 languageCode: en-us
 title: AsAd
 theme: PaperMod
+paginate: 5
 
 enableRobotsTXT: true
 buildDrafts: false
@@ -71,7 +72,7 @@ params:
   tocopen: false
   hideFooter: false
   comments: true
-  paginate: 3
+
 
   mainSections:
     - blogs

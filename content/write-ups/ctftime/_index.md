@@ -5,6 +5,7 @@ description: CTFtime.org is a platform that provides information on upcoming and
 summary: Write-ups for different CTFs on CtfTime.org
 type: "list"
 weight: 1
+hidemeta: true
 
 ---
 

@@ -5,6 +5,8 @@ description: TryHackMe is an online platform for comprehensive cyber security tr
 summary: Write-ups for TryHackMe Machines
 type: "list"
 weight: 2
+hidemeta: true
+
 
 ---
 {{< thm-profile-badge >}}

@@ -5,6 +5,8 @@ description: PicoCTF is designed fir practicing various aspects of computer secu
 summary: Write-ups for Challenges on PicoCTF
 type: "list"
 weight: 3
+hidemeta: true
+
 
 ---
 
