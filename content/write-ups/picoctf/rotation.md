@@ -16,7 +16,7 @@ draft: false
 
 
 {{< 
-picoinfo 
+picoctf 
 name="Rotation" 
 difficulty="Easy"  
 points="100"

@@ -7,5 +7,5 @@ type: "list"
 weight: 1
 
 ---
-{{< thm >}}
+{{< thm-profile-badge >}}
 ***

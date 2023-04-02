@@ -16,7 +16,7 @@ draft: false
 
 
 {{< 
-picoinfo 
+picoctf 
 name="File Types" 
 difficulty="Easy"  
 points="100"

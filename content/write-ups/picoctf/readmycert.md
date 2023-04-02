@@ -16,7 +16,7 @@ draft: false
 
 
 {{< 
-picoinfo 
+picoctf 
 name="ReadMyCert" 
 difficulty="Easy"  
 points="100"

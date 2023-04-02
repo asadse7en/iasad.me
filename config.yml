@@ -67,6 +67,7 @@ params:
   tocopen: false
   hideFooter: false
   comments: true
+  paginate: 3
 
   mainSections:
     - blogs

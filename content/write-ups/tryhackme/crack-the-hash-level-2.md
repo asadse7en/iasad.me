@@ -18,7 +18,7 @@ draft: false
 
 
 {{< 
-thminfo 
+tryhackme 
 name="Crack the Hash Level 2" 
 os="-" 
 difficulty="Medium"  
@@ -78,7 +78,7 @@ To crack passwords, you'll need wordlists, which are collections of commonly use
 
 ---
 
-**To use wordlistctl on Kali Linux, clone from {{< newtab link="https://github.com/BlackArch/wordlistctl" text="Github" >}}**
+**To use wordlistctl on Kali Linux, clone from {{< url link="https://github.com/BlackArch/wordlistctl" text="Github" >}}**
 
 **`python3 wordlistctl/wordlistctl.py -h`**
 
