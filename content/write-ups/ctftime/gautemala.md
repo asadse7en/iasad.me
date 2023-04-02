@@ -19,7 +19,7 @@ draft: false
 ctftime 
 name="Gautemala" 
 difficulty="Easy"  
-points="100"
+points="200"
 category="steganography"
 >}}
 
