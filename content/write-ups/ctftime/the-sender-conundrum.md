@@ -7,7 +7,7 @@ date: 2023-04-02T18:33:37+05:00
 
 Section: "write-ups"
 
-categories: ["writeup", "ctftime.org", "cryptography"]
+categories: ["writeup", "ctftime.org", "forenics"]
 tags: ["hash cracking", "vishwactf-2023", "john", "zip2john"]
 
 draft: false
@@ -20,7 +20,7 @@ ctftime
 name="The Sender Conundrum" 
 difficulty="Easy"  
 points="200"
-category="Cryptography"
+category="Forensics"
 >}}
 
 &nbsp;
