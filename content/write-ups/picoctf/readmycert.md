@@ -8,7 +8,7 @@ date: 2023-03-30T06:54:51+05:00
 Section: "write-ups"
 
 categories: ["writeup", "picoctf", "cryptography"]
-tags: ["picoctf", "picoctf 2023", "base64", "base64decode", "cyberchef", "cryptography"]
+tags: ["picoctf 2023", "base64", "base64decode", "cyberchef"]
 
 draft: false
 
