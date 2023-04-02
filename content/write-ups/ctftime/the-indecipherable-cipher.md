@@ -31,19 +31,19 @@ Our crypto specialist Mr.Kasiski is currently unavailable, so help us decode thi
 
 The first step I took was to identify the encryption type. To achieve this, I used {{< url link="https://www.dcode.fr/cipher-identifier" text="Cipher Identifier" >}} which provided me with a list of possible encryptions
 
-![list of possible ciphers](/write-ups/ctftime/vigenere-cipher/1.webp#center "list of possible ciphers")
+![list of possible ciphers](/write-ups/ctftime/the-indecipherable-cipher/1.webp#center "list of possible ciphers")
 
 &nbsp;
 
 At first, I attempted to use base32, but it didn't work. So, I tried the second-best option, the Vigenere cipher. Initially, it didn't give me the flag, but then I noticed that the ciphertext also included numbers. So I decided to include numbers in the alphabet set.
 
-![alphabet parameter](/write-ups/ctftime/vigenere-cipher/2.webp#center "alphabet parameter")
+![alphabet parameter](/write-ups/ctftime/the-indecipherable-cipher/2.webp#center "alphabet parameter")
 
 &nbsp;
 
 **which resulted in this**
 
-![results](/write-ups/ctftime/vigenere-cipher/3.webp#center "results")
+![results](/write-ups/ctftime/the-indecipherable-cipher/3.webp#center "results")
 
 &nbsp;
 
