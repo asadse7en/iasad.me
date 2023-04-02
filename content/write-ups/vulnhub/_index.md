@@ -5,7 +5,6 @@ description: Vulnhub is an extensive web-based cybersecurity training platform d
 summary: Write-ups for VulnHub Machines
 type: "list"
 weight: 3
+hidemeta: true
 
 ---
-
-***
