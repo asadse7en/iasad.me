@@ -1,14 +1,14 @@
 ---
 author: "Asad Ullah"
 title: The Indecipherable Cipher - VishwaCTF
-summary: forensics challenge with nested compressions and file types
+summary: A write-up on a cryptography challenge the indecipherable cipher.
 
 date: 2023-04-02T16:03:37+05:00
 
 Section: "write-ups"
 
 categories: ["writeup", "ctftime.org", "cryptography"]
-tags: ["cipher"]
+tags: ["cipher", "vigenere", "vishwactf", "dcode.fr", "cipher identifier"]
 
 draft: false
 
