@@ -27,7 +27,7 @@ category="steganography"
 
 ## Description
 
-**Download Attachments :{{< url link="https://drive.google.com/file/d/1g_rO8ATVC1_CURqJFTsB_OPadB1ixRNd/view?usp=sharing" text="yes_its_a_zip_file_withnosecurity.zip" >}}**
+**Download Attachments : {{< url link="https://drive.google.com/file/d/1g_rO8ATVC1_CURqJFTsB_OPadB1ixRNd/view?usp=sharing" text="yes_its_a_zip_file_withnosecurity.zip" >}}**
 
 ## Approach
 
@@ -104,7 +104,7 @@ the name of the protagonist is lucifer so the flag will be `{lucifer_S01E03}`
 
 ---
 
-**Flag: `vishwaCTF{{lucifer_S01E03}}`**
+**Flag: `vishwaCTF{lucifer_S01E03}`**
 
 ---
 
