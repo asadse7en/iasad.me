@@ -3,7 +3,7 @@ author: "Asad Ullah"
 title: The Indecipherable Cipher - VishwaCTF
 summary: forensics challenge with nested compressions and file types
 
-date: 2023-04-2T02:54:51+05:00
+date: 2023-04-02T16:03:37+05:00
 
 Section: "write-ups"
 
