@@ -29,7 +29,7 @@ category="steganography"
 
 A magician made the seven wonders disappear. But people claim they can still feel their presence in the air.
 
-**Download Attachments: AV.gif**
+**Download Attachments: {{< url link="https://drive.google.com/file/d/1v6Sj7Pr-2X1EI6DH_1-_LBrpu8-kzdn1/view?usp=sharing" text="AV.gif" >}}**
 
 ## Approach
 

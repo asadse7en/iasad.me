@@ -31,7 +31,7 @@ category="Forensics"
 
 Marcus Got a Mysterious mail promising a flag if he could crack the password to the file.****
 
-**Download Attachments: TheEmail.eml  unzipme.zip**
+**Download Attachments: {{< url link="https://drive.google.com/file/d/1zKfk1lMeznPsBTU-9mPHjJ1cb2tmo_sv/view?usp=share_link" text="TheEmail.eml" >}}  {{< url link="https://drive.google.com/file/d/1YxNhz_4palTfXVyc4JVpj3BDSzh0K5Vo/view?usp=sharing" text="unzipme.zip" >}}**
 
 ## Approach
 
