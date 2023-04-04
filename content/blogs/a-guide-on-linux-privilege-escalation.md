@@ -5,7 +5,7 @@ description:
 summary: A comprehensive guide covering Linux privilege escalation, from privilege creation to exploitation (including both manual enumeration and automated tools), as well as prevention tips.
 
 Section: blogs
-
+ShowWordCount: false
 
 date: 2023-04-04T02:54:51+05:00
 tags: ["linux", "privilege escalation", "system control", "Offensive Security", sudoer"]

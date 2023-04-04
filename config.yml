@@ -126,11 +126,6 @@ params:
 
   hideDescriptionInList: false
 
-  # cover image for posts
-  cover:
-    hiddenInList: false # hide on list pages and home
-    hiddenInSingle: false # hide on single page
-
   cover:
     hidden: false # hide everywhere but not in structured data
     hiddenInList: false # hide on list pages and home
