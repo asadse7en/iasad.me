@@ -43,7 +43,6 @@ menu:
     #   name: Tags
     #   url: /tags
     #   weight: 60
-    # - identifier: notes
 
 params:
   # theme
