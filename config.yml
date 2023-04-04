@@ -12,6 +12,7 @@ enableInlineShortcodes: true
 enableEmoji: true
 pygmentsUseClasses: false
 
+
 menu:
   main:
     - identifier: Root
@@ -85,13 +86,6 @@ params:
     iconHeight: 35
 
   
-  analytics:
-    google:
-      SiteVerificationTag: "G-F39H1SV26S"
-    bing:
-      SiteVerificationTag: ""
-    yandex:
-      SiteVerificationTag: ""
 
 
   # for enchanced SEO
