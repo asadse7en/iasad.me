@@ -43,7 +43,6 @@
 
 code {
     direction: ltr;
-    color: #a8d663;
 }
 
 div.highlight,
@@ -67,4 +66,45 @@ pre {
 div.highlight:hover .copy-code,
 pre:hover .copy-code {
     display: block;
+}
+
+/* Light mode */
+.paginav .next,
+.paginav .prev {
+  padding: 10px 20px;
+  background-color: #fff
+  border: none;
+  border-radius: 25px;
+  color: var(--primary-color);
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  transition: all 0.3s ease;
+}
+
+.paginav .next:hover,
+.paginav .prev:hover {
+  background-color: rgb(234, 234, 234);
+  color: var(--primary-color);
+  transform: scale(1.1);
+}
+
+/* Dark mode */
+.dark .paginav .next,
+.dark .paginav .prev {
+  padding: 10px 20px;
+  background-color: rgb(66, 77, 58);
+  border: none;
+  border-radius: 25px;
+  color: #fff;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  transition: all 0.3s ease;
+}
+
+.dark .paginav .next:hover,
+.dark .paginav .prev:hover {
+  background-color: rgb(85, 100, 73);
+  transform: scale(1.1);
 }
