@@ -8,7 +8,7 @@ date: 2023-04-02T16:03:37+05:00
 Section: "write-ups"
 
 categories: ["writeup", "ctftime.org", "cryptography"]
-tags: ["cipher", "vigenere", "vishwactf-2023", "dcode.fr", "cipher identifier"]
+tags: ["cipher", "vigenere", "vishwactf 2023", "dcode.fr", "cipher identifier"]
 
 draft: false
 

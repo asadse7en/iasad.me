@@ -8,7 +8,7 @@ date: 2023-04-02T17:33:37+05:00
 Section: "write-ups"
 
 categories: ["writeup", "ctftime.org", "steganography"]
-tags: ["exiftool", "base64", "vishwactf-2023", "steg", "metadata"]
+tags: ["exiftool", "base64", "vishwactf 2023", "steg", "metadata"]
 
 draft: false
 
@@ -27,8 +27,7 @@ category="steganography"
 
 ## Description
 
-A magician made the seven wonders disappear. But people claim they can still feel their presence in the air.
-
+My friend wanted to install an antivirus for his computer, but the creator of the antivirus was caught!
 **Download Attachments: {{< url link="https://drive.google.com/file/d/1v6Sj7Pr-2X1EI6DH_1-_LBrpu8-kzdn1/view?usp=sharing" text="AV.gif" >}}**
 
 ## Approach

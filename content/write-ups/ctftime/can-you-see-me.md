@@ -8,7 +8,7 @@ date: 2023-04-02T16:33:37+05:00
 Section: "write-ups"
 
 categories: ["writeup", "ctftime.org", "steganography"]
-tags: ["binwalk", "sonic visualizer", "vishwactf-2023", "stectrogram", ".wav"]
+tags: ["binwalk", "sonic visualizer", "vishwactf 2023", "stectrogram", ".wav"]
 
 draft: false
 

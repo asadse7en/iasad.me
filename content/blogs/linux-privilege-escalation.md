@@ -5,10 +5,10 @@ description:
 summary: A comprehensive guide covering Linux privilege escalation, from privilege creation to exploitation (including both manual enumeration and automated tools), as well as prevention tips.
 
 Section: blogs
-ShowWordCount: false
+ShowWordCount: true
 
 date: 2023-04-04T02:54:51+05:00
-tags: ["linux", "privilege escalation", "system control", "Offensive Security", sudoer"]
+tags: ["linux", "privilege escalation", "sudoer", "system control", "Offensive Security"]
 categories: ["article"]
 
 draft: true
@@ -20,7 +20,11 @@ cover:
     hidden: false
 ---
 
-  
+{{< toggle title="Click to toggle list" >}}
+- Item 1
+- Item 2
+- Item 3
+{{< /toggle >}}
 
 
 ## Introduction
@@ -45,6 +49,8 @@ In short, understanding privilege escalation is essential for successful penetra
 
 Privilege escalation can occur through different methods.
 
+![STEP 1 (2).png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/74a8a84e-c2be-4498-aa95-ae181b751354/STEP_1_(2).png)
+
 - **vertical privilege escalation:** also known as privilege elevation. In this scenario, an attacker compromises a user account on a system that has limited shell permissions. The attacker then searches for ways to increase their privileges using the same account. For instance, they may modify the sudoers file to grant themselves the ability to execute commands as a super-user or leverage setuid and setgid special permission bits to run an executable as a privileged user.
 - **horizontal privilege escalation:** which is more common. In this case, the attacker gains access to another user on the system with higher privileges than their initial compromised account. With elevated privileges, an attacker can move through the network undetected.
 
@@ -54,7 +60,7 @@ The /etc/passwd, is one of the most critical files on a Linux system. This file 
 
 To view the contents of the passwd file, the "cat" command can be used. The output of the command provides information about each user, including their username, encrypted password, user ID, group ID, home directory, and default shell.
 
-```
+```bash
 ┌──(kali㉿iasad)-[~]
 └─$ cat /etc/passwd
 root:x:0:0:root:/root:/usr/bin/zsh
@@ -115,6 +121,12 @@ In older Linux systems, the password of the user was stored in the `/etc/passwd`
 - To gain read/write access to sensitive files that are otherwise restricted from the user.
 - To persist through reboots, making it easier for the attacker to maintain access to the system for an extended period of time.
 - To insert a permanent backdoor that allows the attacker to regain access to the system even if they are kicked out by system administrators or security teams.
+
+## ****Privilege escalation techniques****
+
+To focus on privileged accounts, cyber attackers follow established methods and techniques to detect system misconfigurations, vulnerabilities, users with excessive privileges, and vulnerable credentials.
+
+![STEP 1 (1).png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/15d6ee3b-0fec-4fa8-be51-7e21b7fa2682/STEP_1_(1).png)
 
 ## Enumeration
 
@@ -332,9 +344,117 @@ The Kernel exploit methodology is simple;
 2. Some exploits may require further interaction once they are run. Read all comments and instructions provided with the exploit code.
 3. You can transfer the exploit code from your machine to the target system using the `SimpleHTTPServer` Python module and `wget` respectively.
 
+### **Privilege Escalation: Abusing sudo-rights**
+
+If a user is part of the sudoers file and is permitted to execute certain binaries or executables using sudo, then in many situations it might be possible to abuse the sudo permissions and gain access to root. [Gtfobins](https://gtfobins.github.io/) is an excellent resource to look for ways to bypass security restrictions on misconfigured systems 
+
+Any user can check its current situation related to root privileges using the `sudo -l` command.
+
+**Leverage application functions**
+
+Some applications will not have a known exploit within this context. Such an application you may see is the Apache2 server.
+
+In this case, we can use a "hack" to leak information leveraging a function of the application. As you can see below, Apache2 has an option that supports loading alternative configuration files (`-f` : specify an alternate ServerConfigFile).
+
+![rNpbbL8.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/60d0212a-9fa3-42ff-bb74-6b41a99d945e/rNpbbL8.png)
+
+Loading the `/etc/shadow` file using this option will result in an error message that includes the first line of the `/etc/shadow` file.
+
+**Leverage LD_PRELOAD**
+
+On some systems, you may see the LD_PRELOAD environment option.
+
+![gGstS69.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/cec466f6-0295-4898-aabf-35a7a099d3f1/gGstS69.png)
+
+LD_PRELOAD is a function that allows any program to use shared libraries.
+
+### **Privilege Escalation: SUID**
+
+Linux privilege controls heavily rely on managing the interactions between users and files through the use of permissions. As you may already be aware, permissions grant users the ability to read, write, and execute files based on their assigned privilege levels. However, the concept of permissions expands to include SUID (Set-user Identification) and SGID (Set-group Identification), which allow files to be executed with the permission level of either the file owner or the group owner, respectively.
+
+You will notice these files have an “s” bit set showing their special permission level.
+
+`find / -type f -perm -04000 -ls 2>/dev/null` will list files that have SUID or SGID bits set.
+
+```bash
+┌──(kali㉿iasad)-[~/CTFs/tryhackme/PrevEsc]
+└─$ find / -type f -perm -04000 -ls 2>/dev/null
+  3322006    640 -rwsr-xr-x   1 root     root       653888 Feb  8 05:43 /usr/lib/openssh/ssh-keysign
+  3321238     16 -rwsr-sr-x   1 root     root        14672 Feb  7 08:15 /usr/lib/xorg/Xorg.wrap
+  3551549     52 -rwsr-xr--   1 root     messagebus    51272 Feb  8 08:21 /usr/lib/dbus-1.0/dbus-daemon-launch-helper
+  3321635     20 -rwsr-xr-x   1 root     root          18664 Feb 12 22:15 /usr/lib/polkit-1/polkit-agent-helper-1
+  3833220     36 -rwsr-xr-x   1 root     root          35128 Mar 23 06:02 /usr/bin/umount
+  3835221     68 -rwsr-xr-x   1 root     root          68248 Mar 23 08:40 /usr/bin/passwd
+  3833658    144 -rwsr-xr--   1 root     kismet       146216 Dec 27 10:04 /usr/bin/kismet_cap_nrf_mousejack
+  3835712    140 -rwsr-xr--   1 root     kismet       142120 Dec 27 10:04 /usr/bin/kismet_cap_nrf_52840
+  3835384    144 -rwsr-xr--   1 root     kismet       146216 Dec 27 10:04 /usr/bin/kismet_cap_nxp_kw41z
+  3833714    212 -rwsr-xr--   1 root     kismet       216392 Dec 27 10:04 /usr/bin/kismet_cap_linux_wifi
+  3833495    144 -rwsr-xr--   1 root     kismet       146216 Dec 27 10:04 /usr/bin/kismet_cap_rz_killerbee
+  3833215     60 -rwsr-xr-x   1 root     root          59704 Mar 23 06:02 /usr/bin/mount
+  3834888    276 -rwsr-xr-x   1 root     root         281624 Mar  8 15:17 /usr/bin/sudo
+  3834378    140 -rwsr-xr--   1 root     kismet       142120 Dec 27 10:04 /usr/bin/kismet_cap_nrf_51822
+  3833815    160 -rwsr-xr-x   1 root     root         162752 Mar 23 06:18 /usr/bin/ntfs-3g
+  3834280    140 -rwsr-xr--   1 root     kismet       142120 Dec 27 10:04 /usr/bin/kismet_cap_ubertooth_one
+  3835318    144 -rwsr-xr--   1 root     kismet       146216 Dec 27 10:04 /usr/bin/kismet_cap_ti_cc_2531
+  3833996     48 -rwsr-xr-x   1 root     root          48896 Mar 23 08:40 /usr/bin/newgrp
+  3841548     16 -rwsr-xr-x   1 root     root          14888 Jan  3 06:19 /usr/bin/vmware-user-suid-wrapper
+  3834858     64 -rwsr-xr-x   1 root     root          62672 Mar 23 08:40 /usr/bin/chfn
+  3833406     36 -rwsr-xr-x   1 root     root          35128 Feb 18 01:22 /usr/bin/fusermount3
+  3834746    144 -rwsr-xr--   1 root     kismet       146216 Dec 27 10:04 /usr/bin/kismet_cap_ti_cc_2540
+  3833367     32 -rwsr-xr-x   1 root     root          30872 Feb 12 22:15 /usr/bin/pkexec
+  3835169     88 -rwsr-xr-x   1 root     root          88496 Mar 23 08:40 /usr/bin/gpasswd
+  3834276    152 -rwsr-xr--   1 root     kismet       154408 Dec 27 10:04 /usr/bin/kismet_cap_linux_bluetooth
+  3835510     72 -rwsr-xr-x   1 root     root          72000 Mar 23 06:02 /usr/bin/su
+```
+
+A good practice would be to compare executables on this list with GTFOBins ([https://gtfobins.github.io](https://gtfobins.github.io/)). Clicking on the SUID button will filter binaries known to be exploitable when the SUID bit is set (you can also use this link for a pre-filtered list [https://gtfobins.github.io/#+suid](https://gtfobins.github.io/#+suid)).
+
+The list above shows that nano has the SUID bit set. Unfortunately, GTFObins does not provide us with an easy win. Typical to real-life privilege escalation scenarios, we will need to find intermediate steps that will help us leverage whatever minuscule finding we have.
+
+![rSRTn5v.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/e54381fc-1561-4174-9ace-424ec83e1cd7/rSRTn5v.png)
+
+The SUID bit set for the nano text editor allows us to create, edit and read files using the file owner’s privilege. Nano is owned by root, which probably means that we can read and edit files at a higher privilege level than our current user has. At this stage, we have two basic options for privilege escalation: reading the `/etc/shadow` file or adding our user to `/etc/passwd`
+
+### **Privilege Escalation: Capabilities**
+
+System administrators have an additional method to elevate the privilege level of a process or binary, known as "Capabilities". Capabilities offer a more fine-grained approach to managing privileges. For instance, if a SOC analyst requires a tool that requires socket connections, but does not have higher privileges, the system administrator can modify the capabilities of the binary instead of granting the user elevated privileges. This allows the binary to perform its task without requiring a user with higher privileges. This way, system administrators can maintain a higher level of security by limiting privileges to only the necessary actions, reducing the risk of unauthorized access or misuse of privileges. Overall, capabilities provide a more nuanced and flexible approach to privilege management in Linux systems.
+
+When run as an unprivileged user, `getcap -r /`will generate a huge amount of errors, so it is good practice to redirect the error messages to /dev/null.
+
+[Gtfobins](https://gtfobins.github.io/) has a good list of binaries that can be leveraged for privilege escalation if we find any set capabilities.
+
+![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/986abd4c-1b73-4ba2-b3c1-67611bc7290a/Untitled.png)
+
 ### **Privilege Escalation:  Weak/reused/plaintext passwords**
 
 It is common to come across weak or commonly reused passwords in Linux systems and applications when users create their passwords. For instance, if you discover a password being used for a web application, you may also find that the same password is used for the user account or even the root user. Conducting a search through common configuration files, such as config.php, or examining a user's command history may reveal some interesting methods for elevating privileges.
+
+### **Privilege Escalation: Cron Jobs**
+
+Cron jobs are a useful tool to automate the execution of scripts or binaries at specific times. By default, they run with the permissions of their owners rather than the current user. Although properly configured cron jobs are generally secure, they can pose a privilege escalation risk under certain circumstances.
+
+Essentially, if a scheduled task is set to run with root privileges and we can modify the script that it will execute, then our script will also run with root privileges.
+
+Cron job configurations are saved as crontabs, which enable users to see when tasks are scheduled to run. Each user on the system has their own crontab file and can set up specific tasks to run, even if they are not logged in. Our objective will be to identify a cron job that is set up by root and modify it so that it runs our shell script.
+
+The system-wide cron job file, which contains all of the system-wide cron jobs, can be accessed and read by any user at /etc/crontab.
+
+### **Privilege Escalation: PATH**
+
+If a folder for which your user has write permission is located in the path, you could potentially hijack an application to run a script. PATH in Linux
+ is an environmental variable that tells the operating system where to search for executables. For any command that is not built into the shell or that is not defined with an absolute path, Linux will start searching in folders defined under PATH. (PATH is the environmental variable were are talking about here, path is the location of a file).
+
+Typically the PATH will look like this:
+
+![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/88e68dcc-240d-446c-abf1-0b4dbf9b8cd0/Untitled.png)
+
+### **Privilege Escalation: NFS**
+
+Privilege escalation vectors are not limited to internal access alone. Shared folders and remote management interfaces such as SSH and Telnet can also aid in obtaining root access on the target system. In certain cases, both vectors may need to be utilized, for instance, by discovering a root SSH private key on the target system and connecting through SSH with root privileges instead of attempting to elevate the privileges of the current user.
+
+Another vector that is particularly relevant to CTFs and exams involves a misconfigured network shell. This vector can occasionally be observed during penetration testing engagements when a network backup system is in place.
+
+The NFS (Network File Sharing) configuration is stored in the /etc/exports file. This file is generated during the installation of the NFS server and can usually be accessed by users.
 
 ## Real-World Examples of Privilege Escalation
 
@@ -344,9 +464,7 @@ Another exploit, Full Nelson (also known as Half Nelson), is a local privilege e
 
 An example of the Dirty c0w vulnerability being used is as follows:
 
-img
-
-more on Dirty c0w [here](https://github.com/dirtycow/dirtycow.github.io/wiki/PoCs)
+gif
 
 ## Mitigating Privilege Escalation
 

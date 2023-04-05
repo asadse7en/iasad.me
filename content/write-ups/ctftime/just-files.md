@@ -7,7 +7,7 @@ date: 2023-04-02T19:33:37+05:00
 Section: "write-ups"
 
 categories: ["writeup", "ctftime.org", "steganography"]
-tags: ["steghide", "morse cdoe", "binwalk", "steg"]
+tags: ["steghide", "morse cdoe", "vishwactf 2023","binwalk", "steg"]
 
 draft: false
 
@@ -26,6 +26,8 @@ category="steganography"
 
 
 ## Description
+They are not what you see. They are different. Believe me.
+
 
 **Download Attachments : {{< url link="https://drive.google.com/file/d/1g_rO8ATVC1_CURqJFTsB_OPadB1ixRNd/view?usp=sharing" text="yes_its_a_zip_file_withnosecurity.zip" >}}**
 
