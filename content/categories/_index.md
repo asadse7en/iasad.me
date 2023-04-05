@@ -1,4 +1,4 @@
 ---
-title: "categories"
+title: ""
 layout: "categories"
 ---

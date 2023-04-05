@@ -1,4 +1,4 @@
 ---
-title: "tags"
+title: ""
 layout: "tags"
 ---
