@@ -1,13 +1,18 @@
 ---
+author: "Asad Ullah"
 title: "{{ replace .Name "-" " " | title }}"
 description: desc
 summary: sum
 
 date: {{ .Date }}
 Section: blogs
-categories: ["blog",]
-tags: ["",]
-author: "Asad Ullah"
+categories:
+- blog
+- 
+tags:
+- 
+- 
+- 
 
 draft: true
 

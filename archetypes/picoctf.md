@@ -6,8 +6,14 @@ summary:
 
 date: {{ .Date }}
 Section: write-ups
-categories: ["writeup", "picoctf", "forensics"]
-tags: ["picoctf", ]
+categories:
+- writeup
+- picoctf
+- 
+tags:
+- 
+- 
+- 
 
 draft: false
 

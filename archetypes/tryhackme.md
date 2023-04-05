@@ -6,8 +6,14 @@ summary:
 
 date: {{ .Date }}
 Section: write-ups
-categories: ["writeup", "tryhackme"]
-tags: ["tryhackme"]
+categories:
+- writeup
+- tryhackme
+- 
+tags:
+- 
+- 
+- 
 
 draft: false
 
