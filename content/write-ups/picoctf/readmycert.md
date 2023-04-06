@@ -24,6 +24,8 @@ creator_name="PicoCTF" creator_link="https://play.picoctf.org/practice/challenge
 category="Cryptography"
 >}}
 
+&nbsp;
+
 ## Description
 
 How about we take you on an adventure on exploring certificate signing requests
@@ -34,6 +36,8 @@ Take a look at this CSR file [here](https://artifacts.picoctf.net/c/420/readmyce
 > Download the certificate signing request and try to read it.
 
 &nbsp;
+
+## Approach
 
 Dumping the contents of the `readmycert.cer` file reveals:
 

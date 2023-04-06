@@ -34,6 +34,8 @@ You will find the flag after decrypting this file Download the encrypted flag [h
 
 Given the name of this challenge, a rotation-based substitution cipher is suspected.
 
+## Approach
+
 The contents of the encrypted flag file are:
 
 ```bash

@@ -33,6 +33,8 @@ You can download the file from [here](https://artifacts.picoctf.net/c/80/Flag.pd
 > **Hint💡**  
 > Remember that some file types can contain and nest other files
 
+## Approach
+
 First, download the file 
 
 ```bash
