@@ -20,7 +20,7 @@ draft: false
 ---
 
 {{< 
-picoinfo 
+picoctf
 name="Read" 
 difficulty="Easy"  
 points="100"
@@ -28,6 +28,5 @@ creator_name="PicoCTF" creator_link="https://play.picoctf.org/practice/challenge
 category="Cryptography"
 >}}
 
----
 
 &nbsp;

@@ -20,7 +20,7 @@ draft: false
 ---
 
 {{< 
-thminfo 
+tryhackme 
 name="name" 
 os="-" 
 difficulty="Medium"  
