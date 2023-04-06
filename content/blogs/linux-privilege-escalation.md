@@ -8,8 +8,19 @@ Section: blogs
 ShowWordCount: true
 
 date: 2023-04-04T02:54:51+05:00
-tags: ["linux", "privilege escalation", "sudoer", "system control", "Offensive Security"]
-categories: ["article"]
+tags:
+- linux
+- privilege escalation
+- prev esc
+- sudoer
+- system control
+- linpeas
+- linenum
+- suid
+- root
+
+categories:
+- article
 
 draft: true
 
@@ -35,9 +46,13 @@ In this blog post, we aim to cover the main privilege escalation vectors and giv
 
 The road to privilege escalation requires patience, determination, and a solid knowledge of various techniques and tools. But once you've gained access to the coveted root shell, you'll have unlocked a whole new level of control and power over the target system.
 
+&nbsp;
+
 ## ****What is Privilege escalation?****
 
 Privilege escalation refers to the process of gaining higher levels of permission or access from a lower permission account. Technically, it involves exploiting vulnerabilities, design flaws, or configuration oversights in an operating system or application to gain unauthorized access to resources that are typically restricted from users.
+
+&nbsp;
 
 ### But why is privilege escalation important?
 
@@ -45,14 +60,23 @@ In the real world of penetration testing, it's rare to gain direct administrativ
 
 In short, understanding privilege escalation is essential for successful penetration testing and maintaining system security. Knowing the ins and outs of this process can help you uncover vulnerabilities and weaknesses in your system's security and address them before they can be exploited by malicious actors.
 
+&nbsp;
+
 ### Types of Privilege Escalation
 
-Privilege escalation can occur through different methods.
+Privilege escalation can occur through different methods. two main types are vertical privilege escalation and horizontal privilege escalation
 
-![STEP 1 (2).png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/74a8a84e-c2be-4498-aa95-ae181b751354/STEP_1_(2).png)
+![STEP 1 (2).png](/blogs/linux-privilege-escalation/types.png#center)
+
+&nbsp;
 
 - **vertical privilege escalation:** also known as privilege elevation. In this scenario, an attacker compromises a user account on a system that has limited shell permissions. The attacker then searches for ways to increase their privileges using the same account. For instance, they may modify the sudoers file to grant themselves the ability to execute commands as a super-user or leverage setuid and setgid special permission bits to run an executable as a privileged user.
+
+&nbsp;
+
 - **horizontal privilege escalation:** which is more common. In this case, the attacker gains access to another user on the system with higher privileges than their initial compromised account. With elevated privileges, an attacker can move through the network undetected.
+
+&nbsp;
 
 ### ****How privileges are created and delegated in Linux systems****
 
@@ -103,12 +127,14 @@ asad:x:1001:1001:Asad Ullah,,,:/home/asad:/bin/bash
 Each line represents a user on the Linux system. and each field is separated using the colon “:” character in which the fields represent the following passwd file format:
 
 1. Username
-2. Password Placeholder (x indicates encrypted password is stored in the /etc/shadow file)
+2. Password Placeholder - x indicates encrypted password in `/etc/shadow`
 3. User ID (UID)
 4. Group ID (GID)
-5. Personal Information (separated by comma’s) – can contain full name, department, etc.
+5. Personal Information (separated by comma’s)
 6. Home Directory
-7. Shell – absolute path to the command shell used (if /sbin/nologon then logon isn’t permitted, and the connection gets closed)
+7. Shell – absolute path to the command shell used
+
+&nbsp;
 
 On Linux and Unix operating systems, any user with a user ID above 1000 is considered a non-default user and has been added to the system. However, the threshold may vary slightly depending on the specific operating system. The user ID "0" is reserved for the root account, which grants super-user privileges. Other users can also be assigned "UID 0" to give them similar privileges. Predefined accounts are assigned "Effective ID 0" and IDs ranging from 1 to 99. The range of IDs from 100 to 999 is reserved for system administration.
 
@@ -116,17 +142,24 @@ In some cases, you might find a "+" or "-" symbol in the UID field. This usually
 
 In older Linux systems, the password of the user was stored in the `/etc/passwd` file. However, this was deemed insecure, and a more secure method was introduced where passwords are stored in the `/etc/shadow` file. If the password placeholder field contains an "x," it means the password is stored in the `/etc/shadow` file instead of `/etc/passwd.`
 
+&nbsp;
+
 ### ****Why do we need to perform privilege escalation?****
 
 - To gain read/write access to sensitive files that are otherwise restricted from the user.
 - To persist through reboots, making it easier for the attacker to maintain access to the system for an extended period of time.
 - To insert a permanent backdoor that allows the attacker to regain access to the system even if they are kicked out by system administrators or security teams.
 
+&nbsp;
+
 ## ****Privilege escalation techniques****
 
 To focus on privileged accounts, cyber attackers follow established methods and techniques to detect system misconfigurations, vulnerabilities, users with excessive privileges, and vulnerable credentials.
 
-![STEP 1 (1).png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/15d6ee3b-0fec-4fa8-be51-7e21b7fa2682/STEP_1_(1).png)
+![methodology.png](/blogs/linux-privilege-escalation/methodology.png#center)
+
+&nbsp;
+
 
 ## Enumeration
 
