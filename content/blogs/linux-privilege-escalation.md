@@ -7,7 +7,7 @@ summary: A comprehensive guide covering Linux privilege escalation, from privile
 Section: blogs
 ShowWordCount: true
 
-date: 2023-04-04T02:54:51+05:00
+date: 2023-04-06T18:02:36+05:00
 tags:
 - linux
 - privilege escalation
@@ -25,18 +25,14 @@ categories:
 draft: true
 
 cover:
-    image: ""
-    alt: 
+    image: "/blogs/linux-privilege-escalation/prevesc-thumbnail.webp"
+    alt: thumbnail
     relative: false
     hidden: false
 ---
 
-{{< toggle title="Click to toggle list" >}}
-- Item 1
-- Item 2
-- Item 3
-{{< /toggle >}}
 
+&nbsp;
 
 ## Introduction
 
@@ -48,7 +44,7 @@ The road to privilege escalation requires patience, determination, and a solid k
 
 &nbsp;
 
-## ****What is Privilege escalation?****
+## What is Privilege escalation?
 
 Privilege escalation refers to the process of gaining higher levels of permission or access from a lower permission account. Technically, it involves exploiting vulnerabilities, design flaws, or configuration oversights in an operating system or application to gain unauthorized access to resources that are typically restricted from users.
 
@@ -66,7 +62,7 @@ In short, understanding privilege escalation is essential for successful penetra
 
 Privilege escalation can occur through different methods. two main types are vertical privilege escalation and horizontal privilege escalation
 
-![STEP 1 (2).png](/blogs/linux-privilege-escalation/types.png#center)
+![types of privilage escalation](/blogs/linux-privilege-escalation/types.png#center)
 
 &nbsp;
 
@@ -78,7 +74,7 @@ Privilege escalation can occur through different methods. two main types are ver
 
 &nbsp;
 
-### ****How privileges are created and delegated in Linux systems****
+### How privileges are created and delegated in Linux systems
 
 The /etc/passwd, is one of the most critical files on a Linux system. This file contains a list of all the users known to the system, including those included in directory services.
 
@@ -144,7 +140,7 @@ In older Linux systems, the password of the user was stored in the `/etc/passwd`
 
 &nbsp;
 
-### ****Why do we need to perform privilege escalation?****
+### Why do we need to perform privilege escalation?
 
 - To gain read/write access to sensitive files that are otherwise restricted from the user.
 - To persist through reboots, making it easier for the attacker to maintain access to the system for an extended period of time.
@@ -152,14 +148,15 @@ In older Linux systems, the password of the user was stored in the `/etc/passwd`
 
 &nbsp;
 
-## ****Privilege escalation techniques****
+## Privilege escalation techniques
 
 To focus on privileged accounts, cyber attackers follow established methods and techniques to detect system misconfigurations, vulnerabilities, users with excessive privileges, and vulnerable credentials.
 
-![methodology.png](/blogs/linux-privilege-escalation/methodology.png#center)
+![methodology](/blogs/linux-privilege-escalation/methodology.png#center)
 
 &nbsp;
 
+&nbsp;
 
 ## Enumeration
 
@@ -170,32 +167,35 @@ Enumeration is a crucial first step to take after gaining access to any system. 
 - **`/proc/version`**: provides information about the target system processes, including the kernel version and installed compilers.
 - **`/etc/issue`**: contains information about the operating system but can be customized or changed.
 - **`ps`**: shows the running processes on a Linux system.
-    - **more on `ps`**
+
+{{< toggle title="more on 'ps' " >}}
         
-        The `ps` command is an effective way to see the running processes on a Linux system. 
+The `ps` command is an effective way to see the running processes on a Linux system. 
         
-        The output of the `ps` (Process Status) will show the following;
+The output of the `ps` (Process Status) will show the following;
         
-        - PID: The process ID (unique to the process)
-        - TTY: Terminal type used by the user
-        - Time: Amount of CPU time used by the process (this is NOT the time this process has been running for)
-        - CMD: The command or executable running (will NOT display any command line parameter)
-        
-        The “ps” command provides a few useful options.
-        
-        - `ps -A`: View all running processes
-        - `ps axjf`: View process tree (see the tree formation until `ps axjf` is run below)
-            
-            ![xsbohSd.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/b5e8b2d9-7750-44e4-a197-b22b38d4cccc/xsbohSd.png)
-            
-        - • `ps aux`: The `aux` option will show processes for all users (a), display the user that launched the process (u), and show processes that are not attached to a terminal (x). Looking at the ps aux command output, we can have a better understanding of the system and potential vulnerabilities.
+- **PID:** The process ID (unique to the process)
+- **TTY:** Terminal type used by the user
+- **Time:** Amount of CPU time used by the process (this is NOT the time this process has been running for)
+- **CMD:** The command or executable running (will NOT display any command line parameter)
+
+The “ps” command provides a few useful options.        
+- `ps -A`: View all running processes
+- `ps axjf`: View process tree (see the tree formation until `ps axjf` is run below)
+!["picture showing ps axjf tree"](/blogs/linux-privilege-escalation/ps-axjf.png)
+-  `ps aux`: The `aux` option will show processes for all users (a), display the user that launched the process (u), and show processes that are not attached to a terminal (x). Looking at the ps aux command output, we can have a better understanding of the system and potential vulnerabilities.
+
+{{< /toggle >}}
+
 - **`env`**: shows environmental variables, including the PATH variable.
-    - **more on `env`**
-        
-        ![LWdJ8Fw.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/2074b39c-ff87-4be7-a4a6-1d5682e79198/LWdJ8Fw.png)
-        
-        The PATH variable may have a compiler or a scripting language (e.g. Python) that could be used to run code on the target system or leveraged for privilege escalation.
-        
+
+{{< toggle title="more on 'env' " >}}
+
+The PATH variable may have a compiler or a scripting language (e.g. Python) that could be used to run code on the target system or leveraged for privilege escalation.
+!["picture showing env paths"](/blogs/linux-privilege-escalation/env.png)
+
+{{< /toggle >}}
+
 - **`sudo -l`**:The target system may be configured to allow users to run some (or all) commands with root privileges. The `sudo -l` command can be used to list all commands your user can run using `sudo`.
 - **`ls -la`**: lists all files in a directory, including hidden files.
 - **`id`**: provides an overview of the user's privilege level and group memberships.
@@ -207,50 +207,53 @@ Enumeration is a crucial first step to take after gaining access to any system. 
     kali:x:1000:1000:,,,:/home/kali:/usr/bin/zsh
     asad:x:1001:1001:Asad Ullah,,,:/home/asad:/bin/bash
     ```
-    
+
 - **`history`**: shows earlier commands executed on the target system. Looking at earlier commands with the `history` command can give us some idea about the target system and, albeit rarely, have stored information such as passwords or usernames.
 - **`ifconfig`**: gives information about the network interfaces of the system.
-- `**ip route:**`command to see which network routes exist.
+- **`ip route`** command to see which network routes exist.
 - **`netstat`**: gathers information on existing connections, including listening ports, established connections, and network usage statistics.
-    - **more on `netstat`**
-        - `netstat -a:` shows all listening ports and established connections.
-        - `netstat -at`: lists all TCP connections.
-        - `netstat -au`: lists all UDP connections.
-        - `netstat -l`: lists ports in "listening" mode.
-        - `netstat -s:` lists network usage statistics by protocol.
-        - `netstat -tp`: lists connections with service name and PID information.
-        - `netstat -i:` shows interface statistics.
-        - `netstat -ano:` lists all active connections with PID and process information.
+
+{{< toggle title="more on 'netstat' " >}}
+- `netstat -a:` shows all listening ports and established connections.
+- `netstat -at`: lists all TCP connections.
+- `netstat -au`: lists all UDP connections.
+- `netstat -l`: lists ports in "listening" mode.
+- `netstat -s:` lists network usage statistics by protocol.
+- `netstat -tp`: lists connections with service name and PID information.
+- `netstat -i:` shows interface statistics.
+- `netstat -ano:` lists all active connections with PID and process information.
+{{< /toggle >}}
+
 - ****find:**** Searching the target system for important information and potential privilege escalation vectors can be fruitful. The built-in “find” command is useful and worth keeping in your arsenal.
     
-    Below are some useful examples for the “find” command.
-    
-    - **Find files:**
-        - `find . -name flag.txt`: find the file named “flag.txt” in the current directory
-        - `find /home -name flag.txt`: find the file names “flag.txt” in the /home directory
-        - `find / -type d -name config`: find the directory named config under “/”
-        - `find / -type f -perm 0777`: find files with the 777 permissions (files readable, writable, and executable by all users)
-        - `find / -perm a=x`: find executable files
-        - `find /home -user frank`: find all files for user “frank” under “/home”
-        - `find / -mtime 10`: find files that were modified in the last 10 days
-        - `find / -atime 10`: find files that were accessed in the last 10 day
-        - `find / -cmin -60`: find files changed within the last hour (60 minutes)
-        - `find / -amin -60`: find files accesses within the last hour (60 minutes)
-        - `find / -size 50M`: find files with a 50 MB size
-        
-        Folders and files that can be written to or executed from:
-        
-        - `find / -writable -type d 2>/dev/null` : Find world-writeable folders
-        - `find / -perm -222 -type d 2>/dev/null`: Find world-writeable folders
-        - `find / -perm -o w -type d 2>/dev/null`: Find world-writeable folders
-        
-        Find development tools and supported languages:
-        
-        - `find / -name perl*`
-        - `find / -name python*`
-        - `find / -name gcc*`
+{{< toggle title="Some useful examples for the 'find' command." >}}
+
+- `find . -name flag.txt`: find the file named “flag.txt” in the current directory
+- `find /home -name flag.txt`: find the file names “flag.txt” in the /home directory
+- `find / -type d -name config`: find the directory named config under “/”
+- `find / -type f -perm 0777`: find files with the 777 permissions (files readable, writable, and- executable by all users)
+- `find / -perm a=x`: find executable files
+- `find /home -user frank`: find all files for user “frank” under “/home”
+- `find / -mtime 10`: find files that were modified in the last 10 days
+- `find / -atime 10`: find files that were accessed in the last 10 day
+- `find / -cmin -60`: find files changed within the last hour (60 minutes)
+- `find / -amin -60`: find files accesses within the last hour (60 minutes)
+- `find / -size 50M`: find files with a 50 MB size
+
+- Folders and files that can be written to or executed from:
+
+- `find / -writable -type d 2>/dev/null` : Find world-writeable folders
+- `find / -perm -222 -type d 2>/dev/null`: Find world-writeable folders
+- `find / -perm -o w -type d 2>/dev/null`: Find world-writeable folders
+
+- Find development tools and supported languages:
+
+- `find / -name perl*`
+- `find / -name python*`
+- `find / -name gcc*`
 
 It is important to note that the “`find`” command tends to generate errors which sometimes makes the output hard to read. This is why it would be wise to use the “find” command with    `-type f 2>/dev/null` to redirect errors to “/dev/null” and have a cleaner output (below).
+
 
 ```bash
 ┌──(kali㉿iasad)-[~]
@@ -261,6 +264,11 @@ It is important to note that the “`find`” command tends to generate errors w
 /proc/kcore
 /usr/lib/x86_64-linux-gnu/libLLVM-15.so.1
 ```
+{{< /toggle >}}
+
+&nbsp;
+
+&nbsp;
 
 ## Automated Enumeration Tools
 
@@ -270,35 +278,42 @@ Some common commands used during the enumeration phase are the following:
 
 | Enumeration Commands | Description |
 | --- | --- |
-| id | print real and effective user and group IDs |
-| whoami | current user |
-| hostname | show or set the system's host name |
-| uname | print system information |
-| ps -ef | report a snapshot of the current processes |
-| echo $PATH | print environment PATH variable |
-| ifconfig | configure a network interface |
-| cat /etc/passwd | show passwd file contents |
-| sudo -l | list commands allowed using sudo |
-| find / -type f -a \( -perm -u+s -o -perm -g+s \) -exec ls -l {} \; 2> /dev/null | Find all files suid and sgid files |
+| `id` | print real and effective user and group IDs |
+| `whoami` | current user |
+| `hostname` | show or set the system's host name |
+| `uname` | print system information |
+| `ps -ef` | report a snapshot of the current processes |
+| `echo $PATH` | print environment PATH variable |
+| `ifconfig` | configure a network interface |
+| `cat /etc/passwd` | show passwd file contents |
+| `sudo -l` | list commands allowed using sudo |
+| `find / -type f -a \( -perm -u+s -o -perm -g+s \) -exec ls -l {} \; 2> /dev/null` | Find all files suid and sgid files |
+
+&nbsp;
 
 ### Commonly Used Privilege Escalation Tools:
 
-1. ****LinPEAS - Linux Privilege Escalation Awesome Script****
-2. ****LinEnum – Linux Enumeration Script****
-3. **Linux Priv Checker**
-4. **Linux Exploit Suggester 2**
-5. **Linux Smart Enumeration**
+1. [**LinPEAS - Linux Privilege Escalation Awesome Script**](#linpeas--linux-privilege-escalation-awesome-script)
+2. [**LinEnum - Linux Enumeration Script**](#linenum--linux-enumeration-script)
+3. [**Linux Priv Checker**](#linuxpriv-checker)
+4. [**Linux Exploit Suggester 2**](#linux-exploit-suggester-2)
+5. [**Linux Smart Enumeration**](#linuxsmart-enumeration)
 
-### ****LinPEAS - Linux Privilege Escalation Awesome Script****
+&nbsp;
+
+### LinPEAS - Linux Privilege Escalation Awesome Script
 
 - LinPEAS is a script designed to detect potential pathways for privilege escalation on hosts operating on Linux, Unix, or MacOS.
 - The primary function of the script is to identify vulnerabilities in the system that can be exploited to elevate user privileges.
 - It searches for common misconfigurations and weak permissions in files and directories that can be leveraged for privilege escalation.
 - LinPEAS can enumerate running processes, open network ports, and installed software to detect vulnerabilities that can be exploited.
 
-**Github: [LinPEAS](https://github.com/carlospolop/PEASS-ng/tree/master/linPEAS)**
+**Github: {{< url link="https://github.com/carlospolop/PEASS-ng/tree/master/linPEAS" text="LinPEAS">}}**
 
-### ****LinEnum – Linux Enumeration Script****
+&nbsp;
+
+
+### LinEnum - Linux Enumeration Script
 
 This is an awesome Linux enumeration script. It’s run on the target host and searches for many of the common privilege escalation methods or misconfigurations.
 
@@ -310,15 +325,19 @@ Some of the enumeration information collected includes:
 - Privileged access
 - Environmental information
 
-**Github: [LinEnum](https://github.com/rebootuser/LinEnum)**
+**Github: {{< url link="https://github.com/rebootuser/LinEnum" text="LinEnum">}}**
 
-### **Linux Priv Checker**
+&nbsp;
+
+### Linux Priv Checker
 
 Originally forked from the linuxprivchecker.py (Mike Czumak), this script is intended to be executed locally on a Linux box to enumerate basic system info and search for common privilege escalation vectors such as word writable files, misconfigurations, clear-text password and applicable exploits.****
 
-**Github: [Linux Priv Checker](https://github.com/linted/linuxprivchecker)**
+**Github: {{< url link="https://github.com/linted/linuxprivchecker" text="Linux Priv Checker">}}**
 
-### **Linux Exploit Suggester 2**
+&nbsp;
+
+### Linux Exploit Suggester 2
 
 This next-generation exploit suggester is based on Linux_Exploit_Suggester.
 
@@ -332,24 +351,30 @@ Key improvements include:
 
 This script is extremely useful for quickly finding privilege escalation vulnerabilities both in on-site and exam environments.
 
-**Github: [Linux Exploit Suggester 2](https://github.com/jondonas/linux-exploit-suggester-2)**
+**Github: {{< url link="https://github.com/jondonas/linux-exploit-suggester-2" text="Linux Exploit Suggester 2">}}**
 
-### **Linux Smart Enumeration**
+&nbsp;
+
+### Linux Smart Enumeration
 
 Linux enumeration tools for pentesting and CTFs. This project was inspired by [L](https://github.com/rebootuser/LinEnum)inEnum and uses many of its tests. Unlike LinEnum, `lse` tries to gradualy expose the information depending on its importance from a privesc point of view.
 
-**Github: [Linux Smart Enumeration](https://github.com/diego-treitos/linux-smart-enumeration)**
+**Github: {{< url link="https://github.com/diego-treitos/linux-smart-enumeration" text="Linux Smart Enumeration">}}**
+
+&nbsp;
+
+&nbsp;
 
 ## Common Privilege Escalation Techniques
 
-1. **Privilege Escalation: Kernel Exploits**
-2. **Privilege Escalation: Abusing sudo-rights**
-3. **Privilege Escalation: SUID**
-4. **Privilege Escalation: Capabilities**
-5. **Privilege Escalation:  Weak/reused/plaintext passwords**
-6. **Privilege Escalation: Cron Jobs**
-7. **Privilege Escalation: PATH**
-8. **Privilege Escalation: NFS**
+1. [**Privilege Escalation: Kernel Exploits**](#privilege-escalation-kernel-exploits)
+2. [**Privilege Escalation: Abusing sudo-rights**](#privilege-escalation-abusing-sudo-rights)
+3. [**Privilege Escalation: SUID**](#privilege-escalation-suid)
+4. [**Privilege Escalation: Capabilities**](#privilege-escalation-capabilities)
+5. [**Privilege Escalation:  Weak/reused/plaintext passwords**](#privilege-escalation-weakreusedplaintext-passwords)
+6. [**Privilege Escalation: Cron Jobs**](#privilege-escalation-cron-jobs)
+7. [**Privilege Escalation: PATH**](#privilege-escalation-path)
+8. [**Privilege Escalation: NFS**](#privilege-escalation-nfs)
 
 ### Privilege Escalation: Kernel Exploits
 
@@ -368,7 +393,7 @@ The Kernel exploit methodology is simple;
 **Research sources:**
 
 1. Based on your findings, you can use Google to search for an existing exploit code.
-2. Sources such as [https://www.linuxkernelcves.com/cves](https://www.linuxkernelcves.com/cves) can also be useful.
+2. Sources such as {{< url link="https://www.linuxkernelcves.com/cves" text="linuxkernelcves" >}} can also be useful.
 3. Another alternative would be to use a script like LES (Linux Exploit Suggester) but remember that these tools can generate false positives (report a kernel vulnerability that does not affect the target system) or false negatives (not report any kernel vulnerabilities although the kernel is vulnerable).
 
 **Hints/Notes:**
@@ -377,11 +402,13 @@ The Kernel exploit methodology is simple;
 2. Some exploits may require further interaction once they are run. Read all comments and instructions provided with the exploit code.
 3. You can transfer the exploit code from your machine to the target system using the `SimpleHTTPServer` Python module and `wget` respectively.
 
-### **Privilege Escalation: Abusing sudo-rights**
+&nbsp;
 
-If a user is part of the sudoers file and is permitted to execute certain binaries or executables using sudo, then in many situations it might be possible to abuse the sudo permissions and gain access to root. [Gtfobins](https://gtfobins.github.io/) is an excellent resource to look for ways to bypass security restrictions on misconfigured systems 
+### Privilege Escalation: Abusing sudo-rights
 
-Any user can check its current situation related to root privileges using the `sudo -l` command.
+If a user is part of the sudoers file and is permitted to execute certain binaries or executables using sudo, then in many situations it might be possible to abuse the sudo permissions and gain access to root. {{< url link="https://gtfobins.github.io/" text="Gtfobins">}} is an excellent resource to look for ways to bypass security restrictions on misconfigured systems 
+
+Any user can check its current situation related to root privileges using this command `sudo -l`.
 
 **Leverage application functions**
 
@@ -389,7 +416,7 @@ Some applications will not have a known exploit within this context. Such an app
 
 In this case, we can use a "hack" to leak information leveraging a function of the application. As you can see below, Apache2 has an option that supports loading alternative configuration files (`-f` : specify an alternate ServerConfigFile).
 
-![rNpbbL8.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/60d0212a-9fa3-42ff-bb74-6b41a99d945e/rNpbbL8.png)
+![sudo rights](/blogs/linux-privilege-escalation/sudo-rights.webp)
 
 Loading the `/etc/shadow` file using this option will result in an error message that includes the first line of the `/etc/shadow` file.
 
@@ -397,11 +424,13 @@ Loading the `/etc/shadow` file using this option will result in an error messa
 
 On some systems, you may see the LD_PRELOAD environment option.
 
-![gGstS69.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/cec466f6-0295-4898-aabf-35a7a099d3f1/gGstS69.png)
+![ld pre;oad](/blogs/linux-privilege-escalation/ld-preload.webp)
 
 LD_PRELOAD is a function that allows any program to use shared libraries.
 
-### **Privilege Escalation: SUID**
+&nbsp;
+
+### Privilege Escalation: SUID
 
 Linux privilege controls heavily rely on managing the interactions between users and files through the use of permissions. As you may already be aware, permissions grant users the ability to read, write, and execute files based on their assigned privilege levels. However, the concept of permissions expands to include SUID (Set-user Identification) and SGID (Set-group Identification), which allow files to be executed with the permission level of either the file owner or the group owner, respectively.
 
@@ -440,29 +469,35 @@ You will notice these files have an “s” bit set showing their special permis
   3835510     72 -rwsr-xr-x   1 root     root          72000 Mar 23 06:02 /usr/bin/su
 ```
 
-A good practice would be to compare executables on this list with GTFOBins ([https://gtfobins.github.io](https://gtfobins.github.io/)). Clicking on the SUID button will filter binaries known to be exploitable when the SUID bit is set (you can also use this link for a pre-filtered list [https://gtfobins.github.io/#+suid](https://gtfobins.github.io/#+suid)).
+A good practice would be to compare executables on this list with {{< url link="https://gtfobins.github.io" text="GTFOBins" >}} Clicking on the SUID button will filter binaries known to be exploitable when the SUID bit is set you can also use this link for a pre-filtered list {{< url link="https://gtfobins.github.io/#+suid" text="GTFOBins" >}}.
 
 The list above shows that nano has the SUID bit set. Unfortunately, GTFObins does not provide us with an easy win. Typical to real-life privilege escalation scenarios, we will need to find intermediate steps that will help us leverage whatever minuscule finding we have.
 
-![rSRTn5v.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/e54381fc-1561-4174-9ace-424ec83e1cd7/rSRTn5v.png)
+![suid on gtfobins](/blogs/linux-privilege-escalation/suid.webp)
 
 The SUID bit set for the nano text editor allows us to create, edit and read files using the file owner’s privilege. Nano is owned by root, which probably means that we can read and edit files at a higher privilege level than our current user has. At this stage, we have two basic options for privilege escalation: reading the `/etc/shadow` file or adding our user to `/etc/passwd`
 
-### **Privilege Escalation: Capabilities**
+&nbsp;
+
+### Privilege Escalation: Capabilities
 
 System administrators have an additional method to elevate the privilege level of a process or binary, known as "Capabilities". Capabilities offer a more fine-grained approach to managing privileges. For instance, if a SOC analyst requires a tool that requires socket connections, but does not have higher privileges, the system administrator can modify the capabilities of the binary instead of granting the user elevated privileges. This allows the binary to perform its task without requiring a user with higher privileges. This way, system administrators can maintain a higher level of security by limiting privileges to only the necessary actions, reducing the risk of unauthorized access or misuse of privileges. Overall, capabilities provide a more nuanced and flexible approach to privilege management in Linux systems.
 
 When run as an unprivileged user, `getcap -r /`will generate a huge amount of errors, so it is good practice to redirect the error messages to /dev/null.
 
-[Gtfobins](https://gtfobins.github.io/) has a good list of binaries that can be leveraged for privilege escalation if we find any set capabilities.
+{{< url link="https://gtfobins.github.io" text="GTFOBins" >}} has a good list of binaries that can be leveraged for privilege escalation if we find any set capabilities.
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/986abd4c-1b73-4ba2-b3c1-67611bc7290a/Untitled.png)
+![capabilities](/blogs/linux-privilege-escalation/capibilities.webp)
 
-### **Privilege Escalation:  Weak/reused/plaintext passwords**
+&nbsp;
+
+###  Privilege Escalation:  Weak/reused/plaintext passwords
 
 It is common to come across weak or commonly reused passwords in Linux systems and applications when users create their passwords. For instance, if you discover a password being used for a web application, you may also find that the same password is used for the user account or even the root user. Conducting a search through common configuration files, such as config.php, or examining a user's command history may reveal some interesting methods for elevating privileges.
 
-### **Privilege Escalation: Cron Jobs**
+&nbsp;
+
+### Privilege Escalation: Cron Jobs
 
 Cron jobs are a useful tool to automate the execution of scripts or binaries at specific times. By default, they run with the permissions of their owners rather than the current user. Although properly configured cron jobs are generally secure, they can pose a privilege escalation risk under certain circumstances.
 
@@ -472,22 +507,30 @@ Cron job configurations are saved as crontabs, which enable users to see when ta
 
 The system-wide cron job file, which contains all of the system-wide cron jobs, can be accessed and read by any user at /etc/crontab.
 
-### **Privilege Escalation: PATH**
+&nbsp;
+
+### Privilege Escalation: PATH
 
 If a folder for which your user has write permission is located in the path, you could potentially hijack an application to run a script. PATH in Linux
  is an environmental variable that tells the operating system where to search for executables. For any command that is not built into the shell or that is not defined with an absolute path, Linux will start searching in folders defined under PATH. (PATH is the environmental variable were are talking about here, path is the location of a file).
 
 Typically the PATH will look like this:
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/88e68dcc-240d-446c-abf1-0b4dbf9b8cd0/Untitled.png)
+![path](/blogs/linux-privilege-escalation/path.webp)
 
-### **Privilege Escalation: NFS**
+&nbsp;
+
+### Privilege Escalation: NFS
 
 Privilege escalation vectors are not limited to internal access alone. Shared folders and remote management interfaces such as SSH and Telnet can also aid in obtaining root access on the target system. In certain cases, both vectors may need to be utilized, for instance, by discovering a root SSH private key on the target system and connecting through SSH with root privileges instead of attempting to elevate the privileges of the current user.
 
 Another vector that is particularly relevant to CTFs and exams involves a misconfigured network shell. This vector can occasionally be observed during penetration testing engagements when a network backup system is in place.
 
 The NFS (Network File Sharing) configuration is stored in the /etc/exports file. This file is generated during the installation of the NFS server and can usually be accessed by users.
+
+&nbsp;
+
+&nbsp;
 
 ## Real-World Examples of Privilege Escalation
 
@@ -497,11 +540,21 @@ Another exploit, Full Nelson (also known as Half Nelson), is a local privilege e
 
 An example of the Dirty c0w vulnerability being used is as follows:
 
-gif
+![dirtycow](/blogs/linux-privilege-escalation/dirtycow.webp)
+![dirtyroot](/blogs/linux-privilege-escalation/dirtyroot.webp)
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 
 ## Mitigating Privilege Escalation
 
 Mitigating privilege escalation refers to the strategies and best practices that can be used to prevent or minimize the impact of privilege escalation attacks on Linux systems. This involves implementing security measures to make it more difficult for attackers to elevate their privileges.
+
+&nbsp;
 
 ### Tips for preventing privilege escalation
 
@@ -510,6 +563,8 @@ Mitigating privilege escalation refers to the strategies and best practices that
 3. **Use strong authentication and access controls:** Passwords alone are not enough to secure critical systems or applications. Use strong authentication methods, such as two-factor authentication (2FA) or multi-factor authentication (MFA), and implement access controls to ensure that only authorized users can access sensitive data or resources.
 4. **Regularly audit and monitor your systems:** Keep an eye on your systems and regularly review logs to detect any suspicious activity. This will help you quickly identify and respond to potential threats, including privilege escalation attacks.
 5. **Secure your sensitive data:** Make sure that sensitive data, such as user credentials or personal information, is stored securely and encrypted when transmitted over the network.
+
+&nbsp;
 
 ### Best practices for system security
 
@@ -522,9 +577,15 @@ Mitigating privilege escalation refers to the strategies and best practices that
 
 By following these tips and best practices, you can help prevent privilege escalation attacks and maintain the security of your Linux systems.
 
+&nbsp;
+
+&nbsp;
+
 ## Conclusion
 
 In conclusion, privilege escalation is a serious security threat that should not be taken lightly. By implementing the best practices and understanding the techniques used by cybercriminals, organizations can significantly reduce the risk of privilege escalation and maintain the security of their Linux systems.
+
+&nbsp;
 
 ### Summary of Key Points:
 
@@ -536,6 +597,8 @@ It is crucial to understand the importance of privilege escalation for penetrati
 
 To mitigate privilege escalation, it is recommended to implement best practices such as moving passwords into the background using an enterprise password manager or PAM solution, practicing the Principle of Least Privilege, implementing Multi-Factor Authentication, patching and updating systems and applications, and auditing and logging all privilege access usage.
 
+&nbsp;
+
 ### Final Thoughts:
 
 Privilege escalation is a critical aspect of Linux system security that should not be overlooked. As cyber threats continue to evolve and become more sophisticated, it's essential to have strong security measures in place to prevent attackers from exploiting vulnerabilities and escalating their privileges.
@@ -543,3 +606,9 @@ Privilege escalation is a critical aspect of Linux system security that should n
 By implementing the best practices we discussed in this blog post, you can harden your Linux systems and make privilege escalation exploits harder for attackers. With regular updates and audits, you can stay ahead of potential threats and keep your systems secure.
 
 Remember, prevention is always better than reaction when it comes to cybersecurity. Take action today to protect your Linux systems from privilege escalation and ensure the safety and security of your organization's sensitive data.
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
