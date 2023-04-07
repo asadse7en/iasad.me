@@ -17,6 +17,7 @@ tags:
 - linpeas
 - linenum
 - suid
+- dirtycow
 - root
 
 categories:
