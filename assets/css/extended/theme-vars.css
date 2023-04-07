@@ -22,6 +22,6 @@
   --entry: rgb(31, 36, 37); /*post, ToC background*/
   --content: rgb(221, 221, 221); /*main text*/
   --hljs-bg: rgb(31, 37, 33); /*code block background*/
-  --code-bg: rgb(60, 78, 47); /*in-line code background*/
+  --code-bg: rgb(66, 77, 58); /*in-line code background*/
   --border: rgba(122, 122, 122, 0.664); /*tag and ToC border*/
 }
