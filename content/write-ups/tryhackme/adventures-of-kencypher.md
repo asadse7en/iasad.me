@@ -30,4 +30,12 @@ creator_name="TryHackMe" creator_link="https://tryhackme.com/room/adventuresofke
 description="challanges on web, crypto, forensics, rev."
 >}}
 
----
+&nbsp;
+
+
+
+
+&nbsp;
+
+## Conclusion
+In conclusion, the CTF was incredibly enjoyable and I new thigns. I hope you found my writeup informative and please feel free to share your thoughts in the comments. Special thanks to {{< url link="https://tryhackme.com/p/Kencypher69" text="kencypher69" >}} for creating these fantastic challenges.
