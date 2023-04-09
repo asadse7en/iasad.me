@@ -567,7 +567,9 @@ MNS{R0OT_B43ACH3D_OOPS}
 
 &nbsp;
 
-now for the web I looked in `/var/www/html`  where I found some interesting folders. i checked all but found the flag in `/space/ride/pocket/index.html`
+### Web Flag
+
+now for the web flag I looked in `/var/www/html`  where I found some interesting folders. i checked all but found the flag in `/space/ride/pocket/index.html`
 
 ![Untitled](/write-ups/tryhackme/Adventures-Of-Kencypher/web-flag.webp)
 
