@@ -2,7 +2,7 @@
 author: "Asad Ullah"
 title: Adventures Of Kencypher - TryHackMe
 description: Explore The Life Story Of Kencypher And His Great Adventures.
-summary: my writeup for cybrovert ctf
+summary: my writeup for cybrovert ctf challenges included osint, web, crypto and steg.
 date: 2023-04-08T19:33:32+05:00
 
 Section: "write-ups"
@@ -12,8 +12,9 @@ categories:
 tags:
 - cybrovert
 - web
-- forensics
+- osint
 - cryptography
+- steganography
 
 draft: false
 
@@ -87,6 +88,18 @@ description="challanges on web, crypto, stego and OSINT"
 ---
 
 ### Did The XSS Rat Interviewed Kencypher?
+
+&nbsp;
+
+**Answer: `Yes`**
+
+&nbsp;
+
+---
+
+&nbsp;
+
+### Kencypher Has Youtube Channel What Is Title Of His First  Video?
 
 &nbsp;
 
