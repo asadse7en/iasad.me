@@ -1,5 +1,5 @@
 ---
-title: "About Me"
+title: "Favorite Quotes"
 draft: false
 searchHidden: true
 ShowToc: false
@@ -14,7 +14,6 @@ ShowBreadCrumbs: false
 
 ---
 &nbsp;
-# Favorite Quotes
 
 > ❝ The more I learn, the more I realise how much I don't know. ❞
 > 
