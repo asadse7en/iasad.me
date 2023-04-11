@@ -19,7 +19,7 @@ ShowBreadCrumbs: false
 > ❝ The more I learn, the more I realise how much I don't know. ❞
 > 
 > 
-> ~ [Albert Einstein](https://duckduckgo.com/?q=albert+einstein)
+> ~ Albert Einstein
 > 
 
 ---
@@ -27,5 +27,13 @@ ShowBreadCrumbs: false
 > ❝ Persistence is very important. You should not give up unless you are forced to give up ❞
 > 
 > 
-> ~ [Elon Musk](https://duckduckgo.com/?q=elon+musk)
+> ~ Elon Musk
+>
+
+---
+
+> ❝ He who knows he has enough is rich. ❞
+> 
+> 
+> ~ Lao Tzu
 >
