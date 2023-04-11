@@ -13,7 +13,7 @@ tags:
 - misc
 - log
 
-draft: true
+draft: false
 
 ---
 

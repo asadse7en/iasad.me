@@ -13,7 +13,7 @@ tags:
 - minecraft
 - schematic
 
-draft: true
+draft: false
 
 ---
 

@@ -12,7 +12,7 @@ tags:
 - bucketctf
 - bot
 
-draft: true
+draft: false
 
 ---
 

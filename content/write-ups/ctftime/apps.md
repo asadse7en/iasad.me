@@ -11,7 +11,7 @@ tags:
 - bucketctf
 - misc
 
-draft: true
+draft: false
 
 ---
 
