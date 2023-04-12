@@ -75,25 +75,54 @@ ciphertext = "rvvrwdxyficctevo"
 
 for a in range(1, 26):
     for b in range(1, 26):
-        for c in range(1, 26):
-            machine = EnigmaMachine.from_key_sheet(
-                rotors="I II III",
-                reflector="B",
-                ring_settings=[a, b, c],
-                plugboard_settings="AT BS DE FM IR KN LZ OW PV XY"
-            )
-            plaintext = machine.process_text(ciphertext).lower()
-            print(f"Testing configuration: {[a, b, c]} Decrypted message: {plaintext}")
-            if "bucket" in plaintext:
-                print(f"Decrypted message: {plaintext}")
-                exit()
+       for c in range(1, 26):
+          machine = EnigmaMachine.from_key_sheet(
+              rotors="I II III",
+              reflector="B",
+              ring_settings=[a, b, c],
+              plugboard_settings="AT BS DE FM IR KN LZ OW PV XY"
+          )
+          plaintext = machine.process_text(ciphertext).lower()
+          print(f"Testing configuration: {[a, b, c]} Decrypted message: {plaintext}")
+          if "bucket" in plaintext:
+              print(f"Decrypted message: {plaintext}")
+              exit()
 ```
 
 &nbsp;
 
-It found the flag with rotor ring configuration: `[22, 22, 23]` which translates to `[W, W, X]` 
+It found the flag with rotor ring configuration: `[22, 22, 23]` --> `[W, W, X]` 
 
-![Untitled](/write-ups/ctftime/bucket/enigma-2.webp)
+![Untitled](/write-ups/ctftime/bucket/solve.gif)
+
+&nbsp;
+
+```
+┌──(kali㉿iasad)-[~/CTFs/BucketCTF]
+└─$ python3 solve.py
+
+Testing configuration: [22, 22, 10] Decrypted message: maelogrvlrudnqua
+Testing configuration: [22, 22, 11] Decrypted message: uaaiqvjhuqdunchk
+Testing configuration: [22, 22, 12] Decrypted message: gcabszuocgmdpsql
+Testing configuration: [22, 22, 13] Decrypted message: xwcmlhjmlwkmwbus
+Testing configuration: [22, 22, 14] Decrypted message: xnwukkmabsfkwalg
+Testing configuration: [22, 22, 15] Decrypted message: sqnghfpnvheflpuj
+Testing configuration: [22, 22, 16] Decrypted message: sdqxvtnnueaeqmdy
+Testing configuration: [22, 22, 17] Decrypted message: qhdxgoiihrgawgyg
+Testing configuration: [22, 22, 18] Decrypted message: cfhsecjadgbgkcsh
+Testing configuration: [22, 22, 19] Decrypted message: lpfshnrulyebknal
+Testing configuration: [22, 22, 20] Decrypted message: kkpqmvrztxteqidy
+Testing configuration: [22, 22, 21] Decrypted message: kckcsczpmzvtzvfw
+Testing configuration: [22, 22, 22] Decrypted message: ncclqcjjbubvccen
+Testing configuration: [22, 22, 23] Decrypted message: bucketngmcdbdbaa
+
+
+---------------------------------------
+  Decrypted message: bucketngmcdbdbaa
+---------------------------------------
+
+
+```
 
 &nbsp;
 

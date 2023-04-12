@@ -42,13 +42,13 @@ I made a **secure** php web app where I can upload all my gifs. Some people on
 
 ## Approach
 
-At first, I uplaoded a Gif fie which was uploaded successfully then I attempted to upload a basic PHP payload and got error
+At first, I uplaoded a Gif fie which was uploaded successfully then I attempted to upload a basic PHP payload and got this error
 
 ![Untitled](/write-ups/ctftime/bucket/uploads.webp#center)
 
 from the error we can see that the files are stored at `/uploads`.
 
-As the server only permitted GIF files.I modified the payload by adding a GIF header, `GIF87a;` and it worked we got RCE.
+As the server only permitted GIF files.I modified the payload by adding a GIF header, `GIF87a;`.
 
 ```php
 GIF87a;
@@ -63,7 +63,10 @@ GIF87a;
 
 &nbsp;
 
-We can now execute commands on the machine and access the flag: `/uploads/payload.php/?cmd=cat /flag.txt`
+And it worked we got remote code execution. We can now execute commands on the machine   
+Found the flag here: `/uploads/payload.php/?cmd=cat /flag.txt`
+
+&nbsp;
 
 ![Untitled](/write-ups/ctftime/bucket/flag.webp#center)
 
