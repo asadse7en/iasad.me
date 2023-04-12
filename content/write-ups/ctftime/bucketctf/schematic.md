@@ -45,6 +45,7 @@ Download Attachments {{< url link="https://storage.ebucket.dev/Ricardo3s_60AP_10
 we are given a `.schematic` file and we have to count the number of dispensers used.
 
 >
+> **Schematic💡**  
 > A schematic is a type of file format used to represent a 3D object or structure in Minecraft, It contains a blueprint or schematic of a Minecraft build.
 > 
 >

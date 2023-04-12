@@ -41,7 +41,14 @@ Download Attachments {{< url link="https://storage.ebucket.dev/out.bmp" text="he
 
 As this was a steganography challenge and the image appeared to be plain white, I decided to use `stegsolve.jar` to check for any hidden data in the color channels separately and discovered the flag within the `red plane 0`
 
- 
+{{< toggle title="to install stegsolve" >}}
+```bash
+wget http://www.caesum.com/handbook/Stegsolve.jar -O stegsolve.jar
+chmod +x stegsolve.jar
+mkdir bin
+mv stegsolve.jar bin/
+```
+ {{< /toggle >}}
 
 ![stegsolve](/write-ups/ctftime/bucket/detective.webp)
 
