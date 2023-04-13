@@ -5,7 +5,8 @@ description:
 summary: A comprehensive overview of the latest version of Kali, covering its features, enhancements, and upgrades, to provide you with all the necessary knowledge about this version.
 
 Section: blogs
-
+ShowWordCount: false
+tocopen: true
 
 date: 2023-03-23T02:54:51+05:00
 tags: ["Kali Purple", "kali linux 2023.1", "python 3.11", "Offensive Security", "Defensive Security"]
