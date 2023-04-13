@@ -5,7 +5,9 @@ description:
 summary: A comprehensive guide covering Linux privilege escalation, from privilege creation to exploitation (including both manual enumeration and automated tools), as well as prevention tips.
 
 Section: blogs
-ShowWordCount: true
+ShowWordCount: false
+tocopen: true
+
 
 date: 2023-04-06T18:02:36+05:00
 tags:
@@ -23,7 +25,7 @@ tags:
 categories:
 - article
 
-draft: true
+draft: false
 
 cover:
     image: "/blogs/linux-privilege-escalation/prevesc-thumbnail.webp"
