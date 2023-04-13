@@ -7,6 +7,8 @@ date: 2023-04-10T02:04:24+05:00
 Section: write-ups
 categories:
 - writeup
+- ctftime.org
+
 tags:
 - bucketctf
 - misc

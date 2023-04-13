@@ -8,6 +8,8 @@ Section: write-ups
 categories:
 - writeup
 - web
+- ctftime.org
+
 tags:
 - bucketctf
 - sqli

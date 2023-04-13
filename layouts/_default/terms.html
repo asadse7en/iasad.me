@@ -17,7 +17,7 @@
 {{- range $i, $tag := shuffle $tags }}
   {{- with site.GetPage (printf "/%s/%s" $type $tag.Name) }}
     {{- if gt $tag.Count 1 }}
-      {{- if le $tag.Count 8 }}
+      {{- if le $tag.Count 10 }}
         {{- $fontSize := add 1.5 (div (sub $tag.Count 2) 2) }}
         <a href="{{ .Permalink }}" class="tag-cloud__item" style="font-size: {{ $fontSize }}em">{{ .Name }}</a>
       {{- else }}

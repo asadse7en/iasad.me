@@ -8,6 +8,8 @@ Section: write-ups
 categories:
 - writeup
 - cryptography
+- ctftime.org
+
 tags:
 - bucketctf
 - bot
