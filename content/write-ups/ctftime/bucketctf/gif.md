@@ -63,8 +63,15 @@ GIF87a;
 
 &nbsp;
 
-And it worked we got remote code execution. We can now execute commands on the machine   
-Found the flag here: `/uploads/payload.php/?cmd=cat /flag.txt`
+And it worked we got remote code execution. We can now execute commands on the machine
+
+&nbsp;
+
+![Untitled](/write-ups/ctftime/bucket/gif-id.webp#center)
+
+&nbsp;
+
+we can find the flag at: `/uploads/payload.php/?cmd=cat /flag.txt`
 
 &nbsp;
 
