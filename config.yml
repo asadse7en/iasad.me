@@ -72,6 +72,7 @@ params:
   tocopen: false
   hideFooter: false
   comments: true
+  math: true
 
 
   mainSections:
@@ -163,6 +164,7 @@ markup:
   goldmark:
     renderer:
       unsafe: true
+      
 
 
 
