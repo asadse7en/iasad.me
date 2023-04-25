@@ -93,7 +93,7 @@ pre:hover .copy-code {
 .dark .paginav .next,
 .dark .paginav .prev {
   padding: 10px 20px;
-  background-color: rgb(66, 77, 58);
+  background-color: rgb(55, 56, 62);
   border: none;
   border-radius: 25px;
   color: #fff;
@@ -105,6 +105,6 @@ pre:hover .copy-code {
 
 .dark .paginav .next:hover,
 .dark .paginav .prev:hover {
-  background-color: rgb(85, 100, 73);
+  background-color: rgb(77, 80, 97);
   transform: scale(1.1);
 }
