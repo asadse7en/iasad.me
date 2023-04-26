@@ -23,7 +23,7 @@ h3 {
 }
 
 a:hover {
-    color: var(--alternative-color);
+  color: #338e09
   }
 .dark a:hover {
     color: var(--alternative-color);

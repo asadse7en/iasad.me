@@ -65,7 +65,6 @@ params:
   UseHugoToc: false
   disableSpecial1stPost: false
   disableScrollToTop: false
-  comments: false
   hidemeta: false
   hideSummary: false
   showtoc: true
@@ -76,7 +75,7 @@ params:
 
 
   mainSections:
-#    - blogs
+    - blogs
     - write-ups
 
 
