@@ -14,7 +14,7 @@ tags:
 - rsa
 - factordb
 
-draft: false
+draft: true
 
 ---
 
@@ -69,7 +69,7 @@ c = 4054483207272687977066160610341701061898807815853506496731813532564580090549
 
 &nbsp;
 
-Luckily, I got the factors of n from {{< url link="http://factordb.com/" text="Factordb" >}}. Maybe there is another approach where $(p-2)(q-1)$ and $(p-1)*(q-2)$ are used. but i didn't used it.
+
 
 &nbsp;
 
