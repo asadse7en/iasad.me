@@ -135,10 +135,6 @@ $q = n/p$
 
 {{< /toggle >}}
 
-&nbsp;
-
-we can find p and q from above equations using python.
-
 ```python
 from gmpy2 import isqrt
 
