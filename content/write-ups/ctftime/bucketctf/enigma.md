@@ -95,7 +95,7 @@ for a in range(1, 26):
 
 It found the flag with rotor ring configuration: `[22, 22, 23]` --> `[W, W, X]` 
 
-![Untitled](/write-ups/ctftime/bucket/solve.gif)
+![Untitled](/write-ups/ctftime/bucket/enigma-2.webp)
 
 &nbsp;
 
