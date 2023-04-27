@@ -69,9 +69,96 @@ c = 4054483207272687977066160610341701061898807815853506496731813532564580090549
 
 &nbsp;
 
+{{< toggle title="finding $p$ and $q$" >}}
+  
+  &nbsp;
 
+We know that:  
+
+$a = (p-1)(q-2)$  
+$b = (p-2)(q-1)$  
+$n = p*q$
+
+For eq a:
+
+$a = (p-1)*(q-2)$  
+$a = pq - 2p - q + 2$   
+$pq = a + 2p + q - 2$  
+
+
+For eq b:
+
+$b = (p-2)*(q-1)$  
+$b = pq - p - 2q + 2$  
+$pq = b + p + 2q - 2$  
+
+
+
+Now, we have two equations for pq.  
+
+$pq = a + 2p + q - 2$  
+$pq = b + p + 2q - 2$  
+
+Setting these two equations equal to each other, we get:
+
+$b + p + 2q - 2 = a + 2p + q - 2$
+
+Simplifying, we get:
+
+$p + q = a + b$
+
+We can use this equation to solve for one of the variables in terms of the others. Let's solve for q:
+
+$q = a + b - p$
+
+Substituting this expression for q into the equation for n, we get:
+
+$n = pq = p(a + b - p)$
+
+Expanding and rearranging, we get a quadratic equation in p:
+
+$p^2 - (a + b)p + n = 0$
+
+Using the quadratic formula, we can solve for p:
+
+$p = \frac{a+b \pm \sqrt{(a+b)^2 - 4n}}{2}$
+
+
+Once we have found p, we can use the equation we derived earlier to solve for q:
+
+$q = n/p$
+
+**So the final solution for p and q is:**
+
+$p = \frac{a+b \pm \sqrt{(a+b)^2 - 4n}}{2}$    
+$q = n/p$
+
+{{< /toggle >}}
 
 &nbsp;
+
+we can find p and q from above equations using python.
+
+```python
+from gmpy2 import isqrt
+
+def find_p_q(a, b, n):
+     
+    p = (a - b + isqrt((a - b)**2 + 4*n)) // 2
+    q = n // p
+    
+    return int(p), int(q)
+
+
+a = 125152237161980107859596658891851084232065907177682165993300073587653109353529564397637482758441209445085460664497151026134819384539887509146955251284230123577760657520479879758538312798938234126141096433998438004751495264208294710150161381066757910797946636886901614307738041629014360829994204066455759806614
+b = 125152237161980107859596658891851084232065907177682165993300073587653109353529564397637482758441209445085460664497151026134819384539887509146955251284230125943565148141498300205893475242956903188936949934637477735897301870046234768439825644866543391610507164360506843171701976641285249754264159339017466738250
+n = 125152237161980107859596658891851084232065907177682165993300073587653109353529564397637482758441209445085460664497151026134819384539887509146955251284230158509195522123739130077725744091649212709410268449632822394998403777113982287135909401792915941770405800840172214125677106752311001755849804716850482011237
+
+p, q = find_p_q(a, b, n)
+print("p =", p)
+print("q =", q)
+
+```
 
 ```python
 p = 10066608627787074136474825702134891213485892488338118768309318431767076602486802139831042195689782446036335353380696670398366251621025771896701757102780451
@@ -80,14 +167,16 @@ q = 1243241311840809255692218086457890988254868834183875780804046423837291454254
 
 &nbsp;
 
-**To Decrypt**
+{{< toggle title="decrypting Rsa" >}}
+  
+  &nbsp;
 
 1. Compute \\(\phi(n) = (p-1)(q-1)\\), where \\(p\\) and \\(q\\) are the prime factors of \\(n\\).
 2. Calculate the modular multiplicative inverse of \\(e\\) modulo \\(\phi(n)\\), denoted as \\(d\\), such that \\((d \cdot e) \bmod \phi(n) = 1\\). This can be done using the extended Euclidean algorithm. In python we can use `inverse` function from `Crypto.Util.number`
 3. To decrypt the ciphertext, compute \\(m = c^d \bmod n\\). In python `pow(c, d, n)`.  
 The plaintext message, denoted as \\(m\\), can then be obtained by converting the resulting integer value to its corresponding character representation.
 
-&nbsp;
+{{< /toggle >}}
 
 ```python
 from Crypto.Util.number import long_to_bytes, inverse
