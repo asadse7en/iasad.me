@@ -104,8 +104,8 @@ params:
       url: "https://github.com/asadse7en"
     - name: "instagram"
       url: "https://www.instagram.com/iasadse7en"
-    - name: "cv"
-      url: "https://drive.google.com/file/d/1HS2k1c1RvtG7S-j_T7MZcQO2y1aHg6uH/view?usp=sharing"
+    - name: "resume"
+      url: "https://drive.google.com/file/d/1qfGvjwOmJtNvFTN9pHdyzeJ4mM6pV4XO/view?usp=sharing"
     - name: "RSS"
       url: "https://iasad.me/index.xml"
 
