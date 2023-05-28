@@ -11,7 +11,6 @@ categories:
 tags:
 - angstormctf
 - crypto
-- flag
 
 draft: false
 

@@ -12,7 +12,6 @@ tags:
 - angstormctf
 - rev
 - binary
-- flag
 
 draft: false
 

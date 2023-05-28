@@ -12,7 +12,6 @@ tags:
 - angstormctf
 - javascript
 - reverse
-- flag
 
 draft: false
 

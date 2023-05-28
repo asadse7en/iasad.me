@@ -13,7 +13,6 @@ tags:
 - crypto
 - rsa
 - factordb
-- flag
 
 draft: false
 

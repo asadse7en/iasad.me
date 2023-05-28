@@ -12,7 +12,6 @@ tags:
 - angstormctf
 - web
 - epoch
-- flag
 
 draft: false
 
