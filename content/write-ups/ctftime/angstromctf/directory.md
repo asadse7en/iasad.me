@@ -13,6 +13,7 @@ tags:
 - bruteforce
 - subdir
 - curl
+- flag
 
 draft: false
 
