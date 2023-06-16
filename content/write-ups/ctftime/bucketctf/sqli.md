@@ -18,7 +18,7 @@ tags:
 - payload
 - blind sqli
 
-draft: false
+draft: True
 
 ---
 

@@ -9,7 +9,7 @@ Section: "write-ups"
 categories: ["writeup", "ctftime.org", "steganography"]
 tags: ["steghide", "morse cdoe", "vishwactf 2023","binwalk", "steg"]
 
-draft: false
+draft: True
 
 ---
 

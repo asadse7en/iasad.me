@@ -13,7 +13,7 @@ categories:
 tags:
 - bucketctf
 
-draft: false
+draft: True
 
 ---
 
