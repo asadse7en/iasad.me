@@ -36,7 +36,7 @@ menu:
       url: /archives
       weight: 50
     - identifier: search
-      name: 👀
+      name: search
       url: /search
       weight: 60
     # - identifier: tags
@@ -81,8 +81,8 @@ params:
 
   label:
     text: "./asadse7en"
-    icon: "home/c.png"
-    iconHeight: 35
+    #icon: "home/c.png"
+    #iconHeight: 35
 
   
 
