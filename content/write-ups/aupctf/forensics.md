@@ -14,6 +14,10 @@ categories:
 
 tags:
 - MemDump
+- aupctf
+- john the ripper
+- volatility
+- virustotal
 
 draft: False
 
