@@ -28,7 +28,7 @@ menu:
       url: /write-ups
       weight: 30
     - identifier: Tags
-      name: Tags
+      name: tags-cloud
       url: /tags
       weight: 40
     - identifier: archives
@@ -91,9 +91,9 @@ params:
   env: production
 
   homeInfoParams:
-    Title: "Hi there,👋"
+    Title: "(me㉿iasad.me)-[~] $ whoami"
     Content: >
-      I'm **Asad Ullah**, a final year undergrad majoring **computer science** with focus on **security**🔒. This website serves as my **personal portfolio** for [***write-ups***](write-ups) ✨, and I will also be sharing [***blogs***](blog)✍️ on topics that pique my interest 🤔.
+      I'm a Tech Enthusiast and Cybersecurity Researcher🔒. This website serves as my *personal portfolio* for [*write-ups*](write-ups) ✨ and [*blogs*](blog)✍️ on topics that pique my interest. [*Read more🤝..*](about)
   # Home Page
   socialIcons:
     - name: "email"

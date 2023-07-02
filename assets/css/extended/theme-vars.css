@@ -18,7 +18,7 @@
 }
 
 .dark {
-  --theme: rgb(22, 25, 27); /*background*/
+  --theme: rgb(18, 19, 21); /*background*/
   --entry: rgb(31, 36, 37); /*post, ToC background*/
   --content: rgb(221, 221, 221); /*main text*/
   --hljs-bg: rgb(31, 37, 33); /*code block background*/
