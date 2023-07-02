@@ -15,10 +15,6 @@ pygmentsUseClasses: false
 
 menu:
   main:
-    - identifier: Root
-      name: Root
-      url: /
-      weight: 10
     - identifier: about
       name: About
       url: /about
@@ -31,12 +27,16 @@ menu:
       name: Write-ups
       url: /write-ups
       weight: 30
+    - identifier: Tags
+      name: Tags
+      url: /tags
+      weight: 40
     - identifier: archives
       name: Archives
       url: /archives
       weight: 50
     - identifier: search
-      name: search
+      name: 👁
       url: /search
       weight: 60
     # - identifier: tags
