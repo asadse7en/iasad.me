@@ -74,37 +74,31 @@ pre:hover .copy-code {
   padding: 10px 20px;
   background-color: #fff
   border: none;
-  border-radius: 25px;
   color: var(--primary-color);
   font-weight: bold;
   text-transform: uppercase;
   letter-spacing: 1px;
-  transition: all 0.3s ease;
 }
 
 .paginav .next:hover,
 .paginav .prev:hover {
   background-color: rgb(234, 234, 234);
   color: var(--primary-color);
-  transform: scale(1.1);
 }
 
 /* Dark mode */
 .dark .paginav .next,
 .dark .paginav .prev {
   padding: 10px 20px;
-  background-color: rgb(55, 56, 62);
+  background-color: #37383e;
   border: none;
-  border-radius: 25px;
   color: #fff;
   font-weight: bold;
   text-transform: uppercase;
   letter-spacing: 1px;
-  transition: all 0.3s ease;
 }
 
 .dark .paginav .next:hover,
 .dark .paginav .prev:hover {
-  background-color: rgb(77, 80, 97);
-  transform: scale(1.1);
+  background-color: #4d5061;
 }
