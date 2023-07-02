@@ -12,8 +12,6 @@ categories:
 tags:
 - bucketctf
 - misc
-- minecraft
-- schematic
 
 draft: false
 

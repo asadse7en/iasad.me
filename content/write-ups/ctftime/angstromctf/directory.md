@@ -11,8 +11,6 @@ categories:
 tags:
 - angstormctf
 - bruteforce
-- subdir
-- curl
 
 draft: True
 

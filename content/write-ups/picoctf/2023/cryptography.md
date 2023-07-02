@@ -16,7 +16,6 @@ tags:
 - steghide
 - base64
 - rot 13
-- rot 18
 
 draft: false
 

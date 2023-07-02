@@ -10,7 +10,7 @@ Section: "write-ups"
 
 categories: ["writeup", "tryhackme","hash cracking"]
 
-tags: ["hash cracking", "hashcat",  "John the Ripper", "rules based", "Mentalist", "CeWL","wordlistctl", "Freak mutation","pnwgen", "TTPassGen", "SecLists", "Haiti",]
+tags: ["hash cracking", "hashcat",  "John the Ripper","Mentalist", "CeWL","wordlistctl", "Freak mutation","pnwgen", "TTPassGen", "SecLists"]
 
 draft: false
 

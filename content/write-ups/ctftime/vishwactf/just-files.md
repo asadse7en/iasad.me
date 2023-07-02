@@ -7,7 +7,7 @@ date: 2023-04-02T19:33:37+05:00
 Section: "write-ups"
 
 categories: ["writeup", "ctftime.org", "steganography"]
-tags: ["steghide", "morse cdoe", "vishwactf 2023","binwalk", "steg"]
+tags: ["steghide", "morse cdoe", "vishwactf","binwalk"]
 
 draft: True
 

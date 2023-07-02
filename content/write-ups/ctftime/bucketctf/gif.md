@@ -16,7 +16,6 @@ tags:
 - upload vulnerability
 - php
 - payload
-- gif
 
 draft: false
 

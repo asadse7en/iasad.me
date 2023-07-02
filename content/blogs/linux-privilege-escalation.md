@@ -14,13 +14,8 @@ tags:
 - linux
 - privilege escalation
 - prev esc
-- sudoer
-- system control
-- linpeas
-- linenum
 - suid
 - dirtycow
-- root
 
 categories:
 - article

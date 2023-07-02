@@ -10,7 +10,6 @@ categories:
 - ctftime.org
 tags:
 - bucketctf
-- stego
 - stegsolve
 
 draft: false

@@ -12,7 +12,6 @@ tags:
 - angstormctf
 - crypto
 - rsa
-- factordb
 
 draft: True
 

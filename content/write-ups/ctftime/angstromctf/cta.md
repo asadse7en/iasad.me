@@ -12,7 +12,6 @@ tags:
 - angstormctf
 - web
 - header
-- curl
 
 draft: True
 

@@ -8,7 +8,7 @@ date: 2023-04-02T18:33:37+05:00
 Section: "write-ups"
 
 categories: ["writeup", "ctftime.org", "forensics"]
-tags: ["hash cracking", "vishwactf 2023", "john the ripper", "zip2john"]
+tags: ["hash cracking", "vishwactf", "john the ripper", "zip2john"]
 
 draft: false
 

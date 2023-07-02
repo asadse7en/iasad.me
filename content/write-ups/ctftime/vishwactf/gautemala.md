@@ -8,7 +8,7 @@ date: 2023-04-02T17:33:37+05:00
 Section: "write-ups"
 
 categories: ["writeup", "ctftime.org", "steganography"]
-tags: ["exiftool", "base64", "vishwactf 2023", "steg", "metadata"]
+tags: ["exiftool", "base64", "vishwactf", "metadata"]
 
 draft: false
 

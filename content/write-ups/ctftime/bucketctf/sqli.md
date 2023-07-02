@@ -13,8 +13,6 @@ categories:
 tags:
 - bucketctf
 - sqli
-- sql injection
-- time based sqli
 - payload
 - blind sqli
 
