@@ -16,6 +16,7 @@ tags:
 - deepsound
 - XOR
 - spectogram
+- aupctf
 
 draft: false
 
