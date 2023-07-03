@@ -309,7 +309,7 @@ putting albuquerque as password on steghide we found a hidden wordlist
 
 ![Untitled](/write-ups/aupctf/misc/5.webp#center)
 
-it is a small wordlist so we can try steghide  the audio file with this and yes it worked skyler was the password. you can do that with a bash oneliner
+it is a small wordlist so we can try steghide  the audio file with this and yes it worked heisenberg was the password. you can do that with a bash one-liner or python
 
 ```bash
 ┌──(kali㉿iasad)-[~/CTFs/aupctf/mr-white]
