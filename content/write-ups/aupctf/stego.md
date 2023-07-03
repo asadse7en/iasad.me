@@ -187,7 +187,7 @@ we have a broken image lets compare its magic bytes with a real jpeg image
 **Given File Header: `FF 8D FF 0E 00 01 A4 64 94 64 00 10`
 Real JPEG Header:  `FF D8 FF E0 00 10 4A 46 49 46 00 01`**
 
-we can use that every 2 bytes are swaped in the whole image, we can fix it using python 
+we can see that the every two hexadecimals have been swapped with each other in the whole image, we can fix it using python 
 
 ```bash
 def reverse_hex_swap_in_jpg(file_path):
