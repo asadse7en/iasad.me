@@ -6,32 +6,239 @@
     <description>Recent content on AsAd</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 30 Mar 2023 06:54:51 +0500</lastBuildDate><atom:link href="https://iasad.me/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 01 Jul 2023 19:33:32 +0500</lastBuildDate><atom:link href="https://iasad.me/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>ReadMyCert - PicoCTF (2023)</title>
-      <link>https://iasad.me/write-ups/picoctf/readmycert/</link>
-      <pubDate>Thu, 30 Mar 2023 06:54:51 +0500</pubDate>
+      <title>Cryptography - aupCTF</title>
+      <link>https://iasad.me/write-ups/aupctf/cryptography/</link>
+      <pubDate>Sat, 01 Jul 2023 19:33:32 +0500</pubDate>
       
-      <guid>https://iasad.me/write-ups/picoctf/readmycert/</guid>
-      <description>certificate signing request with base64 encoding</description>
+      <guid>https://iasad.me/write-ups/aupctf/cryptography/</guid>
+      <description>writeups for cryptographic challenges</description>
     </item>
     
     <item>
-      <title>Rotation - PicoCTF (2023)</title>
-      <link>https://iasad.me/write-ups/picoctf/rotation/</link>
-      <pubDate>Thu, 30 Mar 2023 04:54:51 +0500</pubDate>
+      <title>OSINT - aupCTF</title>
+      <link>https://iasad.me/write-ups/aupctf/osint/</link>
+      <pubDate>Sat, 01 Jul 2023 19:33:32 +0500</pubDate>
       
-      <guid>https://iasad.me/write-ups/picoctf/rotation/</guid>
-      <description>A very simple rotation-based substitution cipher - (ROT-18)</description>
+      <guid>https://iasad.me/write-ups/aupctf/osint/</guid>
+      <description>writeups for OSINT challenges</description>
     </item>
     
     <item>
-      <title>File Types - PicoCTF (2022)</title>
-      <link>https://iasad.me/write-ups/picoctf/file-type/</link>
+      <title>Steganography - aupCTF</title>
+      <link>https://iasad.me/write-ups/aupctf/stego/</link>
+      <pubDate>Sat, 01 Jul 2023 19:33:32 +0500</pubDate>
+      
+      <guid>https://iasad.me/write-ups/aupctf/stego/</guid>
+      <description>writeups for steganography challenges</description>
+    </item>
+    
+    <item>
+      <title>Forensics - aupCTF</title>
+      <link>https://iasad.me/write-ups/aupctf/forensics/</link>
+      <pubDate>Thu, 29 Jun 2023 19:33:32 +0500</pubDate>
+      
+      <guid>https://iasad.me/write-ups/aupctf/forensics/</guid>
+      <description>writeups for forensics challenges</description>
+    </item>
+    
+    <item>
+      <title>Misc - aupCTF</title>
+      <link>https://iasad.me/write-ups/aupctf/misc/</link>
+      <pubDate>Thu, 29 Jun 2023 19:33:32 +0500</pubDate>
+      
+      <guid>https://iasad.me/write-ups/aupctf/misc/</guid>
+      <description>writeups for Misc challenges</description>
+    </item>
+    
+    <item>
+      <title>Web - aupCTF</title>
+      <link>https://iasad.me/write-ups/aupctf/web/</link>
+      <pubDate>Thu, 29 Jun 2023 19:33:32 +0500</pubDate>
+      
+      <guid>https://iasad.me/write-ups/aupctf/web/</guid>
+      <description>writeups for web challenges</description>
+    </item>
+    
+    <item>
+      <title>Impossible - ångstromCTF</title>
+      <link>https://iasad.me/write-ups/ctftime/angstromctf/impossible/</link>
+      <pubDate>Thu, 27 Apr 2023 01:00:24 +0500</pubDate>
+      
+      <guid>https://iasad.me/write-ups/ctftime/angstromctf/impossible/</guid>
+      <description>Write-up on cryptography challenge Impossible.</description>
+    </item>
+    
+    <item>
+      <title>Zaza - ångstromCTF</title>
+      <link>https://iasad.me/write-ups/ctftime/angstromctf/zaza/</link>
+      <pubDate>Thu, 27 Apr 2023 01:00:24 +0500</pubDate>
+      
+      <guid>https://iasad.me/write-ups/ctftime/angstromctf/zaza/</guid>
+      <description>Write-up on Rev challenge Zaza.</description>
+    </item>
+    
+    <item>
+      <title>Simon says - ångstromCTF</title>
+      <link>https://iasad.me/write-ups/ctftime/angstromctf/simon-says/</link>
+      <pubDate>Thu, 27 Apr 2023 00:33:24 +0500</pubDate>
+      
+      <guid>https://iasad.me/write-ups/ctftime/angstromctf/simon-says/</guid>
+      <description>Write-up on Misc challenge simon says.</description>
+    </item>
+    
+    <item>
+      <title>Celeste Speedrunning Association - ångstromCTF</title>
+      <link>https://iasad.me/write-ups/ctftime/angstromctf/csa/</link>
+      <pubDate>Thu, 27 Apr 2023 00:04:24 +0500</pubDate>
+      
+      <guid>https://iasad.me/write-ups/ctftime/angstromctf/csa/</guid>
+      <description>Write-up on web challenge Celeste Speedrunning Association.</description>
+    </item>
+    
+    <item>
+      <title>shortcircuit - ångstromCTF</title>
+      <link>https://iasad.me/write-ups/ctftime/angstromctf/shortcircuit/</link>
+      <pubDate>Thu, 27 Apr 2023 00:04:24 +0500</pubDate>
+      
+      <guid>https://iasad.me/write-ups/ctftime/angstromctf/shortcircuit/</guid>
+      <description>Write-up on web challenge shortcircuit.</description>
+    </item>
+    
+    <item>
+      <title>Gif  - BucketCTF</title>
+      <link>https://iasad.me/write-ups/ctftime/bucketctf/gif/</link>
+      <pubDate>Mon, 10 Apr 2023 05:04:14 +0500</pubDate>
+      
+      <guid>https://iasad.me/write-ups/ctftime/bucketctf/gif/</guid>
+      <description>Write-up on web challenge gif tackling a file upload vulnerability.</description>
+    </item>
+    
+    <item>
+      <title>TBDLCG - BucketCTF</title>
+      <link>https://iasad.me/write-ups/ctftime/bucketctf/tbdlcg/</link>
+      <pubDate>Mon, 10 Apr 2023 04:04:24 +0500</pubDate>
+      
+      <guid>https://iasad.me/write-ups/ctftime/bucketctf/tbdlcg/</guid>
+      <description>Write-up on cryptography challenge TBDLCG.</description>
+    </item>
+    
+    <item>
+      <title>Schematic - BucketCTF</title>
+      <link>https://iasad.me/write-ups/ctftime/bucketctf/schematic/</link>
+      <pubDate>Mon, 10 Apr 2023 03:05:34 +0500</pubDate>
+      
+      <guid>https://iasad.me/write-ups/ctftime/bucketctf/schematic/</guid>
+      <description>Write-up on Misc challenge Schematic.</description>
+    </item>
+    
+    <item>
+      <title>Detective - BucketCTF</title>
+      <link>https://iasad.me/write-ups/ctftime/bucketctf/detective/</link>
+      <pubDate>Mon, 10 Apr 2023 02:08:24 +0500</pubDate>
+      
+      <guid>https://iasad.me/write-ups/ctftime/bucketctf/detective/</guid>
+      <description>Write-up on stegonograpy challenge Detective.</description>
+    </item>
+    
+    <item>
+      <title>Minecraft - BucketCTF</title>
+      <link>https://iasad.me/write-ups/ctftime/bucketctf/minecraft/</link>
+      <pubDate>Mon, 10 Apr 2023 02:08:24 +0500</pubDate>
+      
+      <guid>https://iasad.me/write-ups/ctftime/bucketctf/minecraft/</guid>
+      <description>Write-up on Misc challenge Minecraft.</description>
+    </item>
+    
+    <item>
+      <title>Apps - BucketCTF</title>
+      <link>https://iasad.me/write-ups/ctftime/bucketctf/apps/</link>
+      <pubDate>Mon, 10 Apr 2023 02:04:24 +0500</pubDate>
+      
+      <guid>https://iasad.me/write-ups/ctftime/bucketctf/apps/</guid>
+      <description>Write-up on Misc challenge Apps.</description>
+    </item>
+    
+    <item>
+      <title>Adventures Of Kencypher - TryHackMe</title>
+      <link>https://iasad.me/write-ups/tryhackme/adventures-of-kencypher/</link>
+      <pubDate>Sat, 08 Apr 2023 19:33:32 +0500</pubDate>
+      
+      <guid>https://iasad.me/write-ups/tryhackme/adventures-of-kencypher/</guid>
+      <description>Explore The Life Story Of Kencypher And His Great Adventures.</description>
+    </item>
+    
+    <item>
+      <title>A Guide On Linux Privilege Escalation - The Journey Towards System Control</title>
+      <link>https://iasad.me/blogs/linux-privilege-escalation/</link>
+      <pubDate>Thu, 06 Apr 2023 18:02:36 +0500</pubDate>
+      
+      <guid>https://iasad.me/blogs/linux-privilege-escalation/</guid>
+      <description>A comprehensive guide covering Linux privilege escalation, from privilege creation to exploitation (including both manual enumeration and automated tools), as well as prevention tips.</description>
+    </item>
+    
+    <item>
+      <title>The Sender Conundrum - VishwaCTF</title>
+      <link>https://iasad.me/write-ups/ctftime/vishwactf/the-sender-conundrum/</link>
+      <pubDate>Sun, 02 Apr 2023 18:33:37 +0500</pubDate>
+      
+      <guid>https://iasad.me/write-ups/ctftime/vishwactf/the-sender-conundrum/</guid>
+      <description>A write-up on forenics challenge The Sender Conundrum.</description>
+    </item>
+    
+    <item>
+      <title>Gautemala - VishwaCTF</title>
+      <link>https://iasad.me/write-ups/ctftime/vishwactf/gautemala/</link>
+      <pubDate>Sun, 02 Apr 2023 17:33:37 +0500</pubDate>
+      
+      <guid>https://iasad.me/write-ups/ctftime/vishwactf/gautemala/</guid>
+      <description>A write-up on stegonograpy challenge Gautemala.</description>
+    </item>
+    
+    <item>
+      <title>Can You See Me - VishwaCTF</title>
+      <link>https://iasad.me/write-ups/ctftime/vishwactf/can-you-see-me/</link>
+      <pubDate>Sun, 02 Apr 2023 16:33:37 +0500</pubDate>
+      
+      <guid>https://iasad.me/write-ups/ctftime/vishwactf/can-you-see-me/</guid>
+      <description>A write-up on stegonograpy challenge Can You See Me.</description>
+    </item>
+    
+    <item>
+      <title>The Indecipherable Cipher - VishwaCTF</title>
+      <link>https://iasad.me/write-ups/ctftime/vishwactf/the-indecipherable-cipher/</link>
+      <pubDate>Sun, 02 Apr 2023 16:03:37 +0500</pubDate>
+      
+      <guid>https://iasad.me/write-ups/ctftime/vishwactf/the-indecipherable-cipher/</guid>
+      <description>A write-up on cryptography challenge the indecipherable cipher.</description>
+    </item>
+    
+    <item>
+      <title>Cryptography - PicoCTF 2023</title>
+      <link>https://iasad.me/write-ups/picoctf/2023/cryptography/</link>
       <pubDate>Thu, 30 Mar 2023 02:54:51 +0500</pubDate>
       
-      <guid>https://iasad.me/write-ups/picoctf/file-type/</guid>
-      <description>forensics challenge with nested compressions and file types</description>
+      <guid>https://iasad.me/write-ups/picoctf/2023/cryptography/</guid>
+      <description>writeups for cryptography cahllanges of picoctf 2023</description>
+    </item>
+    
+    <item>
+      <title>Forensics - PicoCTF 2023</title>
+      <link>https://iasad.me/write-ups/picoctf/2023/forensics/</link>
+      <pubDate>Thu, 30 Mar 2023 02:54:51 +0500</pubDate>
+      
+      <guid>https://iasad.me/write-ups/picoctf/2023/forensics/</guid>
+      <description>writeups for forensics cahllanges of picoctf 2023</description>
+    </item>
+    
+    <item>
+      <title>Web Exploitation - PicoCTF 2023</title>
+      <link>https://iasad.me/write-ups/picoctf/2023/web-exploitation/</link>
+      <pubDate>Thu, 30 Mar 2023 02:54:51 +0500</pubDate>
+      
+      <guid>https://iasad.me/write-ups/picoctf/2023/web-exploitation/</guid>
+      <description>writeups for web cahllanges of picoctf 2023</description>
     </item>
     
     <item>

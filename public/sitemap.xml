@@ -2,93 +2,358 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://iasad.me/write-ups/tryhackme/</loc>
-    <lastmod>2023-03-28T02:54:51+05:00</lastmod>
+    <loc>https://iasad.me/write-ups/aupctf/</loc>
+    <lastmod>2023-05-25T05:04:24+05:00</lastmod>
+  </url><url>
+    <loc>https://iasad.me/write-ups/ctftime/</loc>
+    <lastmod>2023-04-27T01:00:24+05:00</lastmod>
   </url><url>
     <loc>https://iasad.me/write-ups/picoctf/</loc>
-    <lastmod>2023-03-30T06:54:51+05:00</lastmod>
+    <lastmod>2023-03-30T02:54:51+05:00</lastmod>
   </url><url>
-    <loc>https://iasad.me/write-ups/vulnhub/</loc>
+    <loc>https://iasad.me/write-ups/tryhackme/</loc>
+    <lastmod>2023-04-08T19:33:32+05:00</lastmod>
   </url><url>
-    <loc>https://iasad.me/</loc>
-    <lastmod>2023-03-30T06:54:51+05:00</lastmod>
-  </url><url>
-    <loc>https://iasad.me/tags/base64/</loc>
-    <lastmod>2023-03-30T06:54:51+05:00</lastmod>
-  </url><url>
-    <loc>https://iasad.me/tags/base64decode/</loc>
-    <lastmod>2023-03-30T06:54:51+05:00</lastmod>
+    <loc>https://iasad.me/write-ups/picoctf/2023/</loc>
+    <lastmod>2023-03-30T02:54:51+05:00</lastmod>
   </url><url>
     <loc>https://iasad.me/categories/</loc>
-    <lastmod>2023-03-30T06:54:51+05:00</lastmod>
-  </url><url>
-    <loc>https://iasad.me/tags/cryptography/</loc>
-    <lastmod>2023-03-30T06:54:51+05:00</lastmod>
-  </url><url>
-    <loc>https://iasad.me/categories/cryptography/</loc>
-    <lastmod>2023-03-30T06:54:51+05:00</lastmod>
-  </url><url>
-    <loc>https://iasad.me/tags/cyberchef/</loc>
-    <lastmod>2023-03-30T06:54:51+05:00</lastmod>
-  </url><url>
-    <loc>https://iasad.me/tags/picoctf/</loc>
-    <lastmod>2023-03-30T06:54:51+05:00</lastmod>
-  </url><url>
-    <loc>https://iasad.me/categories/picoctf/</loc>
-    <lastmod>2023-03-30T06:54:51+05:00</lastmod>
-  </url><url>
-    <loc>https://iasad.me/tags/picoctf-2023/</loc>
-    <lastmod>2023-03-30T06:54:51+05:00</lastmod>
-  </url><url>
-    <loc>https://iasad.me/write-ups/picoctf/readmycert/</loc>
-    <lastmod>2023-03-30T06:54:51+05:00</lastmod>
+    <lastmod>2023-07-01T19:33:32+05:00</lastmod>
   </url><url>
     <loc>https://iasad.me/tags/</loc>
-    <lastmod>2023-03-30T06:54:51+05:00</lastmod>
+    <lastmod>2023-07-01T19:33:32+05:00</lastmod>
+  </url><url>
+    <loc>https://iasad.me/tags/archive.org/</loc>
+    <lastmod>2023-07-01T19:33:32+05:00</lastmod>
+  </url><url>
+    <loc>https://iasad.me/</loc>
+    <lastmod>2023-07-01T19:33:32+05:00</lastmod>
+  </url><url>
+    <loc>https://iasad.me/tags/aupctf/</loc>
+    <lastmod>2023-07-01T19:33:32+05:00</lastmod>
+  </url><url>
+    <loc>https://iasad.me/categories/aupctf/</loc>
+    <lastmod>2023-07-01T19:33:32+05:00</lastmod>
+  </url><url>
+    <loc>https://iasad.me/tags/ceaser/</loc>
+    <lastmod>2023-07-01T19:33:32+05:00</lastmod>
+  </url><url>
+    <loc>https://iasad.me/tags/cipher/</loc>
+    <lastmod>2023-07-01T19:33:32+05:00</lastmod>
+  </url><url>
+    <loc>https://iasad.me/categories/cryptography/</loc>
+    <lastmod>2023-07-01T19:33:32+05:00</lastmod>
+  </url><url>
+    <loc>https://iasad.me/write-ups/aupctf/cryptography/</loc>
+    <lastmod>2023-07-01T19:33:32+05:00</lastmod>
+  </url><url>
+    <loc>https://iasad.me/tags/deepsound/</loc>
+    <lastmod>2023-07-01T19:33:32+05:00</lastmod>
+  </url><url>
+    <loc>https://iasad.me/tags/dns-records/</loc>
+    <lastmod>2023-07-01T19:33:32+05:00</lastmod>
+  </url><url>
+    <loc>https://iasad.me/tags/enigma/</loc>
+    <lastmod>2023-07-01T19:33:32+05:00</lastmod>
+  </url><url>
+    <loc>https://iasad.me/categories/osint/</loc>
+    <lastmod>2023-07-01T19:33:32+05:00</lastmod>
+  </url><url>
+    <loc>https://iasad.me/write-ups/aupctf/osint/</loc>
+    <lastmod>2023-07-01T19:33:32+05:00</lastmod>
+  </url><url>
+    <loc>https://iasad.me/tags/rsa/</loc>
+    <lastmod>2023-07-01T19:33:32+05:00</lastmod>
+  </url><url>
+    <loc>https://iasad.me/tags/spectogram/</loc>
+    <lastmod>2023-07-01T19:33:32+05:00</lastmod>
+  </url><url>
+    <loc>https://iasad.me/categories/steganography/</loc>
+    <lastmod>2023-07-01T19:33:32+05:00</lastmod>
+  </url><url>
+    <loc>https://iasad.me/write-ups/aupctf/stego/</loc>
+    <lastmod>2023-07-01T19:33:32+05:00</lastmod>
+  </url><url>
+    <loc>https://iasad.me/tags/transposition/</loc>
+    <lastmod>2023-07-01T19:33:32+05:00</lastmod>
+  </url><url>
+    <loc>https://iasad.me/tags/vigenere/</loc>
+    <lastmod>2023-07-01T19:33:32+05:00</lastmod>
   </url><url>
     <loc>https://iasad.me/write-ups/</loc>
-    <lastmod>2023-03-30T06:54:51+05:00</lastmod>
+    <lastmod>2023-07-01T19:33:32+05:00</lastmod>
   </url><url>
-    <loc>https://iasad.me/categories/writeup/</loc>
-    <lastmod>2023-03-30T06:54:51+05:00</lastmod>
+    <loc>https://iasad.me/tags/xor/</loc>
+    <lastmod>2023-07-01T19:33:32+05:00</lastmod>
   </url><url>
-    <loc>https://iasad.me/tags/rot13/</loc>
-    <lastmod>2023-03-30T04:54:51+05:00</lastmod>
-  </url><url>
-    <loc>https://iasad.me/tags/rot18/</loc>
-    <lastmod>2023-03-30T04:54:51+05:00</lastmod>
-  </url><url>
-    <loc>https://iasad.me/tags/rotation/</loc>
-    <lastmod>2023-03-30T04:54:51+05:00</lastmod>
-  </url><url>
-    <loc>https://iasad.me/write-ups/picoctf/rotation/</loc>
-    <lastmod>2023-03-30T04:54:51+05:00</lastmod>
-  </url><url>
-    <loc>https://iasad.me/tags/bzip2/</loc>
-    <lastmod>2023-03-30T02:54:51+05:00</lastmod>
-  </url><url>
-    <loc>https://iasad.me/tags/compression/</loc>
-    <lastmod>2023-03-30T02:54:51+05:00</lastmod>
-  </url><url>
-    <loc>https://iasad.me/tags/cpio/</loc>
-    <lastmod>2023-03-30T02:54:51+05:00</lastmod>
-  </url><url>
-    <loc>https://iasad.me/write-ups/picoctf/file-type/</loc>
-    <lastmod>2023-03-30T02:54:51+05:00</lastmod>
-  </url><url>
-    <loc>https://iasad.me/tags/forensics/</loc>
-    <lastmod>2023-03-30T02:54:51+05:00</lastmod>
+    <loc>https://iasad.me/tags/bruteforce/</loc>
+    <lastmod>2023-06-29T19:33:32+05:00</lastmod>
   </url><url>
     <loc>https://iasad.me/categories/forensics/</loc>
+    <lastmod>2023-06-29T19:33:32+05:00</lastmod>
+  </url><url>
+    <loc>https://iasad.me/write-ups/aupctf/forensics/</loc>
+    <lastmod>2023-06-29T19:33:32+05:00</lastmod>
+  </url><url>
+    <loc>https://iasad.me/tags/gcode/</loc>
+    <lastmod>2023-06-29T19:33:32+05:00</lastmod>
+  </url><url>
+    <loc>https://iasad.me/tags/john-the-ripper/</loc>
+    <lastmod>2023-06-29T19:33:32+05:00</lastmod>
+  </url><url>
+    <loc>https://iasad.me/tags/memdump/</loc>
+    <lastmod>2023-06-29T19:33:32+05:00</lastmod>
+  </url><url>
+    <loc>https://iasad.me/write-ups/aupctf/misc/</loc>
+    <lastmod>2023-06-29T19:33:32+05:00</lastmod>
+  </url><url>
+    <loc>https://iasad.me/tags/sql/</loc>
+    <lastmod>2023-06-29T19:33:32+05:00</lastmod>
+  </url><url>
+    <loc>https://iasad.me/tags/virustotal/</loc>
+    <lastmod>2023-06-29T19:33:32+05:00</lastmod>
+  </url><url>
+    <loc>https://iasad.me/tags/volatility/</loc>
+    <lastmod>2023-06-29T19:33:32+05:00</lastmod>
+  </url><url>
+    <loc>https://iasad.me/categories/web/</loc>
+    <lastmod>2023-06-29T19:33:32+05:00</lastmod>
+  </url><url>
+    <loc>https://iasad.me/write-ups/aupctf/web/</loc>
+    <lastmod>2023-06-29T19:33:32+05:00</lastmod>
+  </url><url>
+    <loc>https://iasad.me/tags/angstormctf/</loc>
+    <lastmod>2023-04-27T01:00:24+05:00</lastmod>
+  </url><url>
+    <loc>https://iasad.me/tags/binary/</loc>
+    <lastmod>2023-04-27T01:00:24+05:00</lastmod>
+  </url><url>
+    <loc>https://iasad.me/tags/crypto/</loc>
+    <lastmod>2023-04-27T01:00:24+05:00</lastmod>
+  </url><url>
+    <loc>https://iasad.me/categories/ctftime.org/</loc>
+    <lastmod>2023-04-27T01:00:24+05:00</lastmod>
+  </url><url>
+    <loc>https://iasad.me/write-ups/ctftime/angstromctf/impossible/</loc>
+    <lastmod>2023-04-27T01:00:24+05:00</lastmod>
+  </url><url>
+    <loc>https://iasad.me/tags/rev/</loc>
+    <lastmod>2023-04-27T01:00:24+05:00</lastmod>
+  </url><url>
+    <loc>https://iasad.me/categories/writeup/</loc>
+    <lastmod>2023-04-27T01:00:24+05:00</lastmod>
+  </url><url>
+    <loc>https://iasad.me/write-ups/ctftime/angstromctf/zaza/</loc>
+    <lastmod>2023-04-27T01:00:24+05:00</lastmod>
+  </url><url>
+    <loc>https://iasad.me/tags/header/</loc>
+    <lastmod>2023-04-27T00:33:24+05:00</lastmod>
+  </url><url>
+    <loc>https://iasad.me/tags/misc/</loc>
+    <lastmod>2023-04-27T00:33:24+05:00</lastmod>
+  </url><url>
+    <loc>https://iasad.me/write-ups/ctftime/angstromctf/simon-says/</loc>
+    <lastmod>2023-04-27T00:33:24+05:00</lastmod>
+  </url><url>
+    <loc>https://iasad.me/write-ups/ctftime/angstromctf/csa/</loc>
+    <lastmod>2023-04-27T00:04:24+05:00</lastmod>
+  </url><url>
+    <loc>https://iasad.me/tags/epoch/</loc>
+    <lastmod>2023-04-27T00:04:24+05:00</lastmod>
+  </url><url>
+    <loc>https://iasad.me/tags/javascript/</loc>
+    <lastmod>2023-04-27T00:04:24+05:00</lastmod>
+  </url><url>
+    <loc>https://iasad.me/tags/reverse/</loc>
+    <lastmod>2023-04-27T00:04:24+05:00</lastmod>
+  </url><url>
+    <loc>https://iasad.me/write-ups/ctftime/angstromctf/shortcircuit/</loc>
+    <lastmod>2023-04-27T00:04:24+05:00</lastmod>
+  </url><url>
+    <loc>https://iasad.me/tags/web/</loc>
+    <lastmod>2023-04-27T00:04:24+05:00</lastmod>
+  </url><url>
+    <loc>https://iasad.me/write-ups/ctftime/angstromctf/</loc>
+    <lastmod>2023-04-25T05:04:24+05:00</lastmod>
+  </url><url>
+    <loc>https://iasad.me/write-ups/ctftime/bucketctf/</loc>
+    <lastmod>2023-04-11T05:04:24+05:00</lastmod>
+  </url><url>
+    <loc>https://iasad.me/tags/bucketctf/</loc>
+    <lastmod>2023-04-10T05:04:14+05:00</lastmod>
+  </url><url>
+    <loc>https://iasad.me/write-ups/ctftime/bucketctf/gif/</loc>
+    <lastmod>2023-04-10T05:04:14+05:00</lastmod>
+  </url><url>
+    <loc>https://iasad.me/tags/payload/</loc>
+    <lastmod>2023-04-10T05:04:14+05:00</lastmod>
+  </url><url>
+    <loc>https://iasad.me/tags/php/</loc>
+    <lastmod>2023-04-10T05:04:14+05:00</lastmod>
+  </url><url>
+    <loc>https://iasad.me/tags/upload-vulnerability/</loc>
+    <lastmod>2023-04-10T05:04:14+05:00</lastmod>
+  </url><url>
+    <loc>https://iasad.me/tags/web-exploitation/</loc>
+    <lastmod>2023-04-10T05:04:14+05:00</lastmod>
+  </url><url>
+    <loc>https://iasad.me/write-ups/ctftime/bucketctf/tbdlcg/</loc>
+    <lastmod>2023-04-10T04:04:24+05:00</lastmod>
+  </url><url>
+    <loc>https://iasad.me/write-ups/ctftime/bucketctf/schematic/</loc>
+    <lastmod>2023-04-10T03:05:34+05:00</lastmod>
+  </url><url>
+    <loc>https://iasad.me/write-ups/ctftime/bucketctf/detective/</loc>
+    <lastmod>2023-04-10T02:08:24+05:00</lastmod>
+  </url><url>
+    <loc>https://iasad.me/tags/log/</loc>
+    <lastmod>2023-04-10T02:08:24+05:00</lastmod>
+  </url><url>
+    <loc>https://iasad.me/write-ups/ctftime/bucketctf/minecraft/</loc>
+    <lastmod>2023-04-10T02:08:24+05:00</lastmod>
+  </url><url>
+    <loc>https://iasad.me/tags/stegsolve/</loc>
+    <lastmod>2023-04-10T02:08:24+05:00</lastmod>
+  </url><url>
+    <loc>https://iasad.me/write-ups/ctftime/bucketctf/apps/</loc>
+    <lastmod>2023-04-10T02:04:24+05:00</lastmod>
+  </url><url>
+    <loc>https://iasad.me/write-ups/tryhackme/adventures-of-kencypher/</loc>
+    <lastmod>2023-04-08T19:33:32+05:00</lastmod>
+  </url><url>
+    <loc>https://iasad.me/tags/cryptography/</loc>
+    <lastmod>2023-04-08T19:33:32+05:00</lastmod>
+  </url><url>
+    <loc>https://iasad.me/tags/cybrovert/</loc>
+    <lastmod>2023-04-08T19:33:32+05:00</lastmod>
+  </url><url>
+    <loc>https://iasad.me/tags/osint/</loc>
+    <lastmod>2023-04-08T19:33:32+05:00</lastmod>
+  </url><url>
+    <loc>https://iasad.me/tags/steganography/</loc>
+    <lastmod>2023-04-08T19:33:32+05:00</lastmod>
+  </url><url>
+    <loc>https://iasad.me/categories/tryhackme/</loc>
+    <lastmod>2023-04-08T19:33:32+05:00</lastmod>
+  </url><url>
+    <loc>https://iasad.me/blogs/linux-privilege-escalation/</loc>
+    <lastmod>2023-04-06T18:02:36+05:00</lastmod>
+  </url><url>
+    <loc>https://iasad.me/categories/article/</loc>
+    <lastmod>2023-04-06T18:02:36+05:00</lastmod>
+  </url><url>
+    <loc>https://iasad.me/blogs/</loc>
+    <lastmod>2023-04-06T18:02:36+05:00</lastmod>
+  </url><url>
+    <loc>https://iasad.me/tags/dirtycow/</loc>
+    <lastmod>2023-04-06T18:02:36+05:00</lastmod>
+  </url><url>
+    <loc>https://iasad.me/tags/linux/</loc>
+    <lastmod>2023-04-06T18:02:36+05:00</lastmod>
+  </url><url>
+    <loc>https://iasad.me/tags/prev-esc/</loc>
+    <lastmod>2023-04-06T18:02:36+05:00</lastmod>
+  </url><url>
+    <loc>https://iasad.me/tags/privilege-escalation/</loc>
+    <lastmod>2023-04-06T18:02:36+05:00</lastmod>
+  </url><url>
+    <loc>https://iasad.me/tags/suid/</loc>
+    <lastmod>2023-04-06T18:02:36+05:00</lastmod>
+  </url><url>
+    <loc>https://iasad.me/tags/hash-cracking/</loc>
+    <lastmod>2023-04-02T18:33:37+05:00</lastmod>
+  </url><url>
+    <loc>https://iasad.me/write-ups/ctftime/vishwactf/the-sender-conundrum/</loc>
+    <lastmod>2023-04-02T18:33:37+05:00</lastmod>
+  </url><url>
+    <loc>https://iasad.me/tags/vishwactf/</loc>
+    <lastmod>2023-04-02T18:33:37+05:00</lastmod>
+  </url><url>
+    <loc>https://iasad.me/tags/zip2john/</loc>
+    <lastmod>2023-04-02T18:33:37+05:00</lastmod>
+  </url><url>
+    <loc>https://iasad.me/tags/base64/</loc>
+    <lastmod>2023-04-02T17:33:37+05:00</lastmod>
+  </url><url>
+    <loc>https://iasad.me/tags/exiftool/</loc>
+    <lastmod>2023-04-02T17:33:37+05:00</lastmod>
+  </url><url>
+    <loc>https://iasad.me/write-ups/ctftime/vishwactf/gautemala/</loc>
+    <lastmod>2023-04-02T17:33:37+05:00</lastmod>
+  </url><url>
+    <loc>https://iasad.me/tags/metadata/</loc>
+    <lastmod>2023-04-02T17:33:37+05:00</lastmod>
+  </url><url>
+    <loc>https://iasad.me/write-ups/ctftime/vishwactf/</loc>
+    <lastmod>2023-04-02T17:33:37+05:00</lastmod>
+  </url><url>
+    <loc>https://iasad.me/tags/binwalk/</loc>
+    <lastmod>2023-04-02T16:33:37+05:00</lastmod>
+  </url><url>
+    <loc>https://iasad.me/write-ups/ctftime/vishwactf/can-you-see-me/</loc>
+    <lastmod>2023-04-02T16:33:37+05:00</lastmod>
+  </url><url>
+    <loc>https://iasad.me/tags/sonic-visualizer/</loc>
+    <lastmod>2023-04-02T16:33:37+05:00</lastmod>
+  </url><url>
+    <loc>https://iasad.me/tags/stectrogram/</loc>
+    <lastmod>2023-04-02T16:33:37+05:00</lastmod>
+  </url><url>
+    <loc>https://iasad.me/tags/cipher-identifier/</loc>
+    <lastmod>2023-04-02T16:03:37+05:00</lastmod>
+  </url><url>
+    <loc>https://iasad.me/tags/dcode.fr/</loc>
+    <lastmod>2023-04-02T16:03:37+05:00</lastmod>
+  </url><url>
+    <loc>https://iasad.me/write-ups/ctftime/vishwactf/the-indecipherable-cipher/</loc>
+    <lastmod>2023-04-02T16:03:37+05:00</lastmod>
+  </url><url>
+    <loc>https://iasad.me/tags/albash-cipher/</loc>
     <lastmod>2023-03-30T02:54:51+05:00</lastmod>
   </url><url>
-    <loc>https://iasad.me/tags/lzip/</loc>
+    <loc>https://iasad.me/write-ups/picoctf/2023/cryptography/</loc>
     <lastmod>2023-03-30T02:54:51+05:00</lastmod>
   </url><url>
-    <loc>https://iasad.me/tags/lzma/</loc>
+    <loc>https://iasad.me/write-ups/picoctf/2023/forensics/</loc>
     <lastmod>2023-03-30T02:54:51+05:00</lastmod>
   </url><url>
-    <loc>https://iasad.me/tags/lzop/</loc>
+    <loc>https://iasad.me/tags/jwt/</loc>
+    <lastmod>2023-03-30T02:54:51+05:00</lastmod>
+  </url><url>
+    <loc>https://iasad.me/tags/lsb/</loc>
+    <lastmod>2023-03-30T02:54:51+05:00</lastmod>
+  </url><url>
+    <loc>https://iasad.me/tags/msb/</loc>
+    <lastmod>2023-03-30T02:54:51+05:00</lastmod>
+  </url><url>
+    <loc>https://iasad.me/tags/pcap/</loc>
+    <lastmod>2023-03-30T02:54:51+05:00</lastmod>
+  </url><url>
+    <loc>https://iasad.me/categories/picoctf-2023/</loc>
+    <lastmod>2023-03-30T02:54:51+05:00</lastmod>
+  </url><url>
+    <loc>https://iasad.me/tags/regex/</loc>
+    <lastmod>2023-03-30T02:54:51+05:00</lastmod>
+  </url><url>
+    <loc>https://iasad.me/tags/rot-13/</loc>
+    <lastmod>2023-03-30T02:54:51+05:00</lastmod>
+  </url><url>
+    <loc>https://iasad.me/tags/sqli/</loc>
+    <lastmod>2023-03-30T02:54:51+05:00</lastmod>
+  </url><url>
+    <loc>https://iasad.me/tags/steghide/</loc>
+    <lastmod>2023-03-30T02:54:51+05:00</lastmod>
+  </url><url>
+    <loc>https://iasad.me/categories/web-exploitation/</loc>
+    <lastmod>2023-03-30T02:54:51+05:00</lastmod>
+  </url><url>
+    <loc>https://iasad.me/write-ups/picoctf/2023/web-exploitation/</loc>
+    <lastmod>2023-03-30T02:54:51+05:00</lastmod>
+  </url><url>
+    <loc>https://iasad.me/tags/whois/</loc>
+    <lastmod>2023-03-30T02:54:51+05:00</lastmod>
+  </url><url>
+    <loc>https://iasad.me/tags/xxe/</loc>
     <lastmod>2023-03-30T02:54:51+05:00</lastmod>
   </url><url>
     <loc>https://iasad.me/tags/cewl/</loc>
@@ -100,19 +365,10 @@
     <loc>https://iasad.me/tags/freak-mutation/</loc>
     <lastmod>2023-03-28T02:54:51+05:00</lastmod>
   </url><url>
-    <loc>https://iasad.me/tags/haiti/</loc>
-    <lastmod>2023-03-28T02:54:51+05:00</lastmod>
-  </url><url>
-    <loc>https://iasad.me/tags/hash-cracking/</loc>
-    <lastmod>2023-03-28T02:54:51+05:00</lastmod>
-  </url><url>
     <loc>https://iasad.me/categories/hash-cracking/</loc>
     <lastmod>2023-03-28T02:54:51+05:00</lastmod>
   </url><url>
     <loc>https://iasad.me/tags/hashcat/</loc>
-    <lastmod>2023-03-28T02:54:51+05:00</lastmod>
-  </url><url>
-    <loc>https://iasad.me/tags/john-the-ripper/</loc>
     <lastmod>2023-03-28T02:54:51+05:00</lastmod>
   </url><url>
     <loc>https://iasad.me/tags/mentalist/</loc>
@@ -121,13 +377,7 @@
     <loc>https://iasad.me/tags/pnwgen/</loc>
     <lastmod>2023-03-28T02:54:51+05:00</lastmod>
   </url><url>
-    <loc>https://iasad.me/tags/rules-based/</loc>
-    <lastmod>2023-03-28T02:54:51+05:00</lastmod>
-  </url><url>
     <loc>https://iasad.me/tags/seclists/</loc>
-    <lastmod>2023-03-28T02:54:51+05:00</lastmod>
-  </url><url>
-    <loc>https://iasad.me/categories/tryhackme/</loc>
     <lastmod>2023-03-28T02:54:51+05:00</lastmod>
   </url><url>
     <loc>https://iasad.me/tags/ttpassgen/</loc>
@@ -142,28 +392,7 @@
     <loc>https://iasad.me/tags/crackstation/</loc>
     <lastmod>2023-03-25T02:54:51+05:00</lastmod>
   </url><url>
-    <loc>https://iasad.me/tags/hash/</loc>
-    <lastmod>2023-03-25T02:54:51+05:00</lastmod>
-  </url><url>
-    <loc>https://iasad.me/tags/md5/</loc>
-    <lastmod>2023-03-25T02:54:51+05:00</lastmod>
-  </url><url>
-    <loc>https://iasad.me/tags/ntlm/</loc>
-    <lastmod>2023-03-25T02:54:51+05:00</lastmod>
-  </url><url>
-    <loc>https://iasad.me/tags/ranbow-tables/</loc>
-    <lastmod>2023-03-25T02:54:51+05:00</lastmod>
-  </url><url>
-    <loc>https://iasad.me/tags/sha256/</loc>
-    <lastmod>2023-03-25T02:54:51+05:00</lastmod>
-  </url><url>
-    <loc>https://iasad.me/blogs/</loc>
-    <lastmod>2023-03-23T02:54:51+05:00</lastmod>
-  </url><url>
     <loc>https://iasad.me/tags/defensive-security/</loc>
-    <lastmod>2023-03-23T02:54:51+05:00</lastmod>
-  </url><url>
-    <loc>https://iasad.me/tags/kali-linux-2023.1/</loc>
     <lastmod>2023-03-23T02:54:51+05:00</lastmod>
   </url><url>
     <loc>https://iasad.me/blogs/kali-linux-2023-1/</loc>
@@ -175,17 +404,13 @@
     <loc>https://iasad.me/tags/offensive-security/</loc>
     <lastmod>2023-03-23T02:54:51+05:00</lastmod>
   </url><url>
-    <loc>https://iasad.me/tags/python-3.11/</loc>
-    <lastmod>2023-03-23T02:54:51+05:00</lastmod>
-  </url><url>
-    <loc>https://iasad.me/categories/reviews/</loc>
-    <lastmod>2023-03-23T02:54:51+05:00</lastmod>
-  </url><url>
     <loc>https://iasad.me/about/</loc>
+  </url><url>
+    <loc>https://iasad.me/archives/</loc>
   </url><url>
     <loc>https://iasad.me/favoritequotes/</loc>
   </url><url>
-    <loc>https://iasad.me/archives/</loc>
+    <loc>https://iasad.me/resume/</loc>
   </url><url>
     <loc>https://iasad.me/search/</loc>
   </url>

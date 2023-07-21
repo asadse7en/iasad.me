@@ -1,45 +1,117 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>categories on AsAd</title>
+    <title>AsAd</title>
     <link>https://iasad.me/categories/</link>
-    <description>Recent content in categories on AsAd</description>
+    <description>Recent content on AsAd</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 30 Mar 2023 06:54:51 +0500</lastBuildDate><atom:link href="https://iasad.me/categories/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 01 Jul 2023 19:33:32 +0500</lastBuildDate><atom:link href="https://iasad.me/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>aupctf</title>
+      <link>https://iasad.me/categories/aupctf/</link>
+      <pubDate>Sat, 01 Jul 2023 19:33:32 +0500</pubDate>
+      
+      <guid>https://iasad.me/categories/aupctf/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>cryptography</title>
       <link>https://iasad.me/categories/cryptography/</link>
-      <pubDate>Thu, 30 Mar 2023 06:54:51 +0500</pubDate>
+      <pubDate>Sat, 01 Jul 2023 19:33:32 +0500</pubDate>
       
       <guid>https://iasad.me/categories/cryptography/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>picoctf</title>
-      <link>https://iasad.me/categories/picoctf/</link>
-      <pubDate>Thu, 30 Mar 2023 06:54:51 +0500</pubDate>
+      <title>osint</title>
+      <link>https://iasad.me/categories/osint/</link>
+      <pubDate>Sat, 01 Jul 2023 19:33:32 +0500</pubDate>
       
-      <guid>https://iasad.me/categories/picoctf/</guid>
+      <guid>https://iasad.me/categories/osint/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>writeup</title>
-      <link>https://iasad.me/categories/writeup/</link>
-      <pubDate>Thu, 30 Mar 2023 06:54:51 +0500</pubDate>
+      <title>steganography</title>
+      <link>https://iasad.me/categories/steganography/</link>
+      <pubDate>Sat, 01 Jul 2023 19:33:32 +0500</pubDate>
       
-      <guid>https://iasad.me/categories/writeup/</guid>
+      <guid>https://iasad.me/categories/steganography/</guid>
       <description></description>
     </item>
     
     <item>
       <title>forensics</title>
       <link>https://iasad.me/categories/forensics/</link>
-      <pubDate>Thu, 30 Mar 2023 02:54:51 +0500</pubDate>
+      <pubDate>Thu, 29 Jun 2023 19:33:32 +0500</pubDate>
       
       <guid>https://iasad.me/categories/forensics/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Web</title>
+      <link>https://iasad.me/categories/web/</link>
+      <pubDate>Thu, 29 Jun 2023 19:33:32 +0500</pubDate>
+      
+      <guid>https://iasad.me/categories/web/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>ctftime.org</title>
+      <link>https://iasad.me/categories/ctftime.org/</link>
+      <pubDate>Thu, 27 Apr 2023 01:00:24 +0500</pubDate>
+      
+      <guid>https://iasad.me/categories/ctftime.org/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>writeup</title>
+      <link>https://iasad.me/categories/writeup/</link>
+      <pubDate>Thu, 27 Apr 2023 01:00:24 +0500</pubDate>
+      
+      <guid>https://iasad.me/categories/writeup/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>tryhackme</title>
+      <link>https://iasad.me/categories/tryhackme/</link>
+      <pubDate>Sat, 08 Apr 2023 19:33:32 +0500</pubDate>
+      
+      <guid>https://iasad.me/categories/tryhackme/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>article</title>
+      <link>https://iasad.me/categories/article/</link>
+      <pubDate>Thu, 06 Apr 2023 18:02:36 +0500</pubDate>
+      
+      <guid>https://iasad.me/categories/article/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>picoctf 2023</title>
+      <link>https://iasad.me/categories/picoctf-2023/</link>
+      <pubDate>Thu, 30 Mar 2023 02:54:51 +0500</pubDate>
+      
+      <guid>https://iasad.me/categories/picoctf-2023/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>web exploitation</title>
+      <link>https://iasad.me/categories/web-exploitation/</link>
+      <pubDate>Thu, 30 Mar 2023 02:54:51 +0500</pubDate>
+      
+      <guid>https://iasad.me/categories/web-exploitation/</guid>
       <description></description>
     </item>
     
@@ -49,24 +121,6 @@
       <pubDate>Tue, 28 Mar 2023 02:54:51 +0500</pubDate>
       
       <guid>https://iasad.me/categories/hash-cracking/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>tryhackme</title>
-      <link>https://iasad.me/categories/tryhackme/</link>
-      <pubDate>Tue, 28 Mar 2023 02:54:51 +0500</pubDate>
-      
-      <guid>https://iasad.me/categories/tryhackme/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Reviews</title>
-      <link>https://iasad.me/categories/reviews/</link>
-      <pubDate>Thu, 23 Mar 2023 02:54:51 +0500</pubDate>
-      
-      <guid>https://iasad.me/categories/reviews/</guid>
       <description></description>
     </item>
     

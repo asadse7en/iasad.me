@@ -23,8 +23,13 @@ ShowBreadCrumbs: false
 - Sharpening my skills 🤹‍♂️ through challenges on [**ctftime**](https://ctftime.org/user/149593/ "timectf Profile") and [**THM**](https://tryhackme.com/p/n4ruto/ "tryhackme profile")🚩
 - Planning to pursue **OSCP** certification 📜 in the near future, Insha’Allah🙏
 - Excited about possibilities in the ever-evolving field of cybersecurity 🌟
+- checkout my [**Resume**](/resume "cv")📄
+
 
 &nbsp;
+
+&nbsp;
+
 - **Few Interesting pages:**
    - [Write-ups](/write-ups) on various Capture the Flag (CTF) challenges.
    - [Archives](/archives) page to get a list of posts in reverse chronological order.

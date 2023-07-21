@@ -1,153 +1,612 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>tags on AsAd</title>
+    <title>AsAd</title>
     <link>https://iasad.me/tags/</link>
-    <description>Recent content in tags on AsAd</description>
+    <description>Recent content on AsAd</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 30 Mar 2023 06:54:51 +0500</lastBuildDate><atom:link href="https://iasad.me/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 01 Jul 2023 19:33:32 +0500</lastBuildDate><atom:link href="https://iasad.me/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>base64</title>
-      <link>https://iasad.me/tags/base64/</link>
-      <pubDate>Thu, 30 Mar 2023 06:54:51 +0500</pubDate>
+      <title>archive.org</title>
+      <link>https://iasad.me/tags/archive.org/</link>
+      <pubDate>Sat, 01 Jul 2023 19:33:32 +0500</pubDate>
       
-      <guid>https://iasad.me/tags/base64/</guid>
+      <guid>https://iasad.me/tags/archive.org/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>base64decode</title>
-      <link>https://iasad.me/tags/base64decode/</link>
-      <pubDate>Thu, 30 Mar 2023 06:54:51 +0500</pubDate>
+      <title>aupctf</title>
+      <link>https://iasad.me/tags/aupctf/</link>
+      <pubDate>Sat, 01 Jul 2023 19:33:32 +0500</pubDate>
       
-      <guid>https://iasad.me/tags/base64decode/</guid>
+      <guid>https://iasad.me/tags/aupctf/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>ceaser</title>
+      <link>https://iasad.me/tags/ceaser/</link>
+      <pubDate>Sat, 01 Jul 2023 19:33:32 +0500</pubDate>
+      
+      <guid>https://iasad.me/tags/ceaser/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>cipher</title>
+      <link>https://iasad.me/tags/cipher/</link>
+      <pubDate>Sat, 01 Jul 2023 19:33:32 +0500</pubDate>
+      
+      <guid>https://iasad.me/tags/cipher/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>deepsound</title>
+      <link>https://iasad.me/tags/deepsound/</link>
+      <pubDate>Sat, 01 Jul 2023 19:33:32 +0500</pubDate>
+      
+      <guid>https://iasad.me/tags/deepsound/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>dns records</title>
+      <link>https://iasad.me/tags/dns-records/</link>
+      <pubDate>Sat, 01 Jul 2023 19:33:32 +0500</pubDate>
+      
+      <guid>https://iasad.me/tags/dns-records/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>enigma</title>
+      <link>https://iasad.me/tags/enigma/</link>
+      <pubDate>Sat, 01 Jul 2023 19:33:32 +0500</pubDate>
+      
+      <guid>https://iasad.me/tags/enigma/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>rsa</title>
+      <link>https://iasad.me/tags/rsa/</link>
+      <pubDate>Sat, 01 Jul 2023 19:33:32 +0500</pubDate>
+      
+      <guid>https://iasad.me/tags/rsa/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>spectogram</title>
+      <link>https://iasad.me/tags/spectogram/</link>
+      <pubDate>Sat, 01 Jul 2023 19:33:32 +0500</pubDate>
+      
+      <guid>https://iasad.me/tags/spectogram/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>transposition</title>
+      <link>https://iasad.me/tags/transposition/</link>
+      <pubDate>Sat, 01 Jul 2023 19:33:32 +0500</pubDate>
+      
+      <guid>https://iasad.me/tags/transposition/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>vigenere</title>
+      <link>https://iasad.me/tags/vigenere/</link>
+      <pubDate>Sat, 01 Jul 2023 19:33:32 +0500</pubDate>
+      
+      <guid>https://iasad.me/tags/vigenere/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>XOR</title>
+      <link>https://iasad.me/tags/xor/</link>
+      <pubDate>Sat, 01 Jul 2023 19:33:32 +0500</pubDate>
+      
+      <guid>https://iasad.me/tags/xor/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>bruteforce</title>
+      <link>https://iasad.me/tags/bruteforce/</link>
+      <pubDate>Thu, 29 Jun 2023 19:33:32 +0500</pubDate>
+      
+      <guid>https://iasad.me/tags/bruteforce/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>gcode</title>
+      <link>https://iasad.me/tags/gcode/</link>
+      <pubDate>Thu, 29 Jun 2023 19:33:32 +0500</pubDate>
+      
+      <guid>https://iasad.me/tags/gcode/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>john the ripper</title>
+      <link>https://iasad.me/tags/john-the-ripper/</link>
+      <pubDate>Thu, 29 Jun 2023 19:33:32 +0500</pubDate>
+      
+      <guid>https://iasad.me/tags/john-the-ripper/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>MemDump</title>
+      <link>https://iasad.me/tags/memdump/</link>
+      <pubDate>Thu, 29 Jun 2023 19:33:32 +0500</pubDate>
+      
+      <guid>https://iasad.me/tags/memdump/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>sql</title>
+      <link>https://iasad.me/tags/sql/</link>
+      <pubDate>Thu, 29 Jun 2023 19:33:32 +0500</pubDate>
+      
+      <guid>https://iasad.me/tags/sql/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>virustotal</title>
+      <link>https://iasad.me/tags/virustotal/</link>
+      <pubDate>Thu, 29 Jun 2023 19:33:32 +0500</pubDate>
+      
+      <guid>https://iasad.me/tags/virustotal/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>volatility</title>
+      <link>https://iasad.me/tags/volatility/</link>
+      <pubDate>Thu, 29 Jun 2023 19:33:32 +0500</pubDate>
+      
+      <guid>https://iasad.me/tags/volatility/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>angstormctf</title>
+      <link>https://iasad.me/tags/angstormctf/</link>
+      <pubDate>Thu, 27 Apr 2023 01:00:24 +0500</pubDate>
+      
+      <guid>https://iasad.me/tags/angstormctf/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>binary</title>
+      <link>https://iasad.me/tags/binary/</link>
+      <pubDate>Thu, 27 Apr 2023 01:00:24 +0500</pubDate>
+      
+      <guid>https://iasad.me/tags/binary/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>crypto</title>
+      <link>https://iasad.me/tags/crypto/</link>
+      <pubDate>Thu, 27 Apr 2023 01:00:24 +0500</pubDate>
+      
+      <guid>https://iasad.me/tags/crypto/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>rev</title>
+      <link>https://iasad.me/tags/rev/</link>
+      <pubDate>Thu, 27 Apr 2023 01:00:24 +0500</pubDate>
+      
+      <guid>https://iasad.me/tags/rev/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>header</title>
+      <link>https://iasad.me/tags/header/</link>
+      <pubDate>Thu, 27 Apr 2023 00:33:24 +0500</pubDate>
+      
+      <guid>https://iasad.me/tags/header/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>misc</title>
+      <link>https://iasad.me/tags/misc/</link>
+      <pubDate>Thu, 27 Apr 2023 00:33:24 +0500</pubDate>
+      
+      <guid>https://iasad.me/tags/misc/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>epoch</title>
+      <link>https://iasad.me/tags/epoch/</link>
+      <pubDate>Thu, 27 Apr 2023 00:04:24 +0500</pubDate>
+      
+      <guid>https://iasad.me/tags/epoch/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>javascript</title>
+      <link>https://iasad.me/tags/javascript/</link>
+      <pubDate>Thu, 27 Apr 2023 00:04:24 +0500</pubDate>
+      
+      <guid>https://iasad.me/tags/javascript/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>reverse</title>
+      <link>https://iasad.me/tags/reverse/</link>
+      <pubDate>Thu, 27 Apr 2023 00:04:24 +0500</pubDate>
+      
+      <guid>https://iasad.me/tags/reverse/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>web</title>
+      <link>https://iasad.me/tags/web/</link>
+      <pubDate>Thu, 27 Apr 2023 00:04:24 +0500</pubDate>
+      
+      <guid>https://iasad.me/tags/web/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>bucketctf</title>
+      <link>https://iasad.me/tags/bucketctf/</link>
+      <pubDate>Mon, 10 Apr 2023 05:04:14 +0500</pubDate>
+      
+      <guid>https://iasad.me/tags/bucketctf/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>payload</title>
+      <link>https://iasad.me/tags/payload/</link>
+      <pubDate>Mon, 10 Apr 2023 05:04:14 +0500</pubDate>
+      
+      <guid>https://iasad.me/tags/payload/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>php</title>
+      <link>https://iasad.me/tags/php/</link>
+      <pubDate>Mon, 10 Apr 2023 05:04:14 +0500</pubDate>
+      
+      <guid>https://iasad.me/tags/php/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>upload vulnerability</title>
+      <link>https://iasad.me/tags/upload-vulnerability/</link>
+      <pubDate>Mon, 10 Apr 2023 05:04:14 +0500</pubDate>
+      
+      <guid>https://iasad.me/tags/upload-vulnerability/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>web exploitation</title>
+      <link>https://iasad.me/tags/web-exploitation/</link>
+      <pubDate>Mon, 10 Apr 2023 05:04:14 +0500</pubDate>
+      
+      <guid>https://iasad.me/tags/web-exploitation/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>log</title>
+      <link>https://iasad.me/tags/log/</link>
+      <pubDate>Mon, 10 Apr 2023 02:08:24 +0500</pubDate>
+      
+      <guid>https://iasad.me/tags/log/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>stegsolve</title>
+      <link>https://iasad.me/tags/stegsolve/</link>
+      <pubDate>Mon, 10 Apr 2023 02:08:24 +0500</pubDate>
+      
+      <guid>https://iasad.me/tags/stegsolve/</guid>
       <description></description>
     </item>
     
     <item>
       <title>cryptography</title>
       <link>https://iasad.me/tags/cryptography/</link>
-      <pubDate>Thu, 30 Mar 2023 06:54:51 +0500</pubDate>
+      <pubDate>Sat, 08 Apr 2023 19:33:32 +0500</pubDate>
       
       <guid>https://iasad.me/tags/cryptography/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>cyberchef</title>
-      <link>https://iasad.me/tags/cyberchef/</link>
-      <pubDate>Thu, 30 Mar 2023 06:54:51 +0500</pubDate>
+      <title>cybrovert</title>
+      <link>https://iasad.me/tags/cybrovert/</link>
+      <pubDate>Sat, 08 Apr 2023 19:33:32 +0500</pubDate>
       
-      <guid>https://iasad.me/tags/cyberchef/</guid>
+      <guid>https://iasad.me/tags/cybrovert/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>picoctf</title>
-      <link>https://iasad.me/tags/picoctf/</link>
-      <pubDate>Thu, 30 Mar 2023 06:54:51 +0500</pubDate>
+      <title>osint</title>
+      <link>https://iasad.me/tags/osint/</link>
+      <pubDate>Sat, 08 Apr 2023 19:33:32 +0500</pubDate>
       
-      <guid>https://iasad.me/tags/picoctf/</guid>
+      <guid>https://iasad.me/tags/osint/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>picoctf 2023</title>
-      <link>https://iasad.me/tags/picoctf-2023/</link>
-      <pubDate>Thu, 30 Mar 2023 06:54:51 +0500</pubDate>
+      <title>steganography</title>
+      <link>https://iasad.me/tags/steganography/</link>
+      <pubDate>Sat, 08 Apr 2023 19:33:32 +0500</pubDate>
       
-      <guid>https://iasad.me/tags/picoctf-2023/</guid>
+      <guid>https://iasad.me/tags/steganography/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>rot13</title>
-      <link>https://iasad.me/tags/rot13/</link>
-      <pubDate>Thu, 30 Mar 2023 04:54:51 +0500</pubDate>
+      <title>dirtycow</title>
+      <link>https://iasad.me/tags/dirtycow/</link>
+      <pubDate>Thu, 06 Apr 2023 18:02:36 +0500</pubDate>
       
-      <guid>https://iasad.me/tags/rot13/</guid>
+      <guid>https://iasad.me/tags/dirtycow/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>rot18</title>
-      <link>https://iasad.me/tags/rot18/</link>
-      <pubDate>Thu, 30 Mar 2023 04:54:51 +0500</pubDate>
+      <title>linux</title>
+      <link>https://iasad.me/tags/linux/</link>
+      <pubDate>Thu, 06 Apr 2023 18:02:36 +0500</pubDate>
       
-      <guid>https://iasad.me/tags/rot18/</guid>
+      <guid>https://iasad.me/tags/linux/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>rotation</title>
-      <link>https://iasad.me/tags/rotation/</link>
-      <pubDate>Thu, 30 Mar 2023 04:54:51 +0500</pubDate>
+      <title>prev esc</title>
+      <link>https://iasad.me/tags/prev-esc/</link>
+      <pubDate>Thu, 06 Apr 2023 18:02:36 +0500</pubDate>
       
-      <guid>https://iasad.me/tags/rotation/</guid>
+      <guid>https://iasad.me/tags/prev-esc/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>bzip2</title>
-      <link>https://iasad.me/tags/bzip2/</link>
+      <title>privilege escalation</title>
+      <link>https://iasad.me/tags/privilege-escalation/</link>
+      <pubDate>Thu, 06 Apr 2023 18:02:36 +0500</pubDate>
+      
+      <guid>https://iasad.me/tags/privilege-escalation/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>suid</title>
+      <link>https://iasad.me/tags/suid/</link>
+      <pubDate>Thu, 06 Apr 2023 18:02:36 +0500</pubDate>
+      
+      <guid>https://iasad.me/tags/suid/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>hash cracking</title>
+      <link>https://iasad.me/tags/hash-cracking/</link>
+      <pubDate>Sun, 02 Apr 2023 18:33:37 +0500</pubDate>
+      
+      <guid>https://iasad.me/tags/hash-cracking/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>vishwactf</title>
+      <link>https://iasad.me/tags/vishwactf/</link>
+      <pubDate>Sun, 02 Apr 2023 18:33:37 +0500</pubDate>
+      
+      <guid>https://iasad.me/tags/vishwactf/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>zip2john</title>
+      <link>https://iasad.me/tags/zip2john/</link>
+      <pubDate>Sun, 02 Apr 2023 18:33:37 +0500</pubDate>
+      
+      <guid>https://iasad.me/tags/zip2john/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>base64</title>
+      <link>https://iasad.me/tags/base64/</link>
+      <pubDate>Sun, 02 Apr 2023 17:33:37 +0500</pubDate>
+      
+      <guid>https://iasad.me/tags/base64/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>exiftool</title>
+      <link>https://iasad.me/tags/exiftool/</link>
+      <pubDate>Sun, 02 Apr 2023 17:33:37 +0500</pubDate>
+      
+      <guid>https://iasad.me/tags/exiftool/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>metadata</title>
+      <link>https://iasad.me/tags/metadata/</link>
+      <pubDate>Sun, 02 Apr 2023 17:33:37 +0500</pubDate>
+      
+      <guid>https://iasad.me/tags/metadata/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>binwalk</title>
+      <link>https://iasad.me/tags/binwalk/</link>
+      <pubDate>Sun, 02 Apr 2023 16:33:37 +0500</pubDate>
+      
+      <guid>https://iasad.me/tags/binwalk/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>sonic visualizer</title>
+      <link>https://iasad.me/tags/sonic-visualizer/</link>
+      <pubDate>Sun, 02 Apr 2023 16:33:37 +0500</pubDate>
+      
+      <guid>https://iasad.me/tags/sonic-visualizer/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>stectrogram</title>
+      <link>https://iasad.me/tags/stectrogram/</link>
+      <pubDate>Sun, 02 Apr 2023 16:33:37 +0500</pubDate>
+      
+      <guid>https://iasad.me/tags/stectrogram/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>cipher identifier</title>
+      <link>https://iasad.me/tags/cipher-identifier/</link>
+      <pubDate>Sun, 02 Apr 2023 16:03:37 +0500</pubDate>
+      
+      <guid>https://iasad.me/tags/cipher-identifier/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>dcode.fr</title>
+      <link>https://iasad.me/tags/dcode.fr/</link>
+      <pubDate>Sun, 02 Apr 2023 16:03:37 +0500</pubDate>
+      
+      <guid>https://iasad.me/tags/dcode.fr/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>albash cipher</title>
+      <link>https://iasad.me/tags/albash-cipher/</link>
       <pubDate>Thu, 30 Mar 2023 02:54:51 +0500</pubDate>
       
-      <guid>https://iasad.me/tags/bzip2/</guid>
+      <guid>https://iasad.me/tags/albash-cipher/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>compression</title>
-      <link>https://iasad.me/tags/compression/</link>
+      <title>jwt</title>
+      <link>https://iasad.me/tags/jwt/</link>
       <pubDate>Thu, 30 Mar 2023 02:54:51 +0500</pubDate>
       
-      <guid>https://iasad.me/tags/compression/</guid>
+      <guid>https://iasad.me/tags/jwt/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>cpio</title>
-      <link>https://iasad.me/tags/cpio/</link>
+      <title>lsb</title>
+      <link>https://iasad.me/tags/lsb/</link>
       <pubDate>Thu, 30 Mar 2023 02:54:51 +0500</pubDate>
       
-      <guid>https://iasad.me/tags/cpio/</guid>
+      <guid>https://iasad.me/tags/lsb/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>forensics</title>
-      <link>https://iasad.me/tags/forensics/</link>
+      <title>msb</title>
+      <link>https://iasad.me/tags/msb/</link>
       <pubDate>Thu, 30 Mar 2023 02:54:51 +0500</pubDate>
       
-      <guid>https://iasad.me/tags/forensics/</guid>
+      <guid>https://iasad.me/tags/msb/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>lzip</title>
-      <link>https://iasad.me/tags/lzip/</link>
+      <title>pcap</title>
+      <link>https://iasad.me/tags/pcap/</link>
       <pubDate>Thu, 30 Mar 2023 02:54:51 +0500</pubDate>
       
-      <guid>https://iasad.me/tags/lzip/</guid>
+      <guid>https://iasad.me/tags/pcap/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>LZMA</title>
-      <link>https://iasad.me/tags/lzma/</link>
+      <title>regex</title>
+      <link>https://iasad.me/tags/regex/</link>
       <pubDate>Thu, 30 Mar 2023 02:54:51 +0500</pubDate>
       
-      <guid>https://iasad.me/tags/lzma/</guid>
+      <guid>https://iasad.me/tags/regex/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>lzop</title>
-      <link>https://iasad.me/tags/lzop/</link>
+      <title>rot 13</title>
+      <link>https://iasad.me/tags/rot-13/</link>
       <pubDate>Thu, 30 Mar 2023 02:54:51 +0500</pubDate>
       
-      <guid>https://iasad.me/tags/lzop/</guid>
+      <guid>https://iasad.me/tags/rot-13/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>sqli</title>
+      <link>https://iasad.me/tags/sqli/</link>
+      <pubDate>Thu, 30 Mar 2023 02:54:51 +0500</pubDate>
+      
+      <guid>https://iasad.me/tags/sqli/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>steghide</title>
+      <link>https://iasad.me/tags/steghide/</link>
+      <pubDate>Thu, 30 Mar 2023 02:54:51 +0500</pubDate>
+      
+      <guid>https://iasad.me/tags/steghide/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>whois</title>
+      <link>https://iasad.me/tags/whois/</link>
+      <pubDate>Thu, 30 Mar 2023 02:54:51 +0500</pubDate>
+      
+      <guid>https://iasad.me/tags/whois/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>xxe</title>
+      <link>https://iasad.me/tags/xxe/</link>
+      <pubDate>Thu, 30 Mar 2023 02:54:51 +0500</pubDate>
+      
+      <guid>https://iasad.me/tags/xxe/</guid>
       <description></description>
     </item>
     
@@ -170,38 +629,11 @@
     </item>
     
     <item>
-      <title>Haiti</title>
-      <link>https://iasad.me/tags/haiti/</link>
-      <pubDate>Tue, 28 Mar 2023 02:54:51 +0500</pubDate>
-      
-      <guid>https://iasad.me/tags/haiti/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>hash cracking</title>
-      <link>https://iasad.me/tags/hash-cracking/</link>
-      <pubDate>Tue, 28 Mar 2023 02:54:51 +0500</pubDate>
-      
-      <guid>https://iasad.me/tags/hash-cracking/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>hashcat</title>
       <link>https://iasad.me/tags/hashcat/</link>
       <pubDate>Tue, 28 Mar 2023 02:54:51 +0500</pubDate>
       
       <guid>https://iasad.me/tags/hashcat/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>John the Ripper</title>
-      <link>https://iasad.me/tags/john-the-ripper/</link>
-      <pubDate>Tue, 28 Mar 2023 02:54:51 +0500</pubDate>
-      
-      <guid>https://iasad.me/tags/john-the-ripper/</guid>
       <description></description>
     </item>
     
@@ -220,15 +652,6 @@
       <pubDate>Tue, 28 Mar 2023 02:54:51 +0500</pubDate>
       
       <guid>https://iasad.me/tags/pnwgen/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>rules based</title>
-      <link>https://iasad.me/tags/rules-based/</link>
-      <pubDate>Tue, 28 Mar 2023 02:54:51 +0500</pubDate>
-      
-      <guid>https://iasad.me/tags/rules-based/</guid>
       <description></description>
     </item>
     
@@ -269,65 +692,11 @@
     </item>
     
     <item>
-      <title>hash</title>
-      <link>https://iasad.me/tags/hash/</link>
-      <pubDate>Sat, 25 Mar 2023 02:54:51 +0500</pubDate>
-      
-      <guid>https://iasad.me/tags/hash/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>md5</title>
-      <link>https://iasad.me/tags/md5/</link>
-      <pubDate>Sat, 25 Mar 2023 02:54:51 +0500</pubDate>
-      
-      <guid>https://iasad.me/tags/md5/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>NTLM</title>
-      <link>https://iasad.me/tags/ntlm/</link>
-      <pubDate>Sat, 25 Mar 2023 02:54:51 +0500</pubDate>
-      
-      <guid>https://iasad.me/tags/ntlm/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>ranbow tables</title>
-      <link>https://iasad.me/tags/ranbow-tables/</link>
-      <pubDate>Sat, 25 Mar 2023 02:54:51 +0500</pubDate>
-      
-      <guid>https://iasad.me/tags/ranbow-tables/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>sha256</title>
-      <link>https://iasad.me/tags/sha256/</link>
-      <pubDate>Sat, 25 Mar 2023 02:54:51 +0500</pubDate>
-      
-      <guid>https://iasad.me/tags/sha256/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Defensive Security</title>
       <link>https://iasad.me/tags/defensive-security/</link>
       <pubDate>Thu, 23 Mar 2023 02:54:51 +0500</pubDate>
       
       <guid>https://iasad.me/tags/defensive-security/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>kali linux 2023.1</title>
-      <link>https://iasad.me/tags/kali-linux-2023.1/</link>
-      <pubDate>Thu, 23 Mar 2023 02:54:51 +0500</pubDate>
-      
-      <guid>https://iasad.me/tags/kali-linux-2023.1/</guid>
       <description></description>
     </item>
     
@@ -346,15 +715,6 @@
       <pubDate>Thu, 23 Mar 2023 02:54:51 +0500</pubDate>
       
       <guid>https://iasad.me/tags/offensive-security/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>python 3.11</title>
-      <link>https://iasad.me/tags/python-3.11/</link>
-      <pubDate>Thu, 23 Mar 2023 02:54:51 +0500</pubDate>
-      
-      <guid>https://iasad.me/tags/python-3.11/</guid>
       <description></description>
     </item>
     
