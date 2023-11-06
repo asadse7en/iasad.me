@@ -18,7 +18,6 @@ tryhackme
 name="Crack the Hash" 
 os="-" 
 difficulty="Easy"  
-points="320" 
 creator_name="TryHackMe" creator_link="https://tryhackme.com/room/crackthehash"
 description="analyzing and cracking hashes using hashcat and crackstation"
 >}}
