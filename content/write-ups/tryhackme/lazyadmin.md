@@ -24,7 +24,6 @@ name="LazyAdmin"
 os="Linux" 
 difficulty="Easy"  
 creator_name="TryHackMe" creator_link="https://tryhackme.com/room/lazyadmin"
-description="Multiple vulnerabilities in SweetRice CMS"
 >}}
 
 ---

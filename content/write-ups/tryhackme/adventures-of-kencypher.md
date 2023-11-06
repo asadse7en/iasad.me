@@ -27,7 +27,6 @@ name="Adventures Of Kencypher"
 os="Linux" 
 difficulty="Beginner Friendly"  
 creator_name="TryHackMe" creator_link="https://tryhackme.com/room/adventuresofkencypher" 
-description="challanges on web, crypto, stego and OSINT"
 >}}
 
 &nbsp;

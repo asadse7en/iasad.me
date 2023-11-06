@@ -23,7 +23,6 @@ name="Crack the Hash Level 2"
 os="-" 
 difficulty="Medium"  
 creator_name="TryHackMe" creator_link="https://tryhackme.com/room/crackthehashlevel2" 
-description="Advanced hash cracking challenges and wordlist generation"
 >}}
 
 ---
