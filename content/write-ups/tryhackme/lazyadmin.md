@@ -116,9 +116,7 @@ I discovered that the ads page allows for the injection of PHP code, which can b
 
 ![Untitled](/write-ups/tryhackme/lazyadmin/1.webp)
 
-Initiate netcat to listen and execute the payload.
-
-and we got the shell
+Initiate netcat and execute the payload. We got a reverse shell as **`www-data`** user.
 
 ![Untitled](/write-ups/tryhackme/lazyadmin/2.webp)
 
