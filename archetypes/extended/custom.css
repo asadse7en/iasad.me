@@ -1,6 +1,6 @@
 :root {
   --primary-color: #231B1B; /* dark olive green */
-  --secondary-color: #fbf1c7; /* lemon green */
+  --secondary-color: #fbf1c7; 
   --alternative-color: #F3FAE1 /* magenta pink */
   ;
 }
@@ -13,8 +13,7 @@ h3 {
 
 .dark h1,
 .dark h2,
-.dark h3,
-.dark a {
+.dark h3 {
   color: var(--secondary-color);
 }
 
