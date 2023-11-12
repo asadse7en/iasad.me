@@ -1,0 +1,21 @@
+<style>
+    .custom-fieldset-flag {
+      border: 2px dashed #ebdbb2; /* Change #333 to your desired border color */
+      border-radius: 10px;
+      padding: 15px; /* Adjust left and right padding */
+    }
+  
+    .flag-value {
+      display: block; /* Ensure the value takes full width */
+      margin-bottom: 20px;
+      margin-left: 20px;
+    }
+  </style>
+  
+  {{ $flagValue := .Get 0 }}
+  
+  <fieldset class="custom-fieldset-flag">
+    <legend><b> &nbsp; FLAG &nbsp; </b></legend>
+    <span class="flag-value"><code><b>{{ $flagValue }}</b></code></span>
+  </fieldset>
+  

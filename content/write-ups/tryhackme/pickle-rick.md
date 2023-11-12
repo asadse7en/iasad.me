@@ -26,8 +26,8 @@ difficulty="Easy"
 creator_name="TryHackMe" creator_link="https://tryhackme.com/room/picklerick"
 >}}
 
----
 
+&nbsp;
 &nbsp;
 &nbsp;
 
@@ -117,11 +117,8 @@ listing files in the current directory we got our first flag
 
 &nbsp;
 
----
 
-**Flag `mr. meeseek hair`**
-
----
+{{< flag "mr. meeseek hair">}}
 
 &nbsp;
 
@@ -139,12 +136,7 @@ Got the second flag at `home/rick`
 
 &nbsp;
 
----
-
-**Flag `1 jerry tear`**
-
----
-
+{{<flag "1 jerry tear">}}
 
 &nbsp;
 
@@ -161,11 +153,7 @@ and we got our 3rd flag
 
 &nbsp;
 
----
-
-**Flag `fleeb juice`**
-
----
+{{< flag "fleeb juice">}}
 
 &nbsp;
 

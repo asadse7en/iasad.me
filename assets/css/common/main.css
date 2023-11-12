@@ -82,7 +82,7 @@ pre:hover .copy-code {
 
 .paginav .next:hover,
 .paginav .prev:hover {
-  background-color: rgb(234, 234, 234);
+  background-color: #f9f5d7;
   color: var(--primary-color);
 }
 

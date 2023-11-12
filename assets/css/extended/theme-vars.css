@@ -2,19 +2,19 @@
   --gap: 24px;
   --content-gap: 20px;
   --nav-width: 1024px;
-  --main-width: 720px;
+  --main-width: 1024px;
   --header-height: 60px;
   --footer-height: 60px;
   --radius: 8px;
-  --theme: rgb(255, 255, 255);
-  --entry: rgb(255, 255, 255);
+  --theme: #fdf9e6;
+  --entry: #f9f5d7;
   --primary: rgb(29, 29, 29);
   --secondary: rgb(66, 66, 66);
-  --tertiary: rgb(224, 224, 224);
+  --tertiary: #f9f5d7;
   --content: rgb(5, 5, 5);
-  --hljs-bg: rgb(59, 59, 59);
-  --code-bg: rgb(247, 247, 247);
-  --border: rgb(70, 70, 70);
+  --hljs-bg: #272200;
+  --code-bg: #f9f5d7;
+  --border: #98971a;
 }
 
 .dark {
@@ -23,8 +23,8 @@
   --content: #ebdbb2; /*main text*/
   --hljs-bg: #282828; /*code block background*/
   --border: #a89984; /*tag and ToC border*/
-  --primary: rgb(218, 218, 219);
-  --secondary: rgb(155, 156, 157);
-  --tertiary: rgb(65, 66, 68);
+  --primary: #a89984;
+  --secondary: #ebdbb2;
+  --tertiary: #ebdbb2;
   --code-bg: rgb(55, 56, 62);
 }

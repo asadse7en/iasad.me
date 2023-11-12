@@ -1,5 +1,5 @@
 :root {
-  --primary-color: #231B1B; /* dark olive green */
+  --primary-color: #3c3100; /* dark olive green */
   --secondary-color: #fbf1c7; /* lemon green */
   --alternative-color: #F3FAE1 /* magenta pink */
   ;
@@ -18,13 +18,20 @@ h3 {
   color: var(--secondary-color);
 }
 
+a {
+  text-decoration: none !important;
+}
+
+.dark a {
+  text-decoration: none !important;
+}
 
 .dark .pagination a {
   color: var(--primary-color);
 }
 
 a:hover {
-  color: #01364f
+  color: #f9f5d7;
   }
 .dark a:hover {
     color: var(--alternative-color);
@@ -84,7 +91,7 @@ header nav a {
   
   .dark .tag-cloud__item {
     background-color: #3333332f;
-    color: #eeffff;
+    color: #ebdbb2;
   }
   
   .dark .tag-cloud__item:hover {

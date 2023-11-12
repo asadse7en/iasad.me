@@ -1,10 +1,57 @@
-<fieldset style="border-radius: 10px;">
-    <legend>Info</legend>
-    <ul>
-      <li>Name: <code>{{ .Get "name" }}</code></li>
-      <li>OS: <code>{{ .Get "os" }}</code></li>
-      <li>Difficulty: <code>{{ .Get "difficulty" }}</code></li>
-      <li>Link: <a href="{{ .Get "creator_link" }}" target="_blank" ><code>{{ .Get "creator_name" }}</code></a></li>
-    </ul>
-</fieldset>
+<style>
+  .custom-fieldset {
+    border: 2px dashed #ebdbb2;/* Change #333 to your desired border color */
+    border-radius: 10px;
+    padding: 15px; /* Adjust left and right padding */
+    margin-bottom: 20px; /* Adjust as needed */
+    display: table; /* Use display: table to take full width */
+    width: 100%; /* Set width to 100% */
+    box-sizing: border-box; /* Include padding in width calculation */
+  }
 
+  .info-table {
+    width: 90%;
+    display: table; /* Ensure the table takes full width */
+    margin-left: 50px;
+  }
+
+  .info-table td {
+    padding: 8px 12px; /* Adjust top and bottom padding; left and right padding */
+    display: table-cell; /* Ensure the table cells behave like table cells */
+  }
+
+  .info-table td:first-child {
+    font-weight: bold;
+    width: 20%; /* Adjust the width of the first column */
+  }
+
+  tr{
+    display: table-row;
+    vertical-align: inherit;
+    border-color: inherit;
+    margin-left: 40px;
+  }
+
+</style>
+
+<fieldset class="custom-fieldset">
+  <legend> &nbsp; Room Info &nbsp; </legend>
+  <table class="info-table">
+    <tr>
+      <td>Name:</td>
+      <td><code>{{ .Get "name" }}</code></td>
+    </tr>
+    <tr>
+      <td>OS:</td>
+      <td><code>{{ .Get "os" }}</code></td>
+    </tr>
+    <tr>
+      <td>Difficulty:</td>
+      <td><code>{{ .Get "difficulty" }}</code></td>
+    </tr>
+    <tr>
+      <td>Link:</td>
+      <td><a href="{{ .Get "creator_link" }}" target="_blank"><code>{{ .Get "creator_name" }}</code></a></td>
+    </tr>
+  </table>
+</fieldset>
