@@ -93,7 +93,7 @@ params:
   homeInfoParams:
     Title: "$ whoami"
     Content: >
-      I'm a Tech Enthusiast and Cybersecurity Researcher. This website serves as my *personal portfolio* for [*write-ups*](write-ups) and [*blogs*](blog) on topics that pique my interest. [*Read more..*](about)
+      I'm a Tech Enthusiast and Cybersecurity Researcher. This website serves as my *personal portfolio* for [*write-ups*](write-ups) and [*blogs*](blogs) on topics that pique my interest. [*Read more..*](about)
   # Home Page
   socialIcons:
     - name: "email"
