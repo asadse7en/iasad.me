@@ -7,7 +7,6 @@ type: "list"
 weight: 9
 hidemeta: true
 
-
 ---
+
 {{< thm-profile-badge >}}
-***

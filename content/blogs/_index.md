@@ -5,4 +5,3 @@ description: I write blogs on tech related stuff.
 type: "list"
 
 ---
-***
