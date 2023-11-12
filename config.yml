@@ -70,7 +70,7 @@ params:
   showtoc: true
   tocopen: false
   hideFooter: false
-  comments: true
+  comments: false
   math: true
 
 
@@ -80,7 +80,7 @@ params:
 
 
   label:
-    text: "./asadse7en"
+    text: "n4ruto@iasad.me:~$"
     #icon: "home/c.png"
     #iconHeight: 35
 
@@ -91,7 +91,7 @@ params:
   env: production
 
   homeInfoParams:
-    Title: "[~] $ whoami"
+    Title: "$ whoami"
     Content: >
       I'm a Tech Enthusiast and Cybersecurity Researcher. This website serves as my *personal portfolio* for [*write-ups*](write-ups) and [*blogs*](blog) on topics that pique my interest. [*Read more..*](about)
   # Home Page

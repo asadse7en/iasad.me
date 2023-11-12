@@ -68,7 +68,6 @@ body:not(.dark) #sun {
 
 #menu .active {
     font-weight: 500;
-    border-bottom: 2px solid currentColor;
 }
 
 .lang-switch li,
@@ -91,4 +90,60 @@ body:not(.dark) #sun {
 
 .logo-switches {
     flex-wrap: inherit;
+}
+
+.logo {
+    position: relative;
+    font-family: Monaco, Arial, Helvetica, sans-serif;
+    line-height: 24px;
+    font-size: 24px;
+    color: #ffe987; /* Add a semicolon here */
+    min-width: 360px;
+}
+
+.logo::after {
+    content: "";
+    position: relative;
+    top: 1px;
+    right: -8px;
+    /* Remove display: inline-block if not required to be on the same line as text etc */
+    display: inline-block;
+    background-color: #fff1b0;
+    vertical-align: top;
+    width: 12px;
+    /* Set height to the line height of .text */
+    height: 20px; /* Adjusted to match the line height */
+    /* 
+    Animation parameters:
+    blink = animation-name, 
+    1s = animation-duration, 
+    step-end = animation-timing-function,
+    infinite = animation-iteration-count
+    */
+    -webkit-animation: blink 1s step-end infinite;
+    animation: blink 1s step-end infinite;
+}
+
+@-webkit-keyframes blink {
+    0% {
+    opacity: 1.0;
+    }
+    50% {
+    opacity: 0.0;
+    }
+    100% {
+    opacity: 1.0;
+    }
+}
+
+@keyframes blink {
+    0% {
+    opacity: 1.0;
+    }
+    50% {
+    opacity: 0.0;
+    }
+    100% {
+    opacity: 1.0;
+    }
 }

@@ -23,7 +23,7 @@
 }
 
 .archive-month:not(:last-of-type) {
-    border-bottom: 1px dashed var(--border);
+    border-bottom: 2px dashed var(--border);
 }
 
 .archive-entry {
