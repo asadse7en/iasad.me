@@ -66,14 +66,13 @@ pre {
 div.highlight:hover .copy-code,
 pre:hover .copy-code {
     display: block;
+    color: var(--content);
 }
 
 /* Light mode */
 .paginav .next,
 .paginav .prev {
   padding: 10px 20px;
-  background-color: #fff
-  border: none;
   color: var(--primary-color);
   font-weight: bold;
   text-transform: uppercase;
@@ -90,9 +89,7 @@ pre:hover .copy-code {
 .dark .paginav .next,
 .dark .paginav .prev {
   padding: 10px 20px;
-  background-color: #37383e;
-  border: none;
-  color: #fff;
+  color: #ddd;
   font-weight: bold;
   text-transform: uppercase;
   letter-spacing: 1px;
@@ -100,5 +97,5 @@ pre:hover .copy-code {
 
 .dark .paginav .next:hover,
 .dark .paginav .prev:hover {
-  background-color: #4d5061;
+  background-color: var(--hljs-bg);
 }

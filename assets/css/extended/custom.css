@@ -135,3 +135,13 @@ header nav a {
   border: 2px dashed var(--content);
   overflow: auto;
 }
+
+/* Styling the horizontal scrollbar */
+.post-content pre code::-webkit-scrollbar {
+  height: 12px; /* Set the height of the scrollbar */
+}
+
+.post-content pre code::-webkit-scrollbar-thumb {
+  background-color: var(----hljs-bg); /* Set the color of the thumb (the draggable part) */
+  border-radius: 6px; /* Set the border radius of the thumb */
+}
