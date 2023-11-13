@@ -26,6 +26,17 @@ draft: False
 
 &nbsp;
 
+{{< 
+ctf 
+name="Threat" 
+category="Forensics" 
+difficulty="Easy"
+points="100"  
+creator_name="aupCTF" creator_link="https://tryhackme.com/jr/aupctf" 
+>}}
+
+&nbsp;
+
 ## **Threat (100pts)**
 
 ### Description
@@ -46,15 +57,20 @@ https://www.virustotal.com/gui/file/d0ee6ffc8ce0e7f21cdcbd5e98c2dd4174a5d1b0266e
 
 &nbsp;
 
----
-
-**Flag: `aupCTF{trojan.nanocore/msil}`**
-
----
+{{<flag "flag" "aupCTF{trojan.nanocore/msil}">}}
 
 &nbsp;
 
 &nbsp;
+
+{{< 
+ctf 
+name="I Love Math" 
+category="Forensics" 
+difficulty="Easy"
+points="100"  
+creator_name="aupCTF" creator_link="https://tryhackme.com/jr/aupctf" 
+>}}
 
 ## **I Love Math  (100pts)**
 
@@ -92,15 +108,20 @@ now do some math revision and you will get the flag
 
 &nbsp;
 
----
-
-**Flag: `aupCTF{I_Love_Math_6_1}`**
-
----
+{{<flag "flag" "aupCTF{I_Love_Math_6_1}">}}
 
 &nbsp;
 
 &nbsp;
+
+{{< 
+ctf 
+name="Password Recovery" 
+category="Forensics" 
+difficulty="Medium"
+points="200"  
+creator_name="aupCTF" creator_link="https://tryhackme.com/jr/aupctf" 
+>}}
 
 
 ## **Password Recovery  (200pts)**
@@ -137,16 +158,21 @@ p4$sw000rdCLU3
 
 &nbsp;
 
----
+{{<flag "flag" "aupCTF{p4$sw000rdCLU3}">}}
 
-**Flag: `aupCTF{p4$sw000rdCLU3}`**
-
----
 
 &nbsp;
 
 &nbsp;
 
+{{< 
+ctf 
+name="Kingsman" 
+category="Forensics" 
+difficulty="Hard"
+points="300"  
+creator_name="aupCTF" creator_link="https://tryhackme.com/jr/aupctf" 
+>}}
 
 ## **Kingsman  (300pts)**
 
@@ -225,15 +251,21 @@ aupCTF{j0hncr4ck5pa55w0rd5!}
 
 &nbsp;
 
----
+{{<flag "flag" "aupCTF{j0hncr4ck5pa55w0rd5!}">}}
 
-**Flag: `aupCTF{j0hncr4ck5pa55w0rd5!}`**
-
----
 
 &nbsp;
 
 &nbsp;
+
+{{< 
+ctf 
+name="MemDump" 
+category="Forensics" 
+difficulty="Hard"
+points="300"  
+creator_name="aupCTF" creator_link="https://tryhackme.com/jr/aupctf" 
+>}}
 
 ## **MemDump  (300pts)**
 
@@ -259,11 +291,8 @@ the commands in volatility2 and vol3 are different here is a nice [cheatsheet](h
 
 &nbsp;
 
----
+{{<flag "flag" "aupCTF{notepad.exe}">}}
 
-**Flag: `aupCTF{notepad.exe}`**
-
----
 
 &nbsp;
 

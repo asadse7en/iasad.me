@@ -16,7 +16,7 @@ draft: false
 
 
 {{< 
-ctftime 
+ctf
 name="Gautemala" 
 difficulty="Easy"  
 points="200"

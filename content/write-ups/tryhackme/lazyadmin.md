@@ -20,13 +20,13 @@ draft: false
 
 {{< 
 tryhackme 
+info="room info"
 name="LazyAdmin" 
 os="Linux" 
 difficulty="Easy"  
 creator_name="TryHackMe" creator_link="https://tryhackme.com/room/lazyadmin"
 >}}
 
----
 
 &nbsp;
 &nbsp;
@@ -122,11 +122,7 @@ Initiate netcat and execute the payload. We got a reverse shell as **`www-data`*
 &nbsp;
 &nbsp;
 
----
-
-**Flag`THM{63e5bce9271952aad1113b6f1ac28a07}`**
-
----
+{{<flag "user flag" "THM{63e5bce9271952aad1113b6f1ac28a07}">}}
 
 &nbsp;
 &nbsp;
@@ -147,11 +143,7 @@ we can see that **`backup.pl`** runs another file located at **`/etc/copy.sh`**.
 &nbsp;
 
 
----
-
-**Flag`THM{6637f41d0177b6f37cb20d775124699f}`**
-
----
+{{<flag "root flag" "THM{6637f41d0177b6f37cb20d775124699f}">}}
 
 
 &nbsp;

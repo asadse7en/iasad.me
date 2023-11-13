@@ -22,7 +22,7 @@ draft: false
 ---
 
 {{< 
-ctftime 
+ctf
 name="gif" 
 difficulty="Hard"  
 points="272"

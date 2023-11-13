@@ -18,7 +18,7 @@ draft: false
 ---
 
 {{< 
-ctftime 
+ctf
 name="Celeste Speedrunning Association" 
 difficulty="Easy"  
 points="20"

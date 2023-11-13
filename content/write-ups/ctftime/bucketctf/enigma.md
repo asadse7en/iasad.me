@@ -21,7 +21,7 @@ draft: True
 
 
 {{< 
-ctftime 
+ctf
 name="Enigma" 
 difficulty="Medium"  
 points="484"

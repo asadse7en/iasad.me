@@ -16,7 +16,7 @@ draft: false
 
 
 {{< 
-ctftime 
+ctf
 name="The Indecipherable Cipher" 
 difficulty="Medium"  
 points="300"

@@ -26,8 +26,18 @@ draft: False
 
 ---
 
+&nbsp;
 
 &nbsp;
+
+{{< 
+ctf 
+name="Ancient Cipher" 
+category="Cryptography" 
+difficulty="Easy"
+points="100"  
+creator_name="aupCTF" creator_link="https://tryhackme.com/jr/aupctf" 
+>}}
 
 ## **Ancient Cipher (100pts)**
 
@@ -45,17 +55,22 @@ The name of the challenge implies an ancient cipher, which commonly refers to th
 
 &nbsp;
 
-&nbsp;
+{{<flag "flag" "aupCTF{B0b's_Bad_Crypt0graphy_5k1lls}">}}
 
----
-
-**Flag: `aupCTF{B0b's_Bad_Crypt0graphy_5k1lls}`**
-
----
 
 &nbsp;
 
 &nbsp;
+
+
+{{< 
+ctf 
+name="Rotation" 
+category="Cryptography" 
+difficulty="Easy"
+points="100"  
+creator_name="aupCTF" creator_link="https://tryhackme.com/jr/aupctf" 
+>}}
 
 ## **Rotation (100pts)**
 
@@ -79,15 +94,19 @@ Now the ciphertext appears to resemble ROT13, so it's worth attempting that ROT1
 
 &nbsp;
 
----
+{{<flag "flag" "aupCTF{B0b's_Bad_Crypt0graphy_5k1lls}">}}
 
-**Flag: `aupCTF{B0b's_Bad_Crypt0graphy_5k1lls}`**
-
----
 
 &nbsp;
 
-&nbsp;
+{{< 
+ctf 
+name="Enigma" 
+category="Cryptography" 
+difficulty="Easy"
+points="100"  
+creator_name="aupCTF" creator_link="https://tryhackme.com/jr/aupctf" 
+>}}
 
 
 ## **Enigma (100pts)**
@@ -124,15 +143,19 @@ Since all the values are given we can simply put it in a decoder and get the ans
 
 &nbsp;
 
----
+{{<flag "flag" "aupCTF{ENIGMAISFASCINATING}">}}
 
-**Flag: `aupCTF{ENIGMAISFASCINATING}`**
-
----
 
 &nbsp;
 
-&nbsp;
+{{< 
+ctf 
+name="Disorder" 
+category="Cryptography" 
+difficulty="Medium"
+points="200"  
+creator_name="aupCTF" creator_link="https://tryhackme.com/jr/aupctf" 
+>}}
 
 ## **Disorder (200pts)**
 
@@ -166,15 +189,17 @@ aupCTF{th1s_1s_n0t_a_game}XXXX
 
 &nbsp;
 
----
-
-**Flag: `aupCTF{th1s_1s_n0t_a_game}`**
-
----
-
+{{<flag "flag" "aupCTF{th1s_1s_n0t_a_game}">}}
 &nbsp;
 
-&nbsp;
+{{< 
+ctf 
+name="Really Secure Algorithm" 
+category="Cryptography" 
+difficulty="Medium"
+points="200"  
+creator_name="aupCTF" creator_link="https://tryhackme.com/jr/aupctf" 
+>}}
 
 ## **Really Secure Algorithm (200pts)**
 
@@ -240,7 +265,7 @@ print(solution)
 
 &nbsp;
 
-{{< toggle title="decryption process" >}}
+{{< toggle title="Decryption Process" >}}
   
 &nbsp;
 
@@ -275,16 +300,18 @@ print(plaintext.decode())
 
 &nbsp;
 
----
-
-**Flag: `aupCTF{3a5y_tw0_3quat10n5_and_hax3d_3}`**
-
----
+{{<flag "flag" "aupCTF{3a5y_tw0_3quat10n5_and_hax3d_3}">}}
 
 &nbsp;
 
-&nbsp;
-
+{{< 
+ctf 
+name="Swiss Army Knife" 
+category="Cryptography" 
+difficulty="Medium"
+points="200"  
+creator_name="aupCTF" creator_link="https://tryhackme.com/jr/aupctf" 
+>}}
 
 ## **Swiss Army Knife (200pts)**
 
@@ -306,15 +333,18 @@ when we can decode multiple encodings one by one, here is the [complete racipe](
 
 &nbsp;
 
----
-
-**Flag: `aupCTF{mu1tip13-3nc0d1ng5-u53d}`**
-
----
+{{<flag "flag" "aupCTF{mu1tip13-3nc0d1ng5-u53d}">}}
 
 &nbsp;
 
-&nbsp;
+{{< 
+ctf 
+name="Battista Bet" 
+category="Cryptography" 
+difficulty="Medium"
+points="200"  
+creator_name="aupCTF" creator_link="https://tryhackme.com/jr/aupctf" 
+>}}
 
 
 ## **Battista Bet (200pts)**
@@ -338,11 +368,7 @@ from the description its clear that vigenere cipher is used and the key is secre
 
 &nbsp;
 
----
-
-**Flag: `aupCTF{B3lla50W0uldB3Pr0ud}`**
-
----
+{{<flag "flag" "aupCTF{B3lla50W0uldB3Pr0ud}">}}
 
 &nbsp;
 

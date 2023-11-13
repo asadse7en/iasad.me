@@ -17,7 +17,7 @@ draft: True
 ---
 
 {{< 
-ctftime 
+ctf
 name="directory" 
 difficulty="Easy"  
 points="40"

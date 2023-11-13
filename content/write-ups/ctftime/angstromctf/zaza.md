@@ -18,7 +18,7 @@ draft: false
 ---
 
 {{< 
-ctftime 
+ctf
 name="Zaza" 
 difficulty="Easy"  
 points="50"

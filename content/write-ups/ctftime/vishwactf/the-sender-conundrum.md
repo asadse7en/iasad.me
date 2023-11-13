@@ -16,7 +16,7 @@ draft: false
 
 
 {{< 
-ctftime 
+ctf
 name="The Sender Conundrum" 
 difficulty="Easy"  
 points="200"

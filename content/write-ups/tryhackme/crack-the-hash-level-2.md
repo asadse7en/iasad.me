@@ -19,13 +19,13 @@ draft: false
 
 {{< 
 tryhackme 
+info="room info"
 name="Crack the Hash Level 2" 
 os="-" 
 difficulty="Medium"  
 creator_name="TryHackMe" creator_link="https://tryhackme.com/room/crackthehashlevel2" 
 >}}
 
----
 
 > ***If you want to skip directly to the hash cracking section, click here [🔗](#its-time-to-crack-hashes---the-actual-challange)***
 

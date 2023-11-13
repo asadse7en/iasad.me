@@ -15,7 +15,7 @@ draft: True
 
 
 {{< 
-ctftime 
+ctf
 name="Just Files" 
 difficulty="Easy"  
 points="200"

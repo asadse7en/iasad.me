@@ -16,7 +16,7 @@ draft: false
 
 
 {{< 
-ctftime 
+ctf
 name="Can You See Me" 
 difficulty="Easy"  
 points="100"

@@ -26,7 +26,7 @@ draft: True
 ## Web - SQLi - 1
 
 {{< 
-ctftime 
+ctf
 name="SQLi - 1" 
 difficulty="Easy"  
 points="200"

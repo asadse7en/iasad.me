@@ -18,7 +18,7 @@ draft: false
 ---
 
 {{< 
-ctftime 
+ctf
 name="shortcircuit" 
 difficulty="Easy"  
 points="40"

@@ -18,7 +18,7 @@ draft: True
 ---
 
 {{< 
-ctftime 
+ctf
 name="Celeste Tunneling Association" 
 difficulty="Easy"  
 points="40"

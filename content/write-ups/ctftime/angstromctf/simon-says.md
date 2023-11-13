@@ -18,7 +18,7 @@ draft: false
 ---
 
 {{< 
-ctftime 
+ctf
 name="Simon says" 
 difficulty="Easy"  
 points="40"

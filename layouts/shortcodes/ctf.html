@@ -39,19 +39,23 @@
 </style>
 
 <fieldset class="custom-fieldset">
-  <legend><b> &nbsp; {{ .Get "info" }} &nbsp; </b></legend>
+  <legend><b> &nbsp; challenge info &nbsp; </b></legend>
   <table class="info-table">
     <tr>
       <td>Name:</td>
       <td><code>{{ .Get "name" }}</code></td>
     </tr>
     <tr>
-      <td>OS:</td>
-      <td><code>{{ .Get "os" }}</code></td>
+      <td>Category:</td>
+      <td><code>{{ .Get "category" }}</code></td>
     </tr>
     <tr>
       <td>Difficulty:</td>
       <td><code>{{ .Get "difficulty" }}</code></td>
+    </tr>
+    <tr>
+      <td>Points:</td>
+      <td><code>{{ .Get "points" }}</code></td>
     </tr>
     <tr>
       <td>Link:</td>
@@ -59,3 +63,4 @@
     </tr>
   </table>
 </fieldset>
+

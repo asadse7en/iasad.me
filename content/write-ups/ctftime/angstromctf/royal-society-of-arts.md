@@ -18,7 +18,7 @@ draft: True
 ---
 
 {{< 
-ctftime 
+ctf
 name="Royal Society of Arts" 
 difficulty="Medium"  
 points="70"

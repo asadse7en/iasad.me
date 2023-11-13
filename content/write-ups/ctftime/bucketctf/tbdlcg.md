@@ -18,7 +18,7 @@ draft: false
 ---
 
 {{< 
-ctftime 
+ctf
 name="TBDLCG" 
 difficulty="Easy"  
 points="200"

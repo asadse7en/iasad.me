@@ -18,7 +18,7 @@ draft: false
 ---
 
 {{< 
-ctftime 
+ctf
 name="Schematic" 
 difficulty="Easy"  
 points="284"

@@ -17,7 +17,7 @@ draft: false
 ---
 
 {{< 
-ctftime 
+ctf
 name="Detective" 
 difficulty="Easy"  
 points="200"

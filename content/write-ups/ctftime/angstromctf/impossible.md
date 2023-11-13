@@ -17,7 +17,7 @@ draft: false
 ---
 
 {{< 
-ctftime 
+ctf
 name="Impossible" 
 difficulty="Medium"  
 points="50"

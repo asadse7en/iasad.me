@@ -23,6 +23,7 @@ draft: false
 
 {{< 
 tryhackme 
+info="room info"
 name="Adventures Of Kencypher" 
 os="Linux" 
 difficulty="Beginner Friendly"  
@@ -33,7 +34,6 @@ creator_name="TryHackMe" creator_link="https://tryhackme.com/room/adventuresofke
 
 &nbsp;
 
-&nbsp;
 
 
 ## Task 1 - Green Day Was My First Rock OSINT

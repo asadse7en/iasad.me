@@ -20,6 +20,7 @@ draft: false
 
 {{< 
 tryhackme 
+info="room info"
 name="Pickle Rick" 
 os="Linux" 
 difficulty="Easy"  
@@ -118,7 +119,7 @@ listing files in the current directory we got our first flag
 &nbsp;
 
 
-{{< flag "mr. meeseek hair">}}
+{{< flag "answer no1" "mr. meeseek hair">}}
 
 &nbsp;
 
@@ -136,7 +137,7 @@ Got the second flag at `home/rick`
 
 &nbsp;
 
-{{<flag "1 jerry tear">}}
+{{<flag "answer no2" "1 jerry tear">}}
 
 &nbsp;
 
@@ -153,7 +154,7 @@ and we got our 3rd flag
 
 &nbsp;
 
-{{< flag "fleeb juice">}}
+{{< flag "answer no3" "fleeb juice">}}
 
 &nbsp;
 

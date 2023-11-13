@@ -10,12 +10,16 @@
       margin-bottom: 20px;
       margin-left: 20px;
     }
+    legend{
+      text-transform: uppercase;
+    }
   </style>
   
-  {{ $flagValue := .Get 0 }}
+  {{ $legendValue := .Get 0 }}
+  {{ $flagValue := .Get 1 }}
   
   <fieldset class="custom-fieldset-flag">
-    <legend><b> &nbsp; FLAG &nbsp; </b></legend>
+    <legend><b> &nbsp; {{ $legendValue }} &nbsp; </b></legend>
     <span class="flag-value"><code><b>{{ $flagValue }}</b></code></span>
   </fieldset>
   

@@ -15,13 +15,13 @@ draft: false
 
 {{< 
 tryhackme 
+info="room info"
 name="Crack the Hash" 
 os="-" 
 difficulty="Easy"  
 creator_name="TryHackMe" creator_link="https://tryhackme.com/room/crackthehash"
 >}}
 
----
 
 ## Introduction
 

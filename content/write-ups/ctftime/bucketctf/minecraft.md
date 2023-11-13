@@ -18,7 +18,7 @@ draft: false
 ---
 
 {{< 
-ctftime 
+ctf
 name="Minecraft" 
 difficulty="Easy"  
 points="200"
