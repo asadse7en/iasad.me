@@ -203,8 +203,8 @@
 .post-content pre code {
     display: block;
     margin: auto 0;
-    padding: 10px;
-    color: rgb(213, 213, 214);
+    padding: 20px;
+    color: var(--content);
     background: var(--hljs-bg) !important;
     border-radius: var(--radius);
     overflow-x: auto;

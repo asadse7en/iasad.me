@@ -97,7 +97,7 @@ body:not(.dark) #sun {
     font-family: Monaco, Arial, Helvetica, sans-serif;
     line-height: 24px;
     font-size: 24px;
-    color: #ffe987; /* Add a semicolon here */
+    color: var(--header); /* Add a semicolon here */
     min-width: 360px;
 }
 

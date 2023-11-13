@@ -104,6 +104,8 @@ params:
       url: "https://github.com/asadse7en"
     - name: "instagram"
       url: "https://www.instagram.com/iasadse7en"
+    - name: "CTFtime"
+      url: "https://ctftime.org/user/149593"
     - name: "resume"
       url: "/resume"
     - name: "RSS"
