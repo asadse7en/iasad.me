@@ -10,7 +10,6 @@ date: 2023-10-27T02:54:51+05:00
 tags: 
 - CMS
 - RCE
-- backup disclosure
 categories:
 - tryhackme
 - writeup
