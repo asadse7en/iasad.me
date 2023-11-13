@@ -97,5 +97,5 @@ pre:hover .copy-code {
 
 .dark .paginav .next:hover,
 .dark .paginav .prev:hover {
-  background-color: var(--hljs-bg);
+  background-color: var(--theme);
 }

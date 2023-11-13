@@ -122,7 +122,6 @@ header nav a {
   margin: 1rem 0;
 }
 
-
 .post-content pre code {
   display: block;
   margin: auto 0;
@@ -132,7 +131,20 @@ header nav a {
   border-radius: var(--radius);
   overflow-x: auto;
   word-break: break-all;
-  border: 2px dashed var(--content);
+  border: 2px dashed var(--border);
+  overflow: auto;
+}
+
+.dark .post-content pre code {
+  display: block;
+  margin: auto 0;
+  padding: 20px;
+  color: var(--content);
+  background: var(--hljs-bg) !important;
+  border-radius: var(--radius);
+  overflow-x: auto;
+  word-break: break-all;
+  border: 2px dashed var(--border);
   overflow: auto;
 }
 
