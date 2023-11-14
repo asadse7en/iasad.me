@@ -49,7 +49,7 @@ params:
   env: production
   title: Asad Ullah
   description: "Tech enthusiast, blogger, and CTF player with a passion for cybersecurity. Sharing write-ups and insights on the latest tech trends and cybersecurity challenges. Follow along for engaging content"
-  keywords: [Blog, Portfolio, PaperMod, iasad, iasad.me, "asad ullah", asadse7en]
+  keywords: [iasad, iasad.me, "asad ullah", asadse7en, PaperMod]
   # author: Me
   # images: [""]
   dateFormat: "January 2, 2006"
