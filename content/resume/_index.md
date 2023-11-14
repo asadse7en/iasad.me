@@ -167,12 +167,13 @@ ShowBreadCrumbs: false
   <section style="padding: 20px;">
     <h2 style="margin: 0;">COURSES AND CERTIFICATION</h2><br>
     <ul style="padding: 20px; margin: 5px;">
-      <li><strong>Google Cybersecurity Professional Certificate</strong><span style="float: right;"><i><a href="link-to-credentials" target="_blank" style="text-decoration: none;">View Credentials</a></i></span></li>
-      <li><strong>Google IT Support Professional Certificate</strong><span style="float: right;"><i><a href="link-to-credentials" target="_blank" style="text-decoration: none;">View Credentials</a></i></span></li>
-      <li><strong>Microsoft 365 Professional Certificate</strong><span style="float: right;"><i><a href="link-to-credentials" target="_blank" style="text-decoration: none;">View Credentials</a></i></span></li>
-      <li><strong>IBM Cybersecurity Analyst Professional Certificate</strong><span style="float: right;"><i><a href="link-to-credentials" target="_blank" style="text-decoration: none;">View Credentials</a></i></span></li>
+      <li><strong>Certified in Cybersecurity - NAVTTC</strong><span style="float: right;"><i><a href="https://drive.google.com/file/d/1VshJ3ccuXv-ZkKVCRAx7BwwkVlClc6VG/view" target="_blank" style="text-decoration: none;">View Credentials</a></i></span></li>
+      <li><strong>Google Cybersecurity Professional Certificate</strong><span style="float: right;"><i><a href="https://www.credly.com/badges/dfdaafa409d5d4-4692-4b89-a8e1-0a56d46553b1/public_url" target="_blank" style="text-decoration: none;">View Credentials</a></i></span></li>
+      <li><strong>Google IT Support Professional Certificate</strong><span style="float: right;"><i><a href="https://www.credly.com/badges/d409d5d4-4692-4b89-a8e1-0a56d46553b1/public_url" target="_blank" style="text-decoration: none;">View Credentials</a></i></span></li>
+      <li><strong>Microsoft 365 Professional Certificate</strong><span style="float: right;"><i><a href="https://www.coursera.org/account/accomplishments/specialization/Q4XST7FEQCKD" target="_blank" style="text-decoration: none;">View Credentials</a></i></span></li>
+      <li><strong>IBM Cybersecurity Analyst Professional Certificate</strong><span style="float: right;"><i><a href="https://www.credly.com/badges/18e0b781-dbcb-4830-ad80-9ec2df49b361/public_url" target="_blank" style="text-decoration: none;">View Credentials</a></i></span></li>
       <li><strong>Practical Ethical Hacking - TCM Security</strong><span style="float: right;"><i><a href="link-to-credentials" target="_blank" style="text-decoration: none;">View Credentials</a></i></span></li>
-      <li><strong>Computer Networking - KPITB</strong><span style="float: right;"><i><a href="link-to-credentials" target="_blank" style="text-decoration: none;">View Credentials</a></i></span></li>
+      <li><strong>Computer Networking - KPITB</strong><span style="float: right;"><i><a href="https://iasad.notion.site/Corvit-Classes-a478a277786146f1a647ee6cad392ca8" target="_blank" style="text-decoration: none;">View Credentials</a></i></span></li>
     </ul>
   </section>
 
