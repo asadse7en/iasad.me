@@ -38,8 +38,11 @@ creator_name="TryHackMe" creator_link="https://tryhackme.com/room/reverselfiles"
 Just executing the file gave us the flag
 
 ```bash
-> chmod +x crackme1                                              
-> ./crackme1                                             
+┌──(n4ruto㉿iasad.me)-[~/CTFs/tryhackme/reversing-ELF]
+└─$ chmod +x crackme1
+
+┌──(n4ruto㉿iasad.me)-[~/CTFs/tryhackme/reversing-ELF]
+└─$ ./crackme1                                             
 flag{not_that_kind_of_elf}
 ```
 
@@ -126,7 +129,8 @@ Analyzing the binary in Ghidra, we see that the flag is printed when we put opti
 &nbsp;
 
 ```bash
-> ./crackme7                                     
+┌──(n4ruto㉿iasad.me)-[~/CTFs/tryhackme/reversing-ELF]
+└─$ ./crackme7
 Menu:
 
 [1] Say hello
@@ -151,7 +155,8 @@ This one is similar to crackme7, we just have to put option value `-889262067` t
 &nbsp;
 
 ```bash
-> ./crackme8 -889262067                                                 
+┌──(n4ruto㉿iasad.me)-[~/CTFs/tryhackme/reversing-ELF]
+└─$ ./crackme8 -889262067
 Access granted.
 flag{at_least_this_cafe_wont_leak_your_credit_card_numbers}
 ```
