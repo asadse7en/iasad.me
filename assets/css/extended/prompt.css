@@ -12,22 +12,13 @@
 .logo::after {
     content: "";
     position: relative;
-    top: 1px;
-    right: -8px;
-    /* Remove display: inline-block if not required to be on the same line as text etc */
+    top: 1px;   /* Adjust position */
+    right: -8px;   /* Adjust position */
     display: inline-block;
     background-color: var(--primary-color);
     vertical-align: top;
-    width: 12px;
-    /* Set height to the line height of .text */
+    width: 12px;  /* Set height to the line height of text */
     height: 20px; /* Adjusted to match the line height */
-    /* 
-    Animation parameters:
-    blink = animation-name, 
-    1s = animation-duration, 
-    step-end = animation-timing-function,
-    infinite = animation-iteration-count
-    */
     -webkit-animation: blink 1s step-end infinite;
     animation: blink 1s step-end infinite;
 }
