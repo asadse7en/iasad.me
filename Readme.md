@@ -10,7 +10,7 @@ This is the source code for my website. I use this website to write CTF [writeup
 I've made the following modifications to the theme. If you like any modification and wish to implement it, simply copy the respective file to your `assets/css/extended` folder.
 
 * Updated colors in `assets/css/extended/theme-vars.css`
-* Added Terminal like prompt `assets/css/extended/prompt.css`
+* Added Terminal like prompt in header `assets/css/extended/prompt.css`
 * Updated search page style `assets/css/extended/search.css`
 * Updated tags and categories page style to a tags cloud
     *  `assets/css/extended/tagscloud.css`
