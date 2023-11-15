@@ -6,6 +6,7 @@
   --header-height: 60px;
   --footer-height: 60px;
   --radius: 8px;
+  --border-style: 2px dashed var(--border); /* border style for post cover, toc, archive page */
   --theme: #fdf9e6;
   --entry: #f9f5d7;
   --primary: rgb(29, 29, 29);
@@ -15,7 +16,6 @@
   --hljs-bg: #fffce5;
   --code-bg: #fffce5;
   --border: #98971a;
-  --header: #ffe987;
 }
 
 .dark {
@@ -28,4 +28,5 @@
   --secondary: #ebdbb2;
   --tertiary: #ebdbb2;
   --code-bg: rgb(55, 56, 62);
+  --border-style: 2px dashed var(--border); /* border style for post cover, toc, archive page */
 }

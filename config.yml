@@ -139,7 +139,7 @@ params:
     responsiveImages: false
     linkFullImages: false
 
-  editPost:
+  #editPost:
     URL: "https://github.com/asadse7en/iasad.me/tree/main/content"
     Text: "Suggest Changes" # edit text
     appendFilePath: true # to append file path to Edit link
