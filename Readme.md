@@ -3,6 +3,7 @@ This is the source code for my website. I use this website to write CTF [writeup
 ## Credits
 * I use [Hugo](https://gohugo.io/) to generate the website.
 * Color scheme is inspired by the [Gruvbox](https://github.com/morhetz/gruvbox) color palette.
+* I am using [Fira Code](https://fonts.google.com/specimen/Fira+Code) font.
 * I am using [Papermod](https://github.com/adityatelange/hugo-PaperMod) theme with some tweaks.
 
 ## Tweaks 
