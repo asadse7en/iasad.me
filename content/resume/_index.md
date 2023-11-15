@@ -92,6 +92,41 @@ ShowBreadCrumbs: false
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    /* Style for the buttons */
+    .skill {
+      display: inline-block;
+      margin: 5px;
+      padding: 8px 15px;
+      border: 1px solid #282828;
+      border-radius: 5px;
+      color: #282828;
+      text-decoration: none;
+      transition: background-color 0.5s, color 0.5s;
+      margin-top: 15px;
+    }
+    /* Change color on hover */
+    .skill:hover {
+      background-color: #282828;
+      color: #ebdbb2;
+    }
+    .dark .skill {
+      display: inline-block;
+      margin: 5px;
+      padding: 8px 15px;
+      border: 1px solid #ebdbb2;
+      border-radius: 5px;
+      color: #ebdbb2;
+      text-decoration: none;
+      transition: background-color 0.5s, color 0.5s;
+      margin-top: 15px;
+    }
+    /* Change color on hover */
+    .dark .skill:hover {
+      background-color: #ebdbb2;
+      color: #282828;
+    }
+  </style>
 
 </head>
 <body style="font-family: Arial, sans-serif; line-height: 1.6; margin: 0; padding: 0;">
@@ -165,7 +200,7 @@ ShowBreadCrumbs: false
   </section>
 
   <section style="padding: 20px;">
-    <h2 style="margin: 0;">COURSES AND CERTIFICATION</h2><br>
+    <h2 style="margin: 0;">COURSES AND CERTIFICATION</h2>
     <ul style="padding: 20px; margin: 5px;">
       <li><strong>Certified in Cybersecurity - NAVTTC</strong><span style="float: right;"><i><a href="https://drive.google.com/file/d/1VshJ3ccuXv-ZkKVCRAx7BwwkVlClc6VG/view" target="_blank" style="text-decoration: none;">View Credentials</a></i></span></li>
       <li><strong>Google Cybersecurity Professional Certificate</strong><span style="float: right;"><i><a href="https://www.credly.com/badges/dfdaafa409d5d4-4692-4b89-a8e1-0a56d46553b1/public_url" target="_blank" style="text-decoration: none;">View Credentials</a></i></span></li>
@@ -178,8 +213,8 @@ ShowBreadCrumbs: false
   </section>
 
   <section style="padding: 20px;">
-    <h2 style="margin: 0;">ACTIVITIES...</h2><br>
-    <ul style="padding: 0; margin: 0;">
+    <h2 style="margin: 0;">ACTIVITIES...</h2>
+    <ul style="padding: 20px; margin: 5px;">
       <li>CyberHackathon 2022 finalist - ignite/MoiiT.</li>
       <li>Organized multiple cybersecurity workshops for juniors.</li>
       <li>Organized aupCTF event with 500+ participants.</li>
@@ -187,7 +222,36 @@ ShowBreadCrumbs: false
       <li>Top 1% [0xC] on Tryhackme (333+ days streak).</li>
     </ul>
     <br>
-    
+  </section>
+
+  <h2 style="margin: 20px;">SKILLS</h2>
+  <section style="padding: 20px; text-align: center;">
+    <!-- Your skills with buttons -->
+    <span class="skill">Vulnerability Assessment</span>
+    <span class="skill">Penetration Testing</span>
+    <span class="skill">CTFs</span>
+    <span class="skill">IT Support</span>
+    <span class="skill">System Administration</span>
+    <span class="skill">Digital Forensics</span>
+    <span class="skill">Incident Response</span>
+    <span class="skill">NIST</span>
+    <span class="skill">MITRE ATT&CK</span>
+    <span class="skill">Python</span>
+    <span class="skill">SQL</span>
+    <span class="skill">Bash</span>
+    <span class="skill">Network Security</span>
+    <span class="skill">Word</span>
+    <span class="skill">Excel</span>
+    <span class="skill">Powerpoint</span>
+    <span class="skill">Communication</span>
+    <span class="skill">Leadership</span>
+    <span class="skill">Time Management</span>
+    <span class="skill">Adaptability</span>
+    <span class="skill">Problem Solving</span>
+    <span class="skill">Teamwork</span>
+    <span class="skill">Creativity</span>
+    <span class="skill">CEH</span>
+  </section>
 </div>
 </body>
 </html>
