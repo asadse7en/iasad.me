@@ -4,10 +4,32 @@
         <h1>{{ .Title | markdownify }}</h1>
     </header>
     <div class="entry-content">
-        {{ .Content | markdownify }}
+        <p id="companionMethods"></p>
     </div>
     <footer class="entry-footer">
         {{ partial "social_icons.html" site.Params.socialIcons }}
     </footer>
 </article>
 {{- end -}}
+<script>
+new TypeIt("#companionMethods", {
+  speed: 50,
+  waitUntilVisible: true,
+})
+  .type("I'm a Teeh", { delay: 300 })
+  .move(-1)
+  .delete(1)
+  .type("c")
+  .move(null, { to: "END" })
+  .type(" Enthusiast, Penetration T")
+  .pause(1000)
+  .move(-13)
+  .type("Jr. ")
+  .move(null, { to: "END" })
+  .type("ester, and CTFpl")
+  .pause(300)
+  .delete(2)
+  .type(" payer.")
+  .pause(500)
+  .go();
+  </script>

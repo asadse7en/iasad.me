@@ -127,7 +127,6 @@ ShowBreadCrumbs: false
       color: #282828;
     }
   </style>
-
 </head>
 <body style="font-family: Arial, sans-serif; line-height: 1.6; margin: 0; padding: 0;">
    <div style="background: #a899841a; padding: 20px; margin: 5px; border-radius: 10px;">
@@ -253,7 +252,7 @@ ShowBreadCrumbs: false
     <span class="skill">CEH</span>
   </section>
 </div>
-</body>
 </html>
 
 {{< /rawhtml >}}
+
