@@ -1,19 +1,25 @@
+<!--. add this to extend_head.html <script src="https://unpkg.com/typeit@8.7.1/dist/index.umd.js"></script> -->
+
 {{- with site.Params.homeInfoParams }}
 <article class="first-entry home-info">
     <header class="entry-header">
         <h1>{{ .Title | markdownify }}</h1>
     </header>
     <div class="entry-content">
-        <p id="companionMethods"></p>
+        <p id="companionMethods"></p>  <!-- put this where you want to type -->
     </div>
     <footer class="entry-footer">
         {{ partial "social_icons.html" site.Params.socialIcons }}
     </footer>
 </article>
 {{- end -}}
+
+<!--then put the javascript at the end of the code more options at typeitjs.com -->
+
+
 <script>
 new TypeIt("#companionMethods", {
-  speed: 50,
+  speed: 80,
   waitUntilVisible: true,
 })
   .type("I'm a Teeh", { delay: 300 })
@@ -27,9 +33,9 @@ new TypeIt("#companionMethods", {
   .type("Jr. ")
   .move(null, { to: "END" })
   .type("ester, and CTFpl")
-  .pause(300)
+  .pause(100)
   .delete(2)
-  .type(" payer.")
+  .type(" player.")
   .pause(500)
   .go();
   </script>
