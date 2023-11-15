@@ -17,3 +17,6 @@ I've made the following modifications to the theme. If you like any modification
     *  `assets/css/layouts/_default/terms.html`
 * Updated archive page style `assets/css/extended/archive.css`
 * Fixed thumbnail image size `assets/css/extended/thumbnail.css`
+
+
+### Do ⭐ the repo if it helped you in anyway. Thank you!
