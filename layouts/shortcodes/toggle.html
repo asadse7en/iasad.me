@@ -1,9 +1,25 @@
+<style>
+  /* Add your custom styles here */
+  .toggle {
+    border: var(--border-style);
+    margin: 10px 0;
+    padding: 10px 20px;
+    background-color: var(--hljs-bg);
+    border-radius: 10px;
+  }
+
+  summary {
+    font-weight: bold;
+    cursor: pointer;
+  }
+
+  /* Add more styles as needed */
+</style>
+
 {{ $title := .Get "title" }}
 {{ $content := .Inner }}
 
-<blockquote>
-  <details>
+  <details class="toggle">
     <summary>{{ $title }}</summary>
     {{ $content | markdownify }}
   </details>
-</blockquote>

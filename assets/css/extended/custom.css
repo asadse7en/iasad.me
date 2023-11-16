@@ -19,24 +19,28 @@ h3 {
   color: var(--secondary-color);
 }
 
-a {
-  text-decoration: none !important;
+.post-content a {
+  box-shadow: none;
+  color: #554b00;
 }
 
-.dark a {
-  text-decoration: none !important;
+.dark .post-content a {
+  box-shadow: none;
+  color: #ffea8a;
 }
+
+.post-content a:hover {
+  color: #8e005a;
+  }
+.dark .post-content a:hover {
+    color:  #ffc400;
+}
+
 
 .dark .pagination a {
   color: var(--primary-color);
 }
 
-a:hover {
-  color: #6d6101;
-  }
-.dark a:hover {
-    color:  #feefac
-  }
 
 /* Light mode */
 header nav a {
