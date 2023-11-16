@@ -19,13 +19,10 @@ h3 {
   color: var(--secondary-color);
 }
 
-a {
-  text-decoration: none !important;
+.post-content a {
+  box-shadow: none;
 }
-
-.dark a {
-  text-decoration: none !important;
-}
+
 
 .dark .pagination a {
   color: var(--primary-color);
