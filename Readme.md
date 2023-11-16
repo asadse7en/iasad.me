@@ -5,18 +5,4 @@ This is the source code for my website. I use this website to write CTF [writeup
 * Color scheme is inspired by the [Gruvbox](https://github.com/morhetz/gruvbox) color palette.
 * I am using [Fira Code](https://fonts.google.com/specimen/Fira+Code) font.
 
-## Tweaks 
-I've made the following modifications to the theme. If you like any modification and wish to implement it, simply copy the respective file to your `assets/css/extended` folder.
-
-* Updated colors in `assets/css/extended/theme-vars.css`
-* Added Terminal like prompt in header `assets/css/extended/prompt.css`
-* Updated search page style `assets/css/extended/search.css`
-* Updated tags and categories page style to a tags cloud
-    *  `assets/css/extended/tagscloud.css`
-    *  `assets/css/layouts/_default/terms.html`
-* Updated archive page style `assets/css/extended/archive.css`
-* Fixed thumbnail image size `assets/css/extended/thumbnail.css`
-* Added typeit integration `layouts/partials/home_info.html`
-
-
-### Do ⭐ the repo if it helped you in anyway. Thank you!
+### I made some modifications to the theme which you can find here [here](https://github.com/asadse7en/PaperMod-Tweaks)

@@ -21,13 +21,17 @@ h3 {
 
 .post-content a {
   box-shadow: none;
+<<<<<<< HEAD
   color: #554b00;
 }
 
 .dark .post-content a {
   box-shadow: none;
   color: #ffea8a;
+=======
+>>>>>>> 305e209c956700bfec04cb845de6e6d16701961e
 }
+
 
 .post-content a:hover {
   color: #8e005a;
