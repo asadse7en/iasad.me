@@ -6,7 +6,7 @@ summary: Easy reversing engineering room where we have 8 crackmes ELF binaries t
 
 Section: "write-ups"
 
-date: 2023-11-13T02:54:51+05:00
+date: 2023-11-08T02:54:51+05:00
 tags: 
 - Crackme
 - ELF
