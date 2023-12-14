@@ -120,7 +120,7 @@ Found the intended user on [Aciinema](https://asciinema.org/~evilseeker).
                                                                                 
 Secret server started! Waiting for connections...                               
 Hey Seeker!!!                                                                   
-There's a disaster!!!                                                           
+There is a disaster!!!                                                           
 Our C2 password has been leaked publicly on https://asciinema.org/a/610542      
 Delete it ASAP
 ```
